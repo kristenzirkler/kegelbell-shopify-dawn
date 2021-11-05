@@ -1,0 +1,96 @@
+{{ 'section-kz-infoicons.css' | asset_url | stylesheet_tag }}
+<div class="info-icons background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
+  <div class="page-width">
+    <div class="">
+      <h2 class="center">
+        {{ section.settings.title | escape }}
+      </h2>
+    </div>
+    <div class="info-icons-items grid grid--2-col grid--3-col-desktop">
+    {%- for block in section.blocks -%}
+        <div class="one-item grid__item">
+            {%- if block.settings.icon != blank -%}
+            <i>{% include block.settings.icon %}</i>
+            {%- endif -%}
+            <div>
+              {%- if block.settings.title != blank -%}<div><strong>{{ block.settings.title }}</strong></div>{%- endif -%}
+              {%- if block.settings.text != blank -%}<div><span>{{ block.settings.text }}</span></div>{%- endif -%}
+            </div>
+        </div>
+    {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "KZ Info Icons",
+  "class": "spaced-section spaced-section--full-width",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Header",
+      "label": "Header"
+    },
+    {
+      "type": "select",
+      "id": "background_style",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.multicolumn.settings.background_style.options__1.label"
+        },
+        {
+          "value": "primary",
+          "label": "t:sections.multicolumn.settings.background_style.options__2.label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.multicolumn.settings.background_style.options__3.label"
+        }
+      ],
+      "default": "none",
+      "label": "t:sections.multicolumn.settings.background_style.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Header",
+          "label": "Header"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Icon snippet name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "KZ Info Icons",
+      "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

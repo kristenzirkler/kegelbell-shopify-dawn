@@ -1,0 +1,19 @@
+.logo-list h2 {
+  margin: 0;
+}
+.logo-list img {
+  max-width: 100%;
+  height: auto;
+}
+.logo-list-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo-list-items .one-item {
+  max-width: 100px;
+}
+@media screen and (max-width: 990px) {
+}
