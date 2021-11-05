@@ -212,7 +212,7 @@
       "settings": {
         "title": "What Kegelbell Customers Are Saying",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "circle",
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "Read Reviews",
