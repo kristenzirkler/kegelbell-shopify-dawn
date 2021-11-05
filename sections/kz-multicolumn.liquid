@@ -19,6 +19,14 @@
             endif
           endfor
         -%}
+        {%- liquid
+          assign highest_ratio_bot = 0
+          for block in section.blocks
+            if block.settings.image_bot.aspect_ratio > highest_ratio_bot
+              assign highest_ratio_bot = block.settings.image_bot.aspect_ratio
+            endif
+          endfor
+        -%}
         {%- for block in section.blocks -%}
           <div class="kz-multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}" {{ block.shopify_attributes }}>
             <div class="kz-multicolumn-card">
@@ -59,6 +67,14 @@
                 {%- if block.settings.aside != blank -%}
                   <div class="rte text-aside">{{ block.settings.aside | escape }}</div>
                 {%- endif -%}
+                {%- if block.settings.rating != blank -%}
+                  <div class="rating-stars">
+                    {% for num in (1..block.settings.rating) %}
+                    <i>{% include 'icon-star' %}</i>
+                    {% endfor %}
+                  </div>
+                {%- endif -%}
+
                 {%- if block.settings.col_button_label != blank -%}
                   <a class="button button--primary"{% if block.settings.col_button_link == blank %} aria-disabled="true" role="link"{% else %} href="{{ block.settings.col_button_link }}"{% endif %}>
                     {{ block.settings.col_button_label | escape }}
@@ -72,7 +88,7 @@
                 <div class="kz-multicolumn-card__image-wrapper kz-multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} kz-multicolumn-card-spacing{% endif %}">
                   <div class="media media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
-                      style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
+                      style="padding-bottom: {{ 1 | divided_by: highest_ratio_bot | times: 100 }}%;"
                     {% endif %}>
                     <img
                       srcset="{%- if block.settings.image_bot.width >= 275 -%}{{ block.settings.image_bot | img_url: '275x' }} 275w,{%- endif -%}
@@ -267,6 +283,9 @@
     {
       "name": "KZ Columns",
       "blocks": [
+        {
+          "type": "column"
+        },
         {
           "type": "column"
         },
