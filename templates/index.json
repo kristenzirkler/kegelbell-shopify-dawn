@@ -118,12 +118,136 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "163612995302cf903e": {
+      "type": "kz-logolist",
+      "blocks": {
+        "163612995302cf903e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-7.png"
+          }
+        },
+        "163612995302cf903e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-5.png"
+          }
+        },
+        "b84c3491-d756-4a42-9bda-1a5430c9b50f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-8.png"
+          }
+        },
+        "cc792d48-0259-473d-9c72-ecd6a15ff0eb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-6.png"
+          }
+        },
+        "1d77e9f5-446d-4c8e-9c01-55e427f05e80": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-2.png"
+          }
+        },
+        "02cac0a8-3c17-4da9-929c-f10adb5a0eb0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-3.png"
+          }
+        },
+        "1c4ff79d-06eb-44bc-be88-e9d604878d25": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-1.png"
+          }
+        },
+        "4aa351ec-fc7d-4cfa-962e-27c7c655ea38": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-4.png"
+          }
+        }
+      },
+      "block_order": [
+        "163612995302cf903e-0",
+        "163612995302cf903e-1",
+        "b84c3491-d756-4a42-9bda-1a5430c9b50f",
+        "cc792d48-0259-473d-9c72-ecd6a15ff0eb",
+        "1d77e9f5-446d-4c8e-9c01-55e427f05e80",
+        "02cac0a8-3c17-4da9-929c-f10adb5a0eb0",
+        "1c4ff79d-06eb-44bc-be88-e9d604878d25",
+        "4aa351ec-fc7d-4cfa-962e-27c7c655ea38"
+      ],
+      "settings": {
+        "title": "As Seen In",
+        "background_style": "secondary"
+      }
+    },
+    "1636129955257ae717": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "1636129955257ae717-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>\"My sex life with my husband's more amazing and he's noticed a difference as well, so that's been fun, too. We decided that I was not gonna tell him when I was actually starting to use it, just for our own sake, to see if he did notice a difference, and after the third week, he actually did ask me, he was like, \"So if feels like you are using that...\" Absolutely!\"<\/p>",
+            "aside": "Nichol, Mom, Body Builder",
+            "rating": 5,
+            "col_button_label": "",
+            "col_button_link": "",
+            "image_bot": "shopify:\/\/shop_images\/people-nicol.jpg"
+          }
+        },
+        "1636129955257ae717-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>\"I had issues working out without peeing myself (a very real issue post child birth) and I could barely run 3 miles without feeling like my organs were going to come out. After I started using Kegelbell, BOOM! Problems fixed! With the amount of intense training I have put my body through these past two years, my issues should have intensified. But with a little up keep from Kegelbell I am good to go.\"<\/p>",
+            "aside": "Jennifer, Mom, Triathlete",
+            "rating": 5,
+            "col_button_label": "",
+            "col_button_link": "",
+            "image_bot": "shopify:\/\/shop_images\/people-jennifer.jpg"
+          }
+        },
+        "3197efe6-cd05-4eea-bf32-1d392cbebbd0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>\"I am absolutely thrilled with my results from Kegelbell. I have found a new level of sexual self-empowerment I never knew was possible, and would never have known I could achieve, all thanks to the product. Stephanie and Kegelbell are changing lives and creating joy, one vagina at a time.\"<\/p>",
+            "aside": "Jackie Johnson, Natch Beaut podcast host",
+            "rating": 5,
+            "col_button_label": "",
+            "col_button_link": "",
+            "image_bot": "shopify:\/\/shop_images\/people-jackie.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1636129955257ae717-0",
+        "1636129955257ae717-1",
+        "3197efe6-cd05-4eea-bf32-1d392cbebbd0"
+      ],
+      "settings": {
+        "title": "What Kegelbell Customers Are Saying",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "image_banner",
     "video",
     "163543998299737f6d",
-    "16361296677ec13f98"
+    "16361296677ec13f98",
+    "163612995302cf903e",
+    "1636129955257ae717"
   ]
 }
