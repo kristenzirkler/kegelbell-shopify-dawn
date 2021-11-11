@@ -26,6 +26,8 @@
           elsif section.blocks.size > 4
             assign footer_grid_class = 'grid--3-col-tablet'
           endif
+
+          assign footer_grid_class = 'grid--4-col-tablet'
         -%}
         <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
           {%- for block in section.blocks -%}
@@ -71,10 +73,7 @@
                 {%- endcase -%}
             </div>
           {%- endfor -%}
-        </div>
-      {%- endif -%}
-
-      <div class="footer-block--newsletter">
+      <div class="footer-block grid__item footer-block--newsletter">
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
             {%- if section.settings.newsletter_heading != blank -%}
@@ -199,6 +198,9 @@
           </ul>
         {%- endif -%}
       </div>
+        </div>
+      {%- endif -%}
+
     </div>
   {%- endif -%}
 

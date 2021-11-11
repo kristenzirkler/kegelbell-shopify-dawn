@@ -264,14 +264,14 @@
         "show_text_below": false
       }
     },
-    "video": {
-      "type": "video",
+    "163666329938b8fe6d": {
+      "type": "kz-video",
       "settings": {
         "heading": "Hear from Kegelbell's Inventor and Founder",
         "cover_image": "shopify:\/\/shop_images\/hero-founder_ec4b648e-15f4-4bf2-ae84-25870e6bc978.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=JqvL4WQfS-I",
         "description": "Hear from Kegelbell's Inventor and Founder",
-        "full_width": false
+        "full_width": true
       }
     },
     "1636131246c220134d": {
@@ -440,6 +440,7 @@
             "title": "Kegelbell® The Vagina Gym® Original Kit",
             "text": "<p>$99.95<br\/><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>Improve bladder and bowel control<\/p><p>Reduce the risk of pelvic organ prolapse<\/p><p>Treat Female Sexual Dysfunction (FSD)<\/p>",
             "aside": "",
+            "rating": 5,
             "col_button_label": "Buy Now",
             "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
           }
@@ -524,17 +525,16 @@
         "background_style": "none"
       }
     },
-    "163543998299737f6d": {
-      "type": "featured-blog",
+    "1636665055919b9cce": {
+      "type": "kz-blog-posts",
       "settings": {
         "heading": "Curious About Vaginal Workouts? Explore Here.",
         "blog": "blog",
         "post_limit": 3,
         "show_image": true,
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
-        "soft_background": false,
-        "show_view_all": true
+        "soft_background": true
       }
     }
   },
@@ -544,12 +544,12 @@
     "163612995302cf903e",
     "1636129955257ae717",
     "163613019076180e72",
-    "video",
+    "163666329938b8fe6d",
     "1636131246c220134d",
     "16361314599d7a75df",
     "16361315431b93e3dc",
     "16361316286a53dbc8",
     "16361317583b8ea73b",
-    "163543998299737f6d"
+    "1636665055919b9cce"
   ]
 }

@@ -34,7 +34,7 @@
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
                 {% endif %}
-                <div class="kz-multicolumn-card__image-wrapper kz-multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} kz-multicolumn-card-spacing{% endif %} kz-multicolumn-card__image-wrapper--topimage" style="background-image: url({{ 'circlebg.png' | asset_img_url: '300x' }});">
+                <div class="kz-multicolumn-card__image-wrapper kz-multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} kz-multicolumn-card-spacing{% endif %} kz-multicolumn-card__image-wrapper--topimage-{{ section.settings.image_ratio }}">
                   <div class="media media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"

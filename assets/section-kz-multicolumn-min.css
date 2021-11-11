@@ -20,6 +20,9 @@
   fill: #F7D439;
   margin: 0 -4px;
 }
+.kz-multicolumn.background-accent .rating-stars svg {
+  fill: #FFF;
+}
 
 @media screen and (max-width: 749px) {
   .kz-multicolumn.no-heading.background-accent,
@@ -275,7 +278,7 @@
   }
 }
 
-.kz-multicolumn-card__image-wrapper--topimage {
+.kz-multicolumn-card__image-wrapper--topimage-circle {
   width: 115px;
   height: 95px;
   margin: 0 auto !important;
@@ -283,9 +286,10 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  background-image: url(http://cdn.shopify.com/s/files/1/2198/4059/t/54/assets/circlebg_300x.png?v=6161774308430347377);
 }
 @media screen and (min-width: 720px) {
-.kz-multicolumn-card__image-wrapper--topimage {
+.kz-multicolumn-card__image-wrapper--topimage-circle {
   width: 180px;
   height: 160px;
 }

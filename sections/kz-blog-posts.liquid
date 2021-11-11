@@ -1,0 +1,98 @@
+{{ 'section-kz-blog-posts.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign posts_displayed = section.settings.blog.articles_count
+  if section.settings.post_limit <= section.settings.blog.articles_count
+    assign posts_exceed_limit = true
+    assign posts_displayed = section.settings.post_limit
+  endif
+-%}
+
+<div class="kz-blog{% if section.settings.soft_background %} background-secondary{% endif %}">
+  <div class="page-width-desktop{% if posts_displayed < 3 %} page-width-tablet{% endif %}">
+    {% if section.settings.heading %}
+    <div class="title center">
+      <h2 class="kz-blog__title">{{ section.settings.heading | escape }}</h2>
+    </div>
+    {% endif %}
+    {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
+    <div class="kz-blog__posts grid grid--1-col grid--2-col-tablet grid--3-col-desktop" role="list">
+      {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
+        <div class="kz-blog__post grid__item article">
+          {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author %}
+        </div>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
+    <div class="center">
+      <a class="button button--primary" href="{{ section.settings.blog.url }}">
+        View All
+      </a>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "KZ Blog Posts",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Blog posts",
+      "label": "t:sections.featured-blog.settings.heading.label"
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "t:sections.featured-blog.settings.blog.label"
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 3,
+      "label": "t:sections.featured-blog.settings.post_limit.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image",
+      "default": true,
+      "label": "t:sections.featured-blog.settings.show_image.label",
+      "info": "t:sections.featured-blog.settings.show_image.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "default": true,
+      "label": "t:sections.featured-blog.settings.show_date.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "default": false,
+      "label": "t:sections.featured-blog.settings.show_author.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "soft_background",
+      "default": false,
+      "label": "t:sections.featured-blog.settings.soft_background.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "KZ Blog Posts",
+      "settings": {
+        "blog": "News"
+      }
+    }
+  ]
+}
+{% endschema %}
