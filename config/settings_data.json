@@ -1,15 +1,16 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#ad1d1d",
+    "colors_accent_1": "#da2f0c",
     "colors_accent_2": "#fee36e",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "colors_background_2": "#f2f2f2",
     "type_header_font": "libre_franklin_n7",
-    "type_body_font": "assistant_n4",
+    "type_body_font": "libre_franklin_n4",
     "sale_badge_color_scheme": "accent-2",
+    "social_twitter_link": "",
     "predictive_search_enabled": false,
     "predictive_search_show_price": false,
     "checkout_accent_color": "#121212",

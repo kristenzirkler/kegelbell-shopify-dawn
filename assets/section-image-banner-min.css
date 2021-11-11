@@ -1,6 +1,8 @@
 .banner {
+  display: -webkit-flex;
   display: flex;
   position: relative;
+  -webkit-flex-direction: column;
   flex-direction: column;
 }
 
@@ -35,6 +37,7 @@
 
 @media screen and (min-width: 750px) {
   .banner {
+    -webkit-flex-direction: row;
     flex-direction: row;
   }
 
@@ -53,7 +56,9 @@
 
 @media screen and (max-width: 749px) {
   .banner:not(.banner--stacked) {
+    -webkit-flex-direction: row;
     flex-direction: row;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   
@@ -62,6 +67,7 @@
   }
 
   .banner--stacked .banner__media {
+    -webkit-flex-direction: column;
     flex-direction: column;
   }
 }
@@ -89,6 +95,7 @@
   }
 
   .banner--stacked .banner__media-half + .banner__media-half {
+    -webkit-order: 1;
     order: 1;
   }
 }
@@ -161,16 +168,20 @@
 
 .banner__content {
   padding: 0;
+  display: -webkit-flex;
   display: flex;
   position: relative;
   width: 100%;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
   justify-content: center;
   z-index: 2;
 }
 
 @media screen and (max-width: 749px) {
   .banner--mobile-bottom:not(.banner--stacked) .banner__content {
+    -webkit-order: 2;
     order: 2;
   }
 }
@@ -182,15 +193,18 @@
   }
 
   .banner__content--center {
+    -webkit-align-items: center;
     align-items: center;
   }
 
   .banner__content--flex-start {
+    -webkit-align-items: flex-start;
     align-items: flex-start;
     padding-bottom: 15rem;
   }
 
   .banner__content--flex-end {
+    -webkit-align-items: flex-end;
     align-items: flex-end;
     padding-top: 15rem;
   }
@@ -200,7 +214,10 @@
   border: 0;
   padding: 4rem 3.5rem;
   position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
+  -webkit-align-items: center;
   align-items: center;
   text-align: center;
   width: 100%;
@@ -239,18 +256,26 @@
 }
 
 .banner__box > .banner__buttons {
+  display: -webkit-flex;
   display: flex;
+  -webkit-align-items: baseline;
   align-items: baseline;
   gap: 1rem;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .banner__box > * + .banner__buttons--multiple {
+  display: -webkit-flex;
   display: flex;
   max-width: 45rem;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-align-items: baseline;
   align-items: baseline;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
@@ -283,6 +308,7 @@
 }
 
 .banner__content .button:not(:only-child) {
+  -webkit-flex-grow: 1;
   flex-grow: 1;
 }
 

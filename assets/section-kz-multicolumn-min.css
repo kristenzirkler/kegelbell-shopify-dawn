@@ -152,6 +152,7 @@
 
 .kz-multicolumn-list__item.center .media--adapt img {
   left: 50%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
