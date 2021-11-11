@@ -17,17 +17,20 @@
 }
 
 @media screen and (max-width: 749px) {
+  .kz-multicolumn.no-heading.background-accent,
   .kz-multicolumn.no-heading.background-secondary {
     padding-top: 5rem;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .kz-multicolumn.no-heading:not(.background-secondary) {
+  .kz-multicolumn.no-heading.background-none,
+  .kz-multicolumn.no-heading.background-primary {
     margin-top: calc(6rem + var(--page-width-margin));
   }
 }
 
+.kz-multicolumn.background-accent .title-wrapper-with-link,
 .kz-multicolumn.background-secondary .title-wrapper-with-link {
   margin-top: 0;
 }
@@ -72,7 +75,7 @@
   max-width: 72rem;
 }
 
-.kz-multicolumn:not(.background-none) .kz-multicolumn-card {
+.kz-multicolumn.background-primary .kz-multicolumn-card {
   background: rgba(var(--color-foreground), 0.04);
   height: 100%;
 }
@@ -81,11 +84,13 @@
   background: rgb(var(--color-background));
 }
 
+.kz-multicolumn.background-accent,
 .kz-multicolumn.background-secondary {
   padding: 4rem 0 5rem;
 }
 
 @media screen and (min-width: 750px) {
+  .kz-multicolumn.background-accent,
   .kz-multicolumn.background-secondary {
     padding: calc(4rem + var(--page-width-margin)) 0
       calc(5rem + var(--page-width-margin));
@@ -93,17 +98,20 @@
 }
 
 @media screen and (max-width: 749px) {
+  .kz-multicolumn.background-accent .slider-buttons,
   .kz-multicolumn.background-secondary .slider-buttons {
     margin-bottom: -2rem;
   }
 }
 
-.kz-multicolumn:not(.background-secondary) {
+.kz-multicolumn.background-primary,
+.kz-multicolumn.background-none {
   margin: 5rem 0;
 }
 
 @media screen and (min-width: 750px) {
-  .kz-multicolumn:not(.background-secondary) {
+  .kz-multicolumn.background-primary,
+  .kz-multicolumn.background-none {
     margin: calc(5rem + var(--page-width-margin)) 0;
   }
 }

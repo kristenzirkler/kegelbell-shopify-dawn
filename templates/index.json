@@ -212,7 +212,7 @@
       "settings": {
         "title": "What Kegelbell Customers Are Saying",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "circle",
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "Read Reviews",
@@ -411,9 +411,9 @@
         "16361315431b93e3dc-2"
       ],
       "settings": {
-        "title": "Header",
+        "title": "What Experts Say",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "circle",
         "column_alignment": "center",
         "background_style": "accent",
         "button_label": "Read More Reviews",
@@ -527,7 +527,7 @@
     "163543998299737f6d": {
       "type": "featured-blog",
       "settings": {
-        "heading": "",
+        "heading": "Curious About Vaginal Workouts? Explore Here.",
         "blog": "blog",
         "post_limit": 3,
         "show_image": true,

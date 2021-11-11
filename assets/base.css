@@ -271,13 +271,13 @@ body,
       calc(3rem + var(--page-width-margin));
   }
 }
-.background-accent-2 {
-  background-color: rgba(var(--base-accent-2), 0.04);
+.background-accent {
+  background-color: rgb(var(--color-base-accent-2));
   padding: 2rem 0 3rem;
 }
 
 @media screen and (min-width: 750px) {
-  .background-accent-2 {
+  .background-accent {
     padding: calc(3rem + var(--page-width-margin)) 0
       calc(3rem + var(--page-width-margin));
   }
