@@ -6,10 +6,14 @@
   height: auto;
 }
 .logo-list-items {
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
   gap: 20px;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-align-items: center;
   align-items: center;
 }
 .logo-list-items .one-item {

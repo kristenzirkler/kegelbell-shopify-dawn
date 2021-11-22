@@ -1,8 +1,28 @@
-.kz-multicolumn .title {
-  font-size: 36px;
-  margin-bottom: 20px !important;
+@media screen and (max-width: 749px) {
+.kz-multicolumn.condense-mobile .kz-multicolumn-card {
+  display: -webkit-flex;
+  display: flex;
+}
+.kz-multicolumn.condense-mobile .kz-multicolumn-card__image-wrapper--topimage-circle {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.kz-multicolumn.condense-mobile .kz-multicolumn-card__info {
+  text-align: left;
+  padding: 0 0 20px 10px !important;
+}
 }
 
+.kz-multicolumn .title {
+  font-size: 24px;
+  margin-bottom: 20px !important;
+  padding: 0 20px;
+}
+@media screen and (min-width: 749px) {
+.kz-multicolumn .title {
+  font-size: 36px;
+}
+}
 .kz-multicolumn.no-heading .title {
   display: none;
 }
@@ -298,4 +318,6 @@
   width: 80px;
   height: 80px;
   margin: 0 auto !important;
+  -webkit-flex: 0 0 100%;
+  flex: 0 0 100%
 }

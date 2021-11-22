@@ -1,6 +1,6 @@
 {{ 'section-kz-multicolumn.css' | asset_url | stylesheet_tag }}
 
-<div class="kz-multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="kz-multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.condense_mobile %} condense-mobile{% endif %}">
   <div class="page-width">
     <div class="">
       <h2 class="title center">
@@ -227,6 +227,12 @@
       "type": "url",
       "id": "button_link",
       "label": "t:sections.multicolumn.settings.button_link.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "condense_mobile",
+      "default": true,
+      "label": "Condense Column Mobile"
     }
   ],
   "blocks": [

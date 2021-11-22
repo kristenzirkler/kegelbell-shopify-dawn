@@ -10,7 +10,12 @@
     "type_header_font": "libre_franklin_n7",
     "type_body_font": "libre_franklin_n4",
     "sale_badge_color_scheme": "accent-2",
-    "social_twitter_link": "",
+    "social_twitter_link": "https:\/\/twitter.com\/Kegelbell",
+    "social_facebook_link": "https:\/\/www.facebook.com\/kegelbell",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/kegelbell\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/kegelbell\/",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@kegelbell",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCgzhUxhtHEKgR9oL2M6_fWQ",
     "predictive_search_enabled": false,
     "predictive_search_show_price": false,
     "checkout_accent_color": "#121212",
@@ -49,33 +54,41 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "842c6917-73c8-4819-826c-582f294bbcab": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Shop",
+              "menu": "footer-menu-2021-products"
+            }
+          },
+          "d207d9d2-bc2d-465b-aed3-5c191eaa588a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Guides",
+              "menu": "footer-menu-2021-guides"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "About",
+              "menu": "footer-menu-2021-resources"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1"
+          "842c6917-73c8-4819-826c-582f294bbcab",
+          "d207d9d2-bc2d-465b-aed3-5c191eaa588a",
+          "footer-0"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-2",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true
+          "newsletter_heading": "Newsletter",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false
         }
       }
     },
