@@ -39,7 +39,7 @@
   }
 }
 // Curved Top White --------------------------------------------------
-#shopify-section-template--15202984952001__163613019076180e72 .banner {
+.home-bath.banner {
   background: $color-kb-gray-light;
   background: linear-gradient(180deg, #f2f2f2 0%, #f2f2f2 80%, #c3c3c3 80.1%, #e8e7e8 100%);
   &:before {
@@ -74,7 +74,7 @@
 // Home --------------------------------------------------------------
 // Home --------------------------------------------------------------
 // Home - Hero -------------------------------------------------------
-#shopify-section-template--15202984952001__image_banner {
+.home-hero {
   .banner__content {
     justify-content: flex-start;
   }
@@ -101,17 +101,18 @@
   .button {
     background: $color-kb-red;
     color: $white;
+    box-shadow: none;
   }
 }
 @media screen and (min-width: $page-size-md) {
-#shopify-section-template--15202984952001__image_banner {
+.home-hero {
   .banner__heading {
     font-size: 34px;
   }
 }
 }
 @media screen and (min-width: $page-size) {
-#shopify-section-template--15202984952001__image_banner {
+.home-hero {
   .banner__heading {
     font-size: 44px;
   }
@@ -121,14 +122,14 @@
 }
 }
 // Home - Chart ------------------------------------------------------
-#shopify-section-template--15202984952001__16361314599d7a75df {
+.home-chart {
   .kz-multicolumn-card__image-wrapper {
     max-width: 370px;
     margin: auto;
   }
 }
 // Home - Product ----------------------------------------------------
-#shopify-section-template--15202984952001__16361316286a53dbc8 {
+.home-product {
   .kz-multicolumn-card__image-wrapper {
     max-width: 450px;
     margin: auto;

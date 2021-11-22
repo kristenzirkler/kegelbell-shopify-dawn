@@ -1,6 +1,6 @@
 {{ 'section-kz-multicolumn.css' | asset_url | stylesheet_tag }}
 
-<div class="kz-multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.condense_mobile %} condense-mobile{% endif %}">
+<div class="kz-multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.condense_mobile %} condense-mobile{% endif %}{% if section.settings.customization-class %} {{ section.settings.customization-class }}{% endif %}">
   <div class="page-width">
     <div class="">
       <h2 class="title center">
@@ -233,6 +233,11 @@
       "id": "condense_mobile",
       "default": true,
       "label": "Condense Column Mobile"
+    },
+    {
+      "type": "text",
+      "id": "customization-class",
+      "label": "Customization Class"
     }
   ],
   "blocks": [

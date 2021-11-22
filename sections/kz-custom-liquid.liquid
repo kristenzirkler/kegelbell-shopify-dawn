@@ -1,0 +1,41 @@
+{% if section.settings.title %}
+<div class="kz-custom-liquid">
+  <div class="page-width">
+    <div class="">
+      <h2 class="title center">
+        {{ section.settings.title | escape }}
+      </h2>
+    </div>
+    <div>
+{{ section.settings.custom_liquid }}
+    </div>
+  </div>
+</div>
+{% else %}
+{{ section.settings.custom_liquid }}
+{% endif %}
+{% schema %}
+{
+  "name": "KZ Custom Code",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "liquid",
+      "id": "custom_liquid",
+      "label": "Custom HTML or Liquid",
+      "info": "HTML or Liquid code accepted."
+    }
+  ],
+  "presets": [
+    {
+      "name": "KZ Custom Code"
+    }
+  ]
+}
+{% endschema %}
