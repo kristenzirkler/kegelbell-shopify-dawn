@@ -1,7 +1,50 @@
 {
   "sections": {
+    "16396090466b930b47": {
+      "type": "kz-hero",
+      "blocks": {
+        "163960904666f23939-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Vagina Gym ®",
+            "heading_size": "medium"
+          }
+        },
+        "163960904666f23939-1": {
+          "type": "text",
+          "settings": {
+            "text": "Everything is easier with Kegelbell® Find out what is possible with two weeks of use. Guaranteed."
+          }
+        },
+        "163960904666f23939-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Buy Now",
+            "button_link_1": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163960904666f23939-0",
+        "163960904666f23939-1",
+        "163960904666f23939-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-top_cc4e1877-b110-460a-b39f-b9af98a4db19.jpg",
+        "image_height": "small",
+        "desktop_text_box_position": "center",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "customization-class": "home-hero"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -41,9 +84,9 @@
         "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
+        "customization-class": "home-hero",
         "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "customization-class": "home-hero"
+        "show_text_below": false
       }
     },
     "16361296677ec13f98": {
@@ -220,14 +263,14 @@
         "3197efe6-cd05-4eea-bf32-1d392cbebbd0"
       ],
       "settings": {
-        "title": "",
+        "title": "Read Our Customer Reviews",
         "image_width": "full",
         "image_ratio": "circle",
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "Read Reviews",
         "button_link": "shopify:\/\/pages\/reviews",
-        "condense_mobile": true,
+        "condense_mobile": false,
         "customization-class": ""
       }
     },
@@ -250,7 +293,7 @@
         "163613019076180e72-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Learn More",
+            "button_label_1": "Buy Now",
             "button_link_1": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -272,19 +315,27 @@
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
+        "customization-class": "home-bath",
         "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "customization-class": "home-bath"
+        "show_text_below": false
       }
     },
     "163666329938b8fe6d": {
       "type": "kz-video",
+      "disabled": true,
       "settings": {
         "heading": "Hear from Kegelbell's Inventor and Founder",
         "cover_image": "shopify:\/\/shop_images\/hero-founder_ec4b648e-15f4-4bf2-ae84-25870e6bc978.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=JqvL4WQfS-I",
         "description": "Hear from Kegelbell's Inventor and Founder",
         "full_width": true
+      }
+    },
+    "16395974618991b5eb": {
+      "type": "kz-custom-liquid",
+      "settings": {
+        "title": "Doctor-recommended Kegelbell® works in the first two weeks of use. Guaranteed.",
+        "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_618baea6e661b900294e045f\"><\/div>"
       }
     },
     "1636131246c220134d": {
@@ -435,7 +486,7 @@
         "background_style": "accent",
         "button_label": "Read More Reviews",
         "button_link": "shopify:\/\/pages\/reviews",
-        "condense_mobile": true,
+        "condense_mobile": false,
         "customization-class": ""
       }
     },
@@ -557,9 +608,51 @@
         "show_author": false,
         "soft_background": true
       }
+    },
+    "1639593023f56cfee2": {
+      "type": "kz-carousel",
+      "blocks": {
+        "163959302348e59351-0": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>There were actually many items similar to this that I was considering. I decided to go with this one because of the external weights that can be added. The external weights are great! They add a level of awareness that doesn't exist when just doing kegel exercises. There is a sense of activation and engagement that happens at the pelvic floor and up through the layers of internal muscle contraction. <\/p><p>I have a better understanding of how to strengthen my pelvic floor, where I am at and how to get back to a healthy strong foundation. <strong>Basically when I sneeze now my muscles activate better so I don't pee myself.<\/strong> I truly believe the training I am doing with my Kegelbell is worth the 5 minutes every-other day.<\/p><p><strong>- Amazon Kegelbell Customer<\/strong><\/p>"
+          }
+        },
+        "73f3c1ba-7f5a-43ea-8c7f-06553f5db0b3": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>As a nurse I’m actually familiar with the Kegelbell! And being pregnant, <strong>this is a great equipment for exercising the pelvic region in preparation for birth to help me push<\/strong>! But not only that, <strong>helps with stronger bladder control<\/strong> and keeps everything tighter and put together down there. (Which I’ll probably need after birth)<\/p><p><strong>- Faye Lorraine Sabino, Nurse<\/strong><\/p>"
+          }
+        },
+        "8a8ec5fe-a33a-4cd9-84e4-5045d4a864b4": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>Over the last several months I have added more weight as needed and now am using all three weights. <strong>It has helped me tremendously with urinary incontinence when running for exercise or in Pilates class when jumping on the reformer,<\/strong> and now I can run and exercise without leaking.<\/p><p><strong>- Tina K.<\/strong><\/p>"
+          }
+        },
+        "00994745-7919-457a-9181-369a14a37634": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>I'm a young mother and am really concerned about getting back in shape and avoiding complications from childbirth. I did some research and learned how important kegel exercises are. <strong>I chose this product because I wanted something safe that I know will work right.<\/strong> I have been using it for around 2 weeks and can say that I am very happy with my decision! Much more comfortable than kegel balls!<\/p><p><strong>- Amazon Kegelbell Customer<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163959302348e59351-0",
+        "73f3c1ba-7f5a-43ea-8c7f-06553f5db0b3",
+        "8a8ec5fe-a33a-4cd9-84e4-5045d4a864b4",
+        "00994745-7919-457a-9181-369a14a37634"
+      ],
+      "settings": {
+        "title": "Header",
+        "background_style": "none",
+        "post_limit": 1,
+        "customization-class": ""
+      }
     }
   },
   "order": [
+    "16396090466b930b47",
     "image_banner",
     "16361296677ec13f98",
     "163612995302cf903e",
@@ -567,11 +660,13 @@
     "1636129955257ae717",
     "163613019076180e72",
     "163666329938b8fe6d",
+    "16395974618991b5eb",
     "1636131246c220134d",
     "16361314599d7a75df",
     "16361315431b93e3dc",
     "16361316286a53dbc8",
     "16361317583b8ea73b",
-    "1636665055919b9cce"
+    "1636665055919b9cce",
+    "1639593023f56cfee2"
   ]
 }
