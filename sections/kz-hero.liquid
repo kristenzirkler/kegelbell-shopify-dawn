@@ -19,13 +19,14 @@
           {%- if section.settings.image.width >= 3000 -%}{{ section.settings.image | img_url: '3000x' }} 3000w,{%- endif -%}
           {%- if section.settings.image.width >= 3840 -%}{{ section.settings.image | img_url: '3840x' }} 3840w,{%- endif -%}
           {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w"
-        sizes="100vw"
+        sizes="80vw"
         src="{{ section.settings.image | img_url: '500x' }}"
         alt="{{ section.settings.image.alt | escape }}"
         width="{{ section.settings.image.width }}"
         height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
       >
     </div>
+  
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_text_box_position }} page-width">
     <div class="banner__box color-{{ section.settings.color_scheme }}">
