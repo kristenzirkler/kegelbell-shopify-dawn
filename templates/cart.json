@@ -1,1 +1,55 @@
-{"sections":{"cart-items":{"type":"main-cart-items","settings":{}},"cart-footer":{"type":"main-cart-footer","blocks":{"subtotal":{"type":"subtotal","settings":{}},"buttons":{"type":"buttons","settings":{}}},"block_order":["subtotal","buttons"],"settings":{}},"featured-products":{"type":"featured-collection","settings":{"collection":"all","image_ratio":"square"}}},"order":["cart-items","cart-footer","featured-products"]}
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "show_vendor": false
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "show_cart_note": false
+      }
+    },
+    "1639586326b2a060e3": {
+      "type": "rich-text",
+      "blocks": {
+        "163958632679354c55-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free Shipping to Your Door in the USA & Full 60-Day Refund<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163958632679354c55-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "1639586326b2a060e3"
+  ]
+}

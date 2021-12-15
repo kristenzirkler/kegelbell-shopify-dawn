@@ -47,7 +47,9 @@
 
         {%- when 'content'-%}
           <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
-              {{ article.content }}
+            {% capture productcta %}{% include 'product-cta' %}{% endcapture %}
+            {{ article.content | replace: "[product-cta]", productcta }}
+            {%comment%}{{ article.content }}{%endcomment%}
           </div>
 
         {%- when 'share' -%}

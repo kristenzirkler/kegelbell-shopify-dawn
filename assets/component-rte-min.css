@@ -53,6 +53,7 @@
 }
 
 .rte blockquote {
+  display: -webkit-inline-flex;
   display: inline-flex;
 }
 

@@ -10,6 +10,7 @@
     "type_header_font": "libre_franklin_n7",
     "type_body_font": "libre_franklin_n4",
     "sale_badge_color_scheme": "accent-2",
+    "page_width": "1200",
     "social_twitter_link": "https:\/\/twitter.com\/Kegelbell",
     "social_facebook_link": "https:\/\/www.facebook.com\/kegelbell",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/kegelbell\/",
@@ -18,8 +19,12 @@
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCgzhUxhtHEKgR9oL2M6_fWQ",
     "predictive_search_enabled": false,
     "predictive_search_show_price": false,
+    "currency_code_enabled": false,
+    "checkout_header_image": "shopify:\/\/shop_images\/checkout-header_724c22c3-51ab-4779-a8b3-a99827366973.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo-tag-black.png",
+    "checkout_logo_size": "small",
     "checkout_accent_color": "#121212",
-    "checkout_button_color": "#ad1d1d",
+    "checkout_button_color": "#e22120",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

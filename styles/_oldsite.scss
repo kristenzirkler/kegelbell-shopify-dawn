@@ -1,0 +1,195 @@
+// Interior Pages ----------------------------------------------------------------
+.template-page {
+  .rte {
+    max-width: 960px !important;
+    margin: 0 auto;
+  }
+  .d-flex {
+    display: flex;
+  }
+}
+.shogun-root {
+  max-width: 960px !important;
+  margin: 0 auto;
+}
+// Blogs
+.template-page {
+  #MainContent .page .container .rte {
+    a:not(.btn) {
+      display: inline-block;
+      border-bottom: 2px solid $color-kb-yellow;
+      transition: all .3s;
+      &:hover {
+        border-bottom-color: #000;
+      }
+    }
+  }
+}
+// Landing Pages -----------------------------------------------------
+.shogun-root {
+  .header-wrapper {
+    position: relative !important;
+  }
+}
+#frequently-asked-questions-kegelbell {
+  .shogun-accordion-heading {
+    padding: 20px !important;
+    border: 1px solid $color-border;
+  }
+  .shogun-accordion-body {
+    display: none;
+    padding: 20px 20px 0;
+    border: 1px solid $color-border;
+    border-top: none;
+    overflow: hidden;
+  }
+  .shogun-accordion-active {
+    display: block;
+  }
+  .shogun-accordion-title {
+    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+  }
+  img {
+    //max-width: 150px;
+    //float: right;
+    //margin: 0 0 20px 20px;
+    width: 100%;
+  }
+  .header-text {
+    font-size: 24px;
+  }
+  .shg-rich-text {
+    clear: both;
+  }
+  .shg-c-lg-7,
+  .shg-c-lg-8,
+  .shg-c-lg-9,
+  .shg-c-lg-10 {
+    width: 80%;
+  }
+  .shg-c-lg-2,
+  .shg-c-lg-3,
+  .shg-c-lg-4,
+  .shg-c-lg-5 {
+    width: 20%;
+  }
+  .shg-c-lg-7,
+  .shg-c-lg-8,
+  .shg-c-lg-9,
+  .shg-c-lg-10,
+  .shg-c-lg-2,
+  .shg-c-lg-3,
+  .shg-c-lg-4,
+  .shg-c-lg-5 {
+    float: left;
+  }
+}
+#the-kegel-two-week-challenge-kegelbell {
+  .rte {
+    padding: 20px;
+  }
+  .shg-c-lg-4 {
+    width: 33%;
+    float: left;
+    padding: 20px;
+  }
+  .shogun-heading-component {
+    clear: both;
+    padding: 0 20px;
+  }
+  #s-cec2d259-f7f9-4088-917f-e43e3018e9f5 {
+    padding: 20px;
+    ul li {
+      list-style-type: disc;
+      padding-left: 0;
+      margin-left: 20px; 
+    }
+    ul li:before {
+      display: none;
+    }
+  }
+  .shg-btn {
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    background: $color-kb-red;
+    color: #fff;
+    border-radius: 20px;
+    line-height: 40px;
+    padding: 0 20px
+  }
+}
+#kegelbell-links {
+  .container .rte {
+    div {
+      margin-bottom: 10px;
+      &:nth-child(3n) a {
+        background: $color-kb-yellow-light;
+      }
+      &:nth-child(3n+1) a {
+        background: $color-kb-yellow-dark;
+      }
+      a {
+        display: block;
+        border-radius: 20px;
+        background: $color-kb-yellow;
+        color: $color-text;
+        padding: 10px 20px;
+        transition: all .3s;
+        &:hover {
+          background-color: #000 !important;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+#how-to-strengthen-your-bladder-control-and-how-to-fix-bladder-issues-without-surgery {
+  .page-title {
+    display: none;
+  }
+  .container {
+    max-width: 10000px !important;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .shogun-root {
+    max-width: 10000px !important;
+    margin: 0 auto;
+  }
+  .page-width {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+
+
+// How it works page
+#how-it-works-kegelbell {
+  .container .rte {
+    max-width: 960px !important;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: $page-size) {
+.how-it-works-top {
+  .image {
+    min-width: 450px !important;
+  }
+}
+}
+// Reviews Page
+#kegelbell-reviews-kegelbell {
+  .rte iframe {
+    border: none;
+  }
+  .reviews-videos {
+    p {
+      margin-bottom: 4px;
+    }
+    .flex-column {
+      width: 50%;
+    }
+  }
+}

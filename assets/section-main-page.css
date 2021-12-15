@@ -21,3 +21,29 @@
   width: 52.5rem;
   height: 52.5rem;
 }
+
+.template-page #MainContent .rte img {
+  padding: 20px;
+}
+/* Bottom CTA */
+.page-product {
+  max-width: 900px;
+  margin: 0 auto !important;
+  padding: 40px 0;
+  border-top: 2px solid #FEE36E;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+.p-10 {
+  padding: 10px;
+}
+.text-center {
+  text-align: center;
+}
+@media (min-width: 778px) {
+.d-md-flex {
+    display: flex!important;
+}
+}

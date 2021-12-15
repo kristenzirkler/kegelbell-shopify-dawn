@@ -1,1 +1,100 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"subtitle":{"type":"text","settings":{"text":"{{ product.metafields.descriptors.subtitle.value }}","text_style":"subtitle"}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{}},"description":{"type":"description","settings":{}},"share":{"type":"share","settings":{}}},"block_order":["vendor","title","subtitle","price","variant_picker","quantity_selector","buy_buttons","description","share"],"settings":{}},"product-recommendations":{"type":"product-recommendations","settings":{}}},"order":["main","product-recommendations"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "b648afc0-044e-4d69-b9fb-ef596c9ee6dd": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#f7d439",
+            "star_size": 20,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "2f71b7e9-00a9-4670-b704-2f417076d3ab": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"shop-accessories\">Free Shipping to Your Door in the USA &amp; Full 60-Day Refund<\/div>\n<div class=\"shop-accessories\"><a href=\"https:\/\/www.kegelbell.com\/collections\/accessories\"><strong>Shop Accessories<\/strong><\/a><\/div>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "b648afc0-044e-4d69-b9fb-ef596c9ee6dd",
+        "buy_buttons",
+        "2f71b7e9-00a9-4670-b704-2f417076d3ab",
+        "share",
+        "description"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1639585907e2bd700c": {
+      "type": "apps",
+      "blocks": {
+        "7954cd2d-7e46-4f45-a15b-7c3f175883ec": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "7954cd2d-7e46-4f45-a15b-7c3f175883ec"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "1639585907e2bd700c"
+  ]
+}

@@ -13,6 +13,20 @@
   </div>
 </div>
 
+<script>
+for (const parent of document.querySelectorAll('.shogun-accordion')) {
+  parent.addEventListener('click', function(clickEvent) {
+    const child = parent.querySelector('.shogun-accordion-body');
+    // If the element is visible, hide it
+    if (window.getComputedStyle(child).display === 'block') {
+      child.style.display = 'none';
+      return;
+    }
+    // Otherwise, show it
+    child.style.display = 'block';
+  })
+}
+</script>
 {% schema %}
 {
   "name": "t:sections.main-page.name",

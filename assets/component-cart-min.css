@@ -86,7 +86,9 @@ cart-items {
 }
 
 .cart__note label {
+  display: -webkit-flex;
   display: flex;
+  -webkit-align-items: flex-end;
   align-items: flex-end;
   line-height: 1;
   height: 1.8rem;
@@ -113,7 +115,9 @@ cart-items {
   }
 
   .cart__footer {
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: space-between;
     justify-content: space-between;
     border: 0;
   }
@@ -193,10 +197,12 @@ cart-items {
   }
 
   [data-shopify-buttoncontainer] {
+    -webkit-justify-content: flex-end;
     justify-content: flex-end;
   }
 
   .cart__ctas {
+    display: -webkit-flex;
     display: flex;
     gap: 1rem;
   }

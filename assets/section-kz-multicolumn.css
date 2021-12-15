@@ -247,7 +247,7 @@
 }
 
 .kz-multicolumn-card__info {
-  padding: 2.5rem 2.5rem;
+  padding: 2.5rem 2.5rem 0;
 }
 
 .background-none .kz-multicolumn-card__info {
@@ -314,6 +314,6 @@
 .kz-multicolumn-card__image-wrapper--botimage {
   width: 80px;
   height: 80px;
-  margin: 0 auto !important;
+  margin: 0 auto 20px !important;
   flex: 0 0 100%
 }

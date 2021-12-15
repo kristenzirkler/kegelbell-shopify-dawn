@@ -81,15 +81,20 @@
 
 .article-template__link {
   font-size: 1.8rem;
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
   align-items: center;
   text-decoration: none;
 }
 
 .article-template__link .icon-wrap {
+  display: -webkit-flex;
   display: flex;
   margin-right: 1rem;
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 

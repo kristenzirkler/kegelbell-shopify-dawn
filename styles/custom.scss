@@ -8,6 +8,9 @@
     margin-bottom: 1em;
   }
 }
+.hide {
+  display: none;
+}
 .banner__box.color-background-1 {
   background: none !important;
 }
@@ -139,10 +142,96 @@
   }
 }
 
+// Cart --------------------------------------------------------------
+.popup-cart {
+  width: 320px;
+}
+.popup-cart__footer {
+  padding-bottom: 0!important;
+}
+.cart__sidebar,
+.popup-cart__buttons {
+  .btn--secondary {
+    background: $color-kb-red;
+    border-color: $color-kb-red;
+    &:hover {
+      background: #000;
+      border-color: #000;
+      color: #fff;
+
+    }
+  }
+}
+.cart__image {
+  max-width: 80px !important;
+}
+.cart__sidebar {
+  background: transparent;
+  .btn {
+    max-width: 400px;
+  }
+}
+div#dcodeOuterWrapper {
+    padding: 10px 0;
+}
+input#dcodeInput.dcodeInput {
+  border: 1px solid $color-border;
+  line-height: 48px;
+  font-size: 20px;
+  padding: 0 10px;
+  float: left;
+  width: 150px;
+}
+#dcodeSubmit {
+  text-transform: none !important;
+  letter-spacing: -.5px;
+  line-height: 50px;
+  padding: 0 20px;
+  background: #000;
+  border: none;
+  color: #fff;
+}
+// Product CTA
+.template-page #MainContent .page-width .rte .product-cta,
+.template-article #MainContent .rte .product-cta {
+  margin: 10px 0 20px;
+  display: block;
+  a {
+    display: flex !important;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    background: $color-kb-gray-light;
+    border: none !important;
+    overflow: hidden;
+    &:hover {
+      background: $color-kb-yellow-light;
+    }
+  }
+  strong {
+    display: block;
+  }
+  img {
+    width: 100px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .text-button {
+    color: $color-kb-red;
+  }
+  svg.fa-angle-double-right {
+    fill: $color-kb-red;
+    width: 14px;
+    height: 14px;
+  }
+}
 
 
 
 
+// Customizations from Old Site
+
+@import '_oldsite';
 
 
 
