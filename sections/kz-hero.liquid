@@ -19,9 +19,8 @@
           {%- if section.settings.image.width >= 3000 -%}{{ section.settings.image | img_url: '3000x' }} 3000w,{%- endif -%}
           {%- if section.settings.image.width >= 3840 -%}{{ section.settings.image | img_url: '3840x' }} 3840w,{%- endif -%}
           {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w"
-        sizes="100vw"
-        src="{{ section.settings.image | img_url: '1500x' }}"
-        {%comment%}loading="lazy"{%endcomment%}
+        sizes="60vw"
+        src="{{ section.settings.image | img_url: '500x' }}"
         alt="{{ section.settings.image.alt | escape }}"
         width="{{ section.settings.image.width }}"
         height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
