@@ -29,6 +29,12 @@
             "show_dynamic_checkout": true
           }
         },
+        "016e2b30-2981-41cb-9d7f-dfc3e35bba69": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h3>How Kegelbell® Works<\/h3>\n<div class=\"reeview-app-widget\" id=\"reeview-app-widget_618e2893e661b900293dbb5f\"><\/div>"
+          }
+        },
         "2f71b7e9-00a9-4670-b704-2f417076d3ab": {
           "type": "custom_liquid",
           "settings": {
@@ -52,6 +58,7 @@
         "price",
         "b648afc0-044e-4d69-b9fb-ef596c9ee6dd",
         "buy_buttons",
+        "016e2b30-2981-41cb-9d7f-dfc3e35bba69",
         "2f71b7e9-00a9-4670-b704-2f417076d3ab",
         "share",
         "description"
@@ -75,6 +82,12 @@
         "show_rating": false
       }
     },
+    "163960686545d14d80": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h2 style=\"text-align:center\">Watch Video Testimonials<\/h2>\n<div class=\"reeview-app-widget\" id=\"reeview-app-widget_618e3593e661b90029488684\"><\/div> \n<h2 style=\"text-align:center;margin-bottom:-30px;margin-top: 20px;\">Customer Reviews<\/h2>"
+      }
+    },
     "1639585907e2bd700c": {
       "type": "apps",
       "blocks": {
@@ -95,6 +108,7 @@
   "order": [
     "main",
     "product-recommendations",
+    "163960686545d14d80",
     "1639585907e2bd700c"
   ]
 }

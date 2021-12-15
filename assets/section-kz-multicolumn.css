@@ -24,11 +24,15 @@
 .kz-multicolumn.no-heading .title {
   display: none;
 }
-
 .kz-multicolumn .text-aside {
   color: #666; /* $color-subtext */
   font-style: italic;
   font-size: 14px;
+}
+.background-accent.kz-multicolumn .rte,
+.background-accent.kz-multicolumn .rte p,
+.background-accent.kz-multicolumn .text-aside {
+  color: #333;
 }
 .kz-multicolumn .rating-stars {
   margin-top: 20px;
@@ -303,7 +307,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(http://cdn.shopify.com/s/files/1/2198/4059/t/54/assets/circlebg_300x.png?v=6161774308430347377);
+  /*background-image: url(http://cdn.shopify.com/s/files/1/2198/4059/t/54/assets/circlebg_300x.png?v=6161774308430347377);*/
 }
 @media screen and (min-width: 720px) {
 .kz-multicolumn-card__image-wrapper--topimage-circle {

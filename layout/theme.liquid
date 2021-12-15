@@ -30,7 +30,21 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    {{ content_for_header }}
+    {% capture get_content_for_header %}
+      {% case template.name %}
+      {% when"notatemplate" %}
+        {{ content_for_header }}
+      {% when"product" %}
+        {{ content_for_header }}
+      {% when"cart" %}
+        {{ content_for_header | remove: '"\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js?shop=kegel-belle.myshopify.com",' }}
+      {% when"index" %}
+        {{ content_for_header | remove: '"\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js?shop=kegel-belle.myshopify.com",' | remove: ',"https:\/\/cdn-bundler.nice-team.net\/app\/js\/bundler.js?shop=kegel-belle.myshopify.com"' }}
+      {% else %}
+        {{ content_for_header | remove: '"\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js?shop=kegel-belle.myshopify.com",' | remove: ',"https:\/\/cdn-bundler.nice-team.net\/app\/js\/bundler.js?shop=kegel-belle.myshopify.com"' }}
+      {% endcase %}
+    {% endcapture %}
+    {{ get_content_for_header }}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'

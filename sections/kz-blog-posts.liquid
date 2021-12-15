@@ -17,7 +17,7 @@
     {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
     <div class="kz-blog__posts grid grid--1-col grid--2-col-tablet grid--3-col-desktop" role="list">
       {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
-        <div class="kz-blog__post grid__item article">
+        <div class="kz-blog__post grid__item article" role="listitem">
           {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author %}
         </div>
       {%- endfor -%}

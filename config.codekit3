@@ -871,6 +871,18 @@
       "oF" : 1,
       "pg" : 0
     },
+    "\/assets\/section-main-product-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/section-main-product-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/section-main-product.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1584,6 +1596,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/sections\/kz-custom-liquid.liquid",
+      "oF" : 0
+    },
+    "\/sections\/kz-hero.liquid" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sections\/kz-hero.liquid",
       "oF" : 0
     },
     "\/sections\/kz-infoicons.liquid" : {
