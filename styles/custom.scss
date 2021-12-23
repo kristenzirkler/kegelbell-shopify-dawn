@@ -242,6 +242,7 @@ input#dcodeInput.dcodeInput {
         color: $color-text;
         padding: 10px 20px;
         transition: all .3s;
+        text-decoration: none;
         &:hover {
           background-color: #000 !important;
           color: #fff;
