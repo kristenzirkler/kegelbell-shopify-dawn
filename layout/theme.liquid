@@ -38,9 +38,7 @@
         {{ content_for_header }}
       {% when"cart" %}
         {{ content_for_header | remove: '."\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js?shop=kegel-belle.myshopify.com"' }}
-    {% when"article" %}
-        {{ content_for_header | remove: ',"https:\/\/doui4jqs03un3.cloudfront.net\/widget.js.gz?shop=kegel-belle.myshopify.com"' | remove: '."\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js?shop=kegel-belle.myshopify.com"' | remove: ',"https:\/\/cdn-bundler.nice-team.net\/app\/js\/bundler.js?shop=kegel-belle.myshopify.com"' }}
-      {% when"index" %}
+    {% when"index" %}
         {{ content_for_header | remove: '."\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js?shop=kegel-belle.myshopify.com"' | remove: ',"https:\/\/cdn-bundler.nice-team.net\/app\/js\/bundler.js?shop=kegel-belle.myshopify.com"' }}
         {%comment%}
         REMOVE ALL
