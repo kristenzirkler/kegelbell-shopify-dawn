@@ -225,6 +225,31 @@ input#dcodeInput.dcodeInput {
     height: 14px;
   }
 }
+#kegelbell-links {
+  .page-width .rte {
+    div {
+      margin-bottom: 10px;
+      &:nth-child(3n) a {
+        background: $color-kb-yellow-light;
+      }
+      &:nth-child(3n+1) a {
+        background: $color-kb-yellow-dark;
+      }
+      a {
+        display: block;
+        border-radius: 20px;
+        background: $color-kb-yellow;
+        color: $color-text;
+        padding: 10px 20px;
+        transition: all .3s;
+        &:hover {
+          background-color: #000 !important;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
 
 
 
