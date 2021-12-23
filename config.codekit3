@@ -1830,6 +1830,14 @@
       "oAP" : "\/snippets\/cart-notification.liquid",
       "oF" : 0
     },
+    "\/snippets\/custom-css.liquid" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/snippets\/custom-css.liquid",
+      "oF" : 0
+    },
     "\/snippets\/facets.liquid" : {
       "cB" : 0,
       "ft" : 8192,
