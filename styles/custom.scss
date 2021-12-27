@@ -196,12 +196,14 @@ input#dcodeInput.dcodeInput {
 }
 // Pages ------------------------------------------------------
 @media screen and (min-width: 750px) {
-.template-page .page-width {
+.template-page .page-width,
+.template-page .page-width--narrow {
     padding: 0 9rem;
   }
 }
 @media screen and (min-width: 990px) {
-.template-page .page-width {
+.template-page .page-width,
+.template-page .page-width--narrow {
     max-width: 960px;
     padding: 0;
   }
@@ -210,7 +212,7 @@ input#dcodeInput.dcodeInput {
 .template-page #MainContent .product-cta,
 .template-article #MainContent .product-cta {
   margin: 10px auto 20px;
-  max-width: 72.6rem;
+  max-width: 960px;
   display: block;
   a {
     display: flex !important;
