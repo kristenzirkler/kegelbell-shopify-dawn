@@ -196,14 +196,14 @@ input#dcodeInput.dcodeInput {
 }
 // Pages ------------------------------------------------------
 @media screen and (min-width: 750px) {
-.template-page .page-width,
-.template-page .page-width--narrow {
+.template-page .content-for-layout .page-width,
+.template-page .content-for-layout .page-width--narrow {
     padding: 0 9rem;
   }
 }
 @media screen and (min-width: 990px) {
-.template-page .page-width,
-.template-page .page-width--narrow {
+.template-page .content-for-layout .page-width,
+.template-page .content-for-layout .page-width--narrow {
     max-width: 960px;
     padding: 0;
   }
