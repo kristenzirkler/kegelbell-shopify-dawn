@@ -65,8 +65,8 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
-                {%- if block.settings.customcode != blank -%}
-                  <div>{{ block.settings.customcode }}</div>
+                {%- if block.settings.custom_liquid != blank -%}
+                  <div>{{ block.settings.custom_liquid }}</div>
                 {%- endif -%}
                 {%- if block.settings.aside != blank -%}
                   <div class="rte text-aside">{{ block.settings.aside | escape }}</div>
