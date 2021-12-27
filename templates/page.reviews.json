@@ -2,8 +2,97 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
+      }
+    },
+    "164064040524a90ad3": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "16406404049e6d439a-0": {
+          "type": "column",
+          "settings": {
+            "title": "Dr. Janet explains why pelvic floor training is so important, and why Kegelbell is uniquely built to target the right muscles.",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6193c6317321be002cb81683\"><\/div>",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "16406404049e6d439a-1": {
+          "type": "column",
+          "settings": {
+            "title": "Kegelbell customer shares how she tried other treatments through her urologist that didn't work, and then she found Kegelbell.",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6193c6c77321be002cb8c5e6\"><\/div>\n<\/div>",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16406404049e6d439a-0",
+        "16406404049e6d439a-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": false,
+        "customization-class": ""
+      }
+    },
+    "1640640492d12f2525": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "1640640492ae92a86f-0": {
+          "type": "column",
+          "settings": {
+            "title": "Lady V, a female empowerment coach and business owner, shares how Kegelbell helped her take control of her body.",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6193c7687321be002cb985de\"><\/div>",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "1640640492ae92a86f-1": {
+          "type": "column",
+          "settings": {
+            "title": "Fitness Expert MumWarrior shares her opinion of Kegelbell",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6193c8067321be002cba3fde\"><\/div>",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1640640492ae92a86f-0",
+        "1640640492ae92a86f-1"
+      ],
+      "settings": {
+        "title": "Header",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": true,
+        "customization-class": ""
+      }
+    },
+    "1640640495c3ab42fe": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"product-cta product-cta--small\">\n<a href=\"\/products\/kegelbell-pelvic-floor-training-system\">\n  <img src=\"{{  'kb-cta.jpg' | asset_img_url: '200x' }}\" alt=\"Everything is easier with Kegelbell\" width=\"100\" height=\"100\" \/>\n\t<span>\n\t\t<strong>Everything is easier with Kegelbell®<\/strong>\n\t\tFind out what is possible with two weeks of use. Guaranteed.\n\t\t<strong class=\"text-button\">Learn More <i><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"angle-double-right\" class=\"svg-inline--fa fa-angle-double-right fa-w-12\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 384 512\"><path d=\"M363.8 264.5L217 412.5c-4.7 4.7-12.3 4.7-17 0l-19.8-19.8c-4.7-4.7-4.7-12.3 0-17L298.7 256 180.2 136.3c-4.7-4.7-4.7-12.3 0-17L200 99.5c4.7-4.7 12.3-4.7 17 0l146.8 148c4.7 4.7 4.7 12.3 0 17zm-160-17L57 99.5c-4.7-4.7-12.3-4.7-17 0l-19.8 19.8c-4.7 4.7-4.7 12.3 0 17L138.7 256 20.2 375.7c-4.7 4.7-4.7 12.3 0 17L40 412.5c4.7 4.7 12.3 4.7 17 0l146.8-148c4.7-4.7 4.7-12.3 0-17z\"><\/path><\/svg><\/i><\/strong>\n\t<\/span>\n<\/a>\n<\/div>"
       }
     },
     "16406392742f87c27f": {
@@ -75,6 +164,152 @@
         "customization-class": ""
       }
     },
+    "1640640605b69ce41b": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "16406406055beda082-1": {
+          "type": "column",
+          "settings": {
+            "title": "Triathlete, mom and Kegelbell customer shares how her Kegelbell routine let her work harder and go farther in her training.",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6193c40c7321be002cb5c78e\"><\/div>",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "16406406055beda082-2": {
+          "type": "column",
+          "settings": {
+            "title": "Yanee shares with her audience how quickly Kegelbell works, what's in the kit, and why preventative pelvic floor training is so important.",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6193c4687321be002cb6241f\"><\/div>",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16406406055beda082-1",
+        "16406406055beda082-2"
+      ],
+      "settings": {
+        "title": "Header",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": true,
+        "customization-class": ""
+      }
+    },
+    "16406406580ef30efd": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "1640640658e7ce1caf-0": {
+          "type": "column",
+          "settings": {
+            "title": "Grandmother, gym owner and Kegelbell customer shares how using Kegelbell had some really great benefits for her sex life!",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6193c4aa7321be002cb6651d\"><\/div>",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "1640640658e7ce1caf-1": {
+          "type": "column",
+          "settings": {
+            "title": "Kegelbell customer does unboxing video and shares how she learned so much about the importance of maintaining a strong pelvic floor.",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6193c4da7321be002cb69bfb\"><\/div>",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1640640658e7ce1caf-0",
+        "1640640658e7ce1caf-1"
+      ],
+      "settings": {
+        "title": "Header",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": true,
+        "customization-class": ""
+      }
+    },
+    "164064070459f92c57": {
+      "type": "kz-carousel",
+      "blocks": {
+        "164064070452494263-0": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>Ladies: talk about sex, talk about specific body parts, talk about incontinence. Teach your kids before they’re at the age of embarrassment. And then tell your friends about the Kegelbell. <strong>Non invasive and life changing for incontinence, sexual dysfunction and more.<\/strong> Other countries have so much more access to perineal physical therapy. Somehow we have a huge stigma around talking about perineal health.<\/p><p>- <strong>Dr. Dakkak, ObGyn, wrote on Facebook<\/strong><\/p>"
+          }
+        },
+        "164064070452494263-1": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p><\/p><p>As women, we seek out the best cleanser, make-up, diets, and exercise for our bodies. This is one area we tend to neglect. I don't believe intentionally. However, we are sometimes reminded by a sneeze, cough, or some sort of aerobic activity.<\/p><p>Then we tell ourselves \"Darn it! Need to do those Kegels! <strong>This is a great and very effective way to work it into your everyday routine.<\/strong> Check it out and see for yourself . ❤️😎💪🏋️‍♀️<\/p><p><strong>- Lora A. wrote on Facebook<\/strong><\/p>"
+          }
+        },
+        "164064070452494263-2": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>Biggest change is no more leakage. As a 40 year old with 2 kids and PCOS (poly cystic ovarian syndrome), I am pre disposed to leakage. Just this last year it started having leakage and got to the point recently I wore pads\/panty liners most of the time.<\/p><p><strong>Since starts Kegelbell, after the first week the leakage decreased drastically<\/strong>. Going into the second week on, I have not noticed leakage. It has been amazing.<\/p><p><strong>- Kegelbell Customer<\/strong><\/p>"
+          }
+        },
+        "b1a1a0ce-9acf-4e85-adc1-e67a23ca59a7": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>Two years ago, I was introduced to the founder, <a href=\"https:\/\/www.facebook.com\/StephanieSchullPhD?__tn__=K-R&eid=ARDs5dsc6ItthBS87dPRDBsH2ArXQUgyvfjRb2wxRkS0O5HKva3MrEg3PmRON94P5PkWch0teF3lknFn&fref=mentions&__xts__%5B0%5D=68.ARDZIiAvIYJ6BNrLB0iT-m-nEeJI8-5DUEUmLoNeRJ6mKMsrSF8b9CNGrPrbT4UV0dRe3OpM2AClQyLyiJE9zZY_dkhUuPCq3Aa-wRABw8gqLDFIqK6x729Km411xdTxVV6weBirrgJlpNg8PesGUgrRLTjxqPoiOWHc3Fth4KeeSFKP28ft8lmnlnQ5E1C17SpUCBbo3gGQ8FmCdw\">Stephanie<\/a> who wanted to talk to fit moms. I had issues working out without peeing myself (a very real issue post child birth) and I could barely run 3 miles without feeling like my organs were going to come out (another pretty common issue that NO ONE TALKS ABOUT!).<\/p><p>I was so intrigued I offered to test the prototype. BOOM! Problems fixed! With the amount of intense training I have put my body through these past two years, my issues should have intensified.<strong> But with a little up keep from Kegelbell I am good to go.<\/strong> <a href=\"https:\/\/www.kegelbell.com\/pages\/about-jennifer-vollmann\">Read her full story.<\/a><\/p><p><strong>- Jennifer V. wrote on Facebook<\/strong><\/p>"
+          }
+        },
+        "4dd4043d-7cff-4d30-bc25-d7b01fd255fc": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>Women you MUST try this! Kegelbell solves the problem you didn’t even know most women have! After just a few weeks of using @kegelbell I could ride my bicycle without any leaks!<\/p><p>It has truly changed my life.<strong> I had NO IDEA since I never discussed this with ANYONE how much a universal problem vaginal floor weakness is and HOW GREAT I would feel using it!<\/strong> I am truly grateful. Thank you Kegelbell!<\/p><p>- <strong>Jamie G wrote on Facebook<\/strong><\/p>"
+          }
+        },
+        "12847ee2-49f7-4292-8cc1-f7ded5cec0ac": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>Oh my god, Stephanie!! I do it every morning for five minutes and I can already tell the difference. I’m amazed!!! <strong>Today I had the biggest orgasm of my life and I can’t believe it’s just week one!<\/strong> Thank you!!!! I’m recommending this to all my girlfriends.<\/p><p>Xoxoxo<\/p><p>You are a vagina saint!<\/p><p><strong>- Kegelbell Customer<\/strong><\/p>"
+          }
+        },
+        "2f3667be-b377-4292-9cd6-1819fcb3a593": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>I am excited! Biggest change is no more leakage. As a 40 year old with 2 kids and PCOS (poly cystic ovarian syndrome), I am pre disposed to leakage. Just this last year it started having leakage and got to the point recently I wore pads\/panty liners most of the time.<br\/><br\/><strong>Since starts Kegelbell, after the first week the leakage decreased drastically. <\/strong>Going into the second week on, I have not noticed leakage. It has been amazing.<\/p><p><strong>- Sarah O.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164064070452494263-0",
+        "164064070452494263-1",
+        "164064070452494263-2",
+        "b1a1a0ce-9acf-4e85-adc1-e67a23ca59a7",
+        "4dd4043d-7cff-4d30-bc25-d7b01fd255fc",
+        "12847ee2-49f7-4292-8cc1-f7ded5cec0ac",
+        "2f3667be-b377-4292-9cd6-1819fcb3a593"
+      ],
+      "settings": {
+        "title": "Header",
+        "background_style": "none",
+        "post_limit": 1,
+        "customization-class": ""
+      }
+    },
     "16395901794a340fad": {
       "type": "kz-multicolumn",
       "blocks": {
@@ -84,6 +319,7 @@
             "image": "shopify:\/\/shop_images\/product-pieces_31ce7c41-779e-4c5e-8438-8824d03c2526.jpg",
             "title": "",
             "text": "",
+            "custom_liquid": "",
             "aside": "",
             "col_button_label": "",
             "col_button_link": ""
@@ -94,6 +330,7 @@
           "settings": {
             "title": "Kegelbell® The Vagina Gym® Original Kit",
             "text": "<p>$99.95<\/p><p><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>- Improve bladder and bowel control<\/p><p>- Reduce the risk of pelvic organ prolapse<\/p><p>- Treat Female Sexual Dysfunction (FSD)<\/p>",
+            "custom_liquid": "",
             "aside": "",
             "col_button_label": "Shop Now",
             "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
@@ -115,19 +352,17 @@
         "condense_mobile": true,
         "customization-class": "page-product"
       }
-    },
-    "1640639913eb98cea5": {
-      "type": "kz-custom-liquid",
-      "settings": {
-        "title": "",
-        "custom_liquid": ""
-      }
     }
   },
   "order": [
     "main",
+    "164064040524a90ad3",
+    "1640640492d12f2525",
+    "1640640495c3ab42fe",
     "16406392742f87c27f",
-    "16395901794a340fad",
-    "1640639913eb98cea5"
+    "1640640605b69ce41b",
+    "16406406580ef30efd",
+    "164064070459f92c57",
+    "16395901794a340fad"
   ]
 }
