@@ -78,14 +78,14 @@
         "1640640492ae92a86f-1"
       ],
       "settings": {
-        "title": "Header",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "condense_mobile": true,
+        "condense_mobile": false,
         "customization-class": ""
       }
     },
@@ -195,14 +195,14 @@
         "16406406055beda082-2"
       ],
       "settings": {
-        "title": "Header",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "condense_mobile": true,
+        "condense_mobile": false,
         "customization-class": ""
       }
     },
@@ -237,14 +237,14 @@
         "1640640658e7ce1caf-1"
       ],
       "settings": {
-        "title": "Header",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "condense_mobile": true,
+        "condense_mobile": false,
         "customization-class": ""
       }
     },
