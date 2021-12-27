@@ -41,6 +41,9 @@
     color: #333;
   }
 }
+.footer__content-top .grid__item {
+  padding-left: 0 !important;
+}
 // Curved Top White --------------------------------------------------
 .home-bath.banner {
   background: $color-kb-gray-light;

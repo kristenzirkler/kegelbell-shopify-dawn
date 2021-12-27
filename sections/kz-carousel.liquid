@@ -1,34 +1,36 @@
-
-{% comment %}
-{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 {{ 'section-kz-carousel.css' | asset_url | stylesheet_tag }}
 
-    <div class="">
-      <slider-component class="slider-mobile-gutter">
-        <ul class="product__media-list grid grid--peek list-unstyled slider" role="list">
-        {%- for block in section.blocks -%}
-          <li class="product__media-item grid__item slider__slide">
-            {%- if block.settings.text != blank -%}
-              <div class="rte">{{ block.settings.text }}</div>
-            {%- endif -%}
-          </li>
-        {%- endfor -%}
-        </ul>
-        <div class="slider-buttons no-js-hidden">
-          <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'accessibility.previous_slide' | t }}">{% render 'icon-caret' %}</button>
-          <div class="slider-counter caption">
-            <span class="slider-counter--current">1</span>
-            <span aria-hidden="true"> / </span>
-            <span class="visually-hidden">{{ 'accessibility.of' | t }}</span>
-            <span class="slider-counter--total">{{ section.blocks.size }}</span>
-          </div>
-          <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
+<div class="kz-carousel">
+  <div class="page-width">
+    <slider-component class="slider-mobile-gutter">
+      <ul class="kz-carousel-list grid grid--1-col slider slider--all"
+      id="Slider-{{ section.id }}" role="list">
+      {%- for block in section.blocks -%}
+        <li class="kz-carousel-list__item grid__item slider__slide">
+          {%- if block.settings.text != blank -%}
+            <div class="rte">{{ block.settings.text }}</div>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+      </ul>
+
+      <div class="slider-buttons no-js-hidden">
+        <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'accessibility.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+        <div class="slider-counter caption">
+          <span class="slider-counter--current">1</span>
+          <span aria-hidden="true"> / </span>
+          <span class="visually-hidden">{{ 'accessibility.of' | t }}</span>
+          <span class="slider-counter--total">{{ section.blocks.size }}</span>
         </div>
-      </slider-component>
-    </div>
+        <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
+      </div>
+    </slider-component>
+  </div>
+</div>
 
-
-
+{% comment %}
 
 
 
@@ -155,6 +157,7 @@
 </div>
 
 {% endcomment %}
+
 {% schema %}
 {
   "name": "KZ Carousel",
