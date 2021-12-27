@@ -202,14 +202,15 @@ input#dcodeInput.dcodeInput {
 }
 @media screen and (min-width: 990px) {
 .template-page .page-width {
-    max-width: 72.6rem;
+    max-width: 960px;
     padding: 0;
   }
 }
 // Product CTA
 .template-page #MainContent .product-cta,
 .template-article #MainContent .product-cta {
-  margin: 10px 0 20px;
+  margin: 10px auto 20px;
+  max-width: 72.6rem;
   display: block;
   a {
     display: flex !important;
@@ -219,6 +220,7 @@ input#dcodeInput.dcodeInput {
     background: $color-kb-gray-light;
     border: none !important;
     overflow: hidden;
+    color: $color-text;
     &:hover {
       background: $color-kb-yellow-light;
     }
