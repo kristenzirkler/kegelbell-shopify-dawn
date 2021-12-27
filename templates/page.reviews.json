@@ -2,7 +2,77 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "16406392742f87c27f": {
+      "type": "kz-carousel",
+      "blocks": {
+        "16406392742cc79abd-0": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>There were actually many items similar to this that I was considering. I decided to go with this one because of the external weights that can be added. The external weights are great! They add a level of awareness that doesn't exist when just doing kegel exercises. There is a sense of activation and engagement that happens at the pelvic floor and up through the layers of internal muscle contraction.<\/p><p>I have a better understanding of how to strengthen my pelvic floor, where I am at and how to get back to a healthy strong foundation. <strong>Basically when I sneeze now my muscles activate better so I don't pee myself.<\/strong> I truly believe the training I am doing with my Kegelbell is worth the 5 minutes every-other day.<\/p><p><strong>- Amazon Kegelbell Customer<\/strong><\/p>"
+          }
+        },
+        "16406392742cc79abd-1": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>As a nurse I’m actually familiar with the Kegelbell! And being pregnant, <strong>this is a great equipment for exercising the pelvic region in preparation for birth to help me push<\/strong>! But not only that, <strong>helps with stronger bladder control<\/strong> and keeps everything tighter and put together down there. (Which I’ll probably need after birth)<\/p><p><strong>- Faye Lorraine Sabino, Nurse<\/strong><\/p>"
+          }
+        },
+        "16406392742cc79abd-2": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>Over the last several months I have added more weight as needed and now am using all three weights. <strong>It has helped me tremendously with urinary incontinence when running for exercise or in Pilates class when jumping on the reformer,<\/strong> and now I can run and exercise without leaking.<\/p><p><strong>- Tina K.<\/strong><\/p>"
+          }
+        },
+        "07616089-b258-4ff2-a1e4-f429589c351b": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>I'm a young mother and am really concerned about getting back in shape and avoiding complications from childbirth. I did some research and learned how important kegel exercises are. <strong>I chose this product because I wanted something safe that I know will work right.<\/strong> I have been using it for around 2 weeks and can say that I am very happy with my decision! Much more comfortable than kegel balls!<\/p><p><strong>- Amazon Kegelbell Customer<\/strong><\/p>"
+          }
+        },
+        "e37c5d44-d889-466b-b048-2a83175da461": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>I am absolutely thrilled with my results from Kegelbell. <strong>I have found a new level of sexual self-empowerment I never knew was possible<\/strong>, and would never have known I could achieve, all thanks to the product. Stephanie and Kegelbell are changing lives and creating joy, one vagina at a time.<\/p><p><strong>- Jackie Johnson, <\/strong><a href=\"https:\/\/www.natchbeaut.com\/\"><strong>Natch Beaut<\/strong><\/a><\/p>"
+          }
+        },
+        "b98a736d-fd2b-4ece-8b9d-9319e40fb8b2": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>This is a life changer! I had a hysterectomy last year and have been wearing pads ever since. I thought I was doomed to wear them for the rest of my life. No more!! Best money I ever spent! <strong>Best part is no drugs or drug side effects!!!<\/strong><\/p><p><strong>- Amazon Kegelbell Customer<\/strong><\/p>"
+          }
+        },
+        "c0df0d7e-0a1f-4310-adf4-667b52c910cd": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>I love the Kegelbell! I just had my 2nd baby 10 months ago and have been trying to be better about staying on top of my pelvic floor health this time around. <strong>It has really helped with urinary problems I was having and has helped improve my sexual sensations.<\/strong><\/p><p>I’ve worked my way to the smaller insert with up to the 3 weights but do better with the small+medium for longer holds. I’ve tried other devices and this has been one of my favorites. I like that the weight is on the outside versus bulb being weighed. 💪🏻<\/p><p>- <strong>❤️ b<\/strong><\/p>"
+          }
+        },
+        "258dcbd0-9d85-4cf8-b04c-89754adb2ba2": {
+          "type": "oneitem",
+          "settings": {
+            "text": "<p>After <strong>only 3 exercises I continue to see measurable (like 100%) improvement.<\/strong> This is amazing and I will definitely keep it up<\/p><p>- <strong>Katharine H.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16406392742cc79abd-0",
+        "16406392742cc79abd-1",
+        "16406392742cc79abd-2",
+        "07616089-b258-4ff2-a1e4-f429589c351b",
+        "e37c5d44-d889-466b-b048-2a83175da461",
+        "b98a736d-fd2b-4ece-8b9d-9319e40fb8b2",
+        "c0df0d7e-0a1f-4310-adf4-667b52c910cd",
+        "258dcbd0-9d85-4cf8-b04c-89754adb2ba2"
+      ],
+      "settings": {
+        "title": "",
+        "background_style": "none",
+        "post_limit": 1,
+        "customization-class": ""
       }
     },
     "16395901794a340fad": {
@@ -45,10 +115,19 @@
         "condense_mobile": true,
         "customization-class": "page-product"
       }
+    },
+    "1640639913eb98cea5": {
+      "type": "kz-custom-liquid",
+      "settings": {
+        "title": "",
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
     "main",
-    "16395901794a340fad"
+    "16406392742f87c27f",
+    "16395901794a340fad",
+    "1640639913eb98cea5"
   ]
 }
