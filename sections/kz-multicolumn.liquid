@@ -65,6 +65,9 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
+                {%- if block.settings.customcode != blank -%}
+                  <div>{{ block.settings.customcode }}</div>
+                {%- endif -%}
                 {%- if block.settings.aside != blank -%}
                   <div class="rte text-aside">{{ block.settings.aside | escape }}</div>
                 {%- endif -%}
@@ -263,6 +266,12 @@
           "id": "text",
           "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
           "label": "Text"
+        },
+        {
+          "type": "liquid",
+          "id": "customcode",
+          "default": "",
+          "label": "Custom Code"
         },
         {
           "type": "text",
