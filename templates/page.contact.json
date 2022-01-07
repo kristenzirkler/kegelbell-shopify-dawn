@@ -7,6 +7,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "heading": ""
       }
@@ -15,7 +16,7 @@
       "type": "kz-custom-liquid",
       "settings": {
         "title": "",
-        "custom_liquid": "<p style=\"text-align: center;\">You are welcome to call us toll-free, 24 hours a day 7 days a week at (855) 440-0375.<\/p>\n<p style=\"text-align: center;\"><em><span style=\"font-size: 12px;\">*By completing this form you are signing up to receive our emails and can unsubscribe at any time. <\/span><\/em><\/p>"
+        "custom_liquid": "<div class=\"klaviyo-form-V4Y7U7\"><\/div>\n<p style=\"text-align: center;\">You are welcome to call us toll-free, 24 hours a day 7 days a week at (855) 440-0375.<\/p>\n<p style=\"text-align: center;\"><em><span style=\"font-size: 12px;\">*By completing this form you are signing up to receive our emails and can unsubscribe at any time. <\/span><\/em><\/p>"
       }
     }
   },
