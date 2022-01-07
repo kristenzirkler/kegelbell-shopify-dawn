@@ -64,6 +64,12 @@
       </textarea>
       <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label>
     </div>
+
+    <div class="accepts-marketing">
+      <input id="accepts-marketing" type="checkbox" name="contact[accepts_marketing]" required />
+      <label for="accepts-marketing">Yes, I'd like to opt-in to your <a href="/pages/terms-and-conditions" target="_blank">Terms of Service</a></label>
+    </div>
+
     <div class="contact__button">
       <button type="submit" class="button">
         {{ 'templates.contact.form.send' | t }}

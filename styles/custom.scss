@@ -14,6 +14,16 @@
 .banner__box.color-background-1 {
   background: none !important;
 }
+.form-status {
+  padding: 10px 0;
+  font-size: 18px;
+  .icon {
+    flex-shrink: 0;
+    height: 2rem;
+    margin-right: 0.7rem;
+    width: 2rem;
+  }
+}
 // Header -- Top Bar -------------------------------------------------
 .announcement-bar__message {
   font-weight: normal;
