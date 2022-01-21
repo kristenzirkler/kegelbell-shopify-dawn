@@ -85,7 +85,7 @@
     "163960686545d14d80": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h2 style=\"text-align:center\">Watch Video Testimonials<\/h2>\n<div class=\"reeview-app-widget\" id=\"reeview-app-widget_618e3593e661b90029488684\"><\/div> \n<h2 style=\"text-align:center;margin-bottom:-30px;margin-top: 20px;\">Customer Reviews<\/h2>"
+        "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_618e3593e661b90029488684\"><\/div>"
       }
     },
     "1639585907e2bd700c": {
