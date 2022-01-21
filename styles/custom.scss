@@ -198,6 +198,13 @@
 div#dcodeOuterWrapper {
     padding: 10px 0;
 }
+.dcloading {
+  display: block !important;
+}
+#dcodeButtonLabel,
+#dcodeButtonLabelPlaceholder {
+  font-weight: bold;
+}
 input#dcodeInput.dcodeInput {
   border: 1px solid $color-border;
   line-height: 48px;
@@ -215,6 +222,12 @@ input#dcodeInput.dcodeInput {
   border: none;
   color: #fff;
 }
+.dcDiscountBox {
+  margin-bottom: 10px;
+}
+p.dcodeErrorMessage {
+  font-size: 14px;
+}
 .dcodeTable {
     width: 100% !important;
     display: table !important;
@@ -229,7 +242,7 @@ input#dcodeInput.dcodeInput {
 }
 .dcodeTable td:first-child,
 .dcodeTotal td:first-child {
-    padding: 10px 0 0 !important;
+    padding: 0 10px 0 0 !important;
 }
 .dcodeTotal td {
     font-weight: bold;
