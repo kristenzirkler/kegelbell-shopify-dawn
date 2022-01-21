@@ -128,6 +128,7 @@
 
     {% comment %}{{ 'base.css' | asset_url | stylesheet_tag }}{{ 'custom.css' | asset_url | stylesheet_tag }}{% endcomment %}
     <style>{% render 'base-css' %}</style>
+    <!-- custom css -->
     <style>{% render 'custom-css' %}</style>
 
     {%- unless settings.type_body_font.system? -%}
