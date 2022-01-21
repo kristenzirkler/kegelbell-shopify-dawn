@@ -191,6 +191,9 @@
     max-width: 400px;
   }
 }
+.cart__footer {
+  justify-content: flex-end;
+}
 // Discount Code
 div#dcodeOuterWrapper {
     padding: 10px 0;
