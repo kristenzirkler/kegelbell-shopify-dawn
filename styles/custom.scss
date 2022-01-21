@@ -163,6 +163,19 @@
 }
 
 // Cart --------------------------------------------------------------
+.template-cart {
+  .title-wrapper-with-link {
+    margin-bottom: 10px;
+  }
+  .cart-items th {
+    padding-bottom: 6px;
+  }
+}
+@media screen and (max-width: 749px) {
+.cart-items thead tr {
+  margin-bottom: 10px;
+}
+}
 .popup-cart {
   width: 320px;
 }
@@ -196,7 +209,12 @@
 }
 // Discount Code
 div#dcodeOuterWrapper {
-    padding: 10px 0;
+  padding: 10px 0;
+  *:focus-visible {
+    outline: none;
+    outline-offset: 0px;
+    box-shadow: 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.05);
+  }
 }
 .dcloading {
   display: block !important;
