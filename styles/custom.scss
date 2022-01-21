@@ -23,6 +23,13 @@
     margin-right: 0.7rem;
     width: 2rem;
   }
+  &:focus-visible {
+    outline: none;
+    box-shadow: none;
+  }
+}
+.contact .icon-success {
+    margin-top: 0;
 }
 // Header -- Top Bar -------------------------------------------------
 .announcement-bar__message {
@@ -184,6 +191,7 @@
     max-width: 400px;
   }
 }
+// Discount Code
 div#dcodeOuterWrapper {
     padding: 10px 0;
 }
@@ -203,6 +211,20 @@ input#dcodeInput.dcodeInput {
   background: #000;
   border: none;
   color: #fff;
+}
+.dcodeTable td {
+    padding: 0 6px !important;
+}
+.dcodeTable td:first-child {
+    padding: 0 6px !important;
+}
+.dcodeTotal td {
+    padding: 0 6px !important;
+    font-weight: bold;
+    font-size: 100%;
+}
+.dcodeTotal td:first-child {
+    padding: 0 6px !important;
 }
 // Pages ------------------------------------------------------
 @media screen and (min-width: 750px) {
