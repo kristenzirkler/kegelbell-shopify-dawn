@@ -216,23 +216,24 @@ input#dcodeInput.dcodeInput {
   color: #fff;
 }
 .dcodeTable {
-    width: 100%;
-    display: table;
-    max-width: 10000px;
+    width: 100% !important;
+    display: table !important;
+    max-width: 10000px !important;
+} 
+.dcode-subtotal-row {
+  display: none;
 }
-.dcodeTable td {
-    padding: 0 6px !important;
+.dcodeTable td,
+.dcodeTotal td {
+    padding: 0 !important;
 }
-.dcodeTable td:first-child {
-    padding: 0 6px !important;
+.dcodeTable td:first-child,
+.dcodeTotal td:first-child {
+    padding: 10px 0 0 !important;
 }
 .dcodeTotal td {
-    padding: 0 6px !important;
     font-weight: bold;
-    font-size: 100%;
-}
-.dcodeTotal td:first-child {
-    padding: 0 6px !important;
+    font-size: 100% !important;
 }
 // Pages ------------------------------------------------------
 @media screen and (min-width: 750px) {
