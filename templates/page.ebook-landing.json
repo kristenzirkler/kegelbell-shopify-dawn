@@ -23,7 +23,7 @@
         "164279162640bd8798-1": {
           "type": "column",
           "settings": {
-            "title": "The Ultimate Guide To Kegels",
+            "title": "FREE EBOOK 🎉",
             "text": "<p>Kegeling the right way can help:<\/p><p>1. Prevent or stop bladder leaks.<\/p><p>2. Strengthen your pelvic floor after having a baby.<\/p><p>3. Save money on bladder leakage products. (ex: pads)<\/p><p>4. Enhance your time in the bedroom.<\/p>",
             "custom_liquid": "<div class=\"klaviyo-form-R9MCrG\"><\/div>",
             "aside": "",
@@ -37,7 +37,7 @@
         "164279162640bd8798-1"
       ],
       "settings": {
-        "title": "FREE EBOOK 🎉",
+        "title": "The Ultimate Guide to Kegels",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -45,7 +45,7 @@
         "button_label": "",
         "button_link": "",
         "condense_mobile": true,
-        "customization-class": ""
+        "customization-class": "ebook-landing-content"
       }
     },
     "16395901794a340fad": {
