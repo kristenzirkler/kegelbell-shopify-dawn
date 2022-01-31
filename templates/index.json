@@ -220,6 +220,12 @@
         "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6193a9c57321be002c9cadcc\"><\/div>"
       }
     },
+    "1643653686c6bda8f8": {
+      "type": "videowise-page-widgets",
+      "settings": {
+        "widget_selector": "6193a9c57321be002c9cadcc"
+      }
+    },
     "1636129955257ae717": {
       "type": "kz-multicolumn",
       "blocks": {
@@ -632,6 +638,7 @@
     "16361296677ec13f98",
     "163612995302cf903e",
     "1637605014fee63a4a",
+    "1643653686c6bda8f8",
     "1636129955257ae717",
     "163613019076180e72",
     "163666329938b8fe6d",
