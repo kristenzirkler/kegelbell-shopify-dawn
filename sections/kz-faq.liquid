@@ -1,0 +1,116 @@
+{{ 'section-kz-faq.css' | asset_url | stylesheet_tag }}
+<div class="kz-faq background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
+  <div class="page-width">
+    <div class="">
+      <h2 class="center">
+        {{ section.settings.title | escape }}
+      </h2>
+    </div>
+    <div class="info-icons-items grid grid--1-col grid--2-col-tablet grid--3-col-desktop">
+    {%- for block in section.blocks -%}
+        <div class="one-item grid__item">
+            {%- if block.settings.image != blank -%}
+              <div class="image-wrapper">
+                <div class="media">
+                  <img
+                    srcset="{%- if block.settings.image.width >= 100 -%}{{ block.settings.image | img_url: '100x' }} 100w,{%- endif -%}
+                    {%- if block.settings.image.width >= 275 -%}{{ block.settings.image | img_url: '275x' }} 275w,{%- endif -%}
+                      {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
+                      {%- if block.settings.image.width >= 710 -%}{{ block.settings.image | img_url: '710x' }} 710w,{%- endif -%}
+                      {%- if block.settings.image.width >= 1420 -%}{{ block.settings.image | img_url: '1420x' }} 1420w,{%- endif -%}
+                      {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
+                    src="{{ block.settings.image | img_url: '100x' }}"
+                    sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
+                      (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
+                      100px"
+                    alt="{{ block.settings.image.alt }}"
+                    height="{{ block.settings.image.height }}"
+                    width="{{ block.settings.image.width }}"
+                    loading="lazy"
+                  >
+                </div>
+              </div>
+            {%- endif -%}
+            <div>
+              {%- if block.settings.title != blank -%}<div><strong>{{ block.settings.title }}</strong></div>{%- endif -%}
+              {%- if block.settings.text != blank -%}<div><span>{{ block.settings.text }}</span></div>{%- endif -%}
+            </div>
+        </div>
+    {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "KZ FAQ",
+  "class": "spaced-section spaced-section--full-width",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Header"
+    },
+    {
+      "type": "select",
+      "id": "background_style",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.multicolumn.settings.background_style.options__1.label"
+        },
+        {
+          "value": "primary",
+          "label": "t:sections.multicolumn.settings.background_style.options__2.label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.multicolumn.settings.background_style.options__3.label"
+        }
+      ],
+      "default": "none",
+      "label": "t:sections.multicolumn.settings.background_style.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Q/A",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Answer"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "KZ FAQ",
+      "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
