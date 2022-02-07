@@ -21,6 +21,7 @@
 .faq-items .faq-desc {
   display: none;
   padding: 16px 0 0;
+  overflow: hidden;
 }
 .faq-items .faq-title {
   display: flex;
