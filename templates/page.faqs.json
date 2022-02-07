@@ -51,6 +51,35 @@
         "background_style": "none"
       }
     },
+    "16442756610d7e2547": {
+      "type": "kz-faq",
+      "blocks": {
+        "1644275661aa678bfd-0": {
+          "type": "column",
+          "settings": {
+            "title": "Why Kegelbell?",
+            "text": "<p>Most of us don't understand the function of our pelvic floor and kegels are hard to do by themselves. Kegelbell not only helps you make sure you're doing it correctly but it also significantly reduces the length of time to perform kegel exercises.<\/p>",
+            "image": "shopify:\/\/shop_images\/why.png"
+          }
+        },
+        "1644275661aa678bfd-1": {
+          "type": "column",
+          "settings": {
+            "title": "How is Kegelbell different from kegel balls or yoni eggs or ben wa balls?",
+            "text": "<p>Kegel balls have all the weight inside the body, <span style=\"text-decoration:underline\">which makes them too bulky and too light to be effective<\/span>. All of them are made of unhealthy materials and have dangerous instructions to wear them for hours! Please don't do that!!!<br\/><br\/>What makes Kegelbell unique and the first of its kind is that the weight system is outside of the body. Our patent-pending weight system enables us to create a very small and slender insert that makes it comfortable to use and allows you to add much more weight to your workout than is possible with kegel balls or ben wa balls or yoni eggs or jade eggs.<\/p>",
+            "image": "shopify:\/\/shop_images\/4_0656b9f7-9ec9-43d0-ac72-8b847ecf2a03.png"
+          }
+        }
+      },
+      "block_order": [
+        "1644275661aa678bfd-0",
+        "1644275661aa678bfd-1"
+      ],
+      "settings": {
+        "title": "About the Product",
+        "background_style": "secondary"
+      }
+    },
     "16395901794a340fad": {
       "type": "kz-multicolumn",
       "blocks": {
@@ -98,6 +127,7 @@
   "order": [
     "main",
     "1644274003bc99f245",
+    "16442756610d7e2547",
     "16395901794a340fad"
   ]
 }
