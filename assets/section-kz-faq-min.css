@@ -19,7 +19,7 @@
   padding: 16px 0;
 }
 .faq-items .faq-desc {
-  display: none;
+  /*display: none;*/
   padding: 16px 0 0;
   overflow: hidden;
 }

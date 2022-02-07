@@ -11,7 +11,7 @@
         <div class="one-faq">
           {%- if block.settings.title != blank -%}<div class="faq-title"><h3>{{ block.settings.title }}</h3></div>{%- endif -%}
           {%- if block.settings.text != blank -%}
-          <div class="faq-desc">
+          <div class="faq-desc" style="display:none;">
             {%- if block.settings.image != blank -%}
               <div class="image-wrapper">
                 <div class="media media--transparent">
@@ -45,6 +45,7 @@
 <script>
 for (const parent of document.querySelectorAll('.one-faq')) {
   parent.addEventListener('click', function(clickEvent) {
+    console.log('click');
     const child = parent.querySelector('.faq-desc');
     // If the element is visible, hide it
       console.log(child);
