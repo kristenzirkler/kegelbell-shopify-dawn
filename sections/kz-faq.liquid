@@ -11,7 +11,7 @@
         <div class="one-item">
             {%- if block.settings.image != blank -%}
               <div class="image-wrapper">
-                <div class="media" style="height:100px;float:right;margin:0 0 20px 20px;">
+                <div class="media media--transparent">
                   <img
                     srcset="{%- if block.settings.image.width >= 100 -%}{{ block.settings.image | img_url: '100x' }} 100w,{%- endif -%}
                     {%- if block.settings.image.width >= 275 -%}{{ block.settings.image | img_url: '275x' }} 275w,{%- endif -%}
@@ -27,21 +27,19 @@
                     height="{{ block.settings.image.height }}"
                     width="{{ block.settings.image.width }}"
                     loading="lazy"
-                    class="motion-reduce"
                   >
                 </div>
               </div>
             {%- endif -%}
             <div>
-              {%- if block.settings.title != blank -%}<div><strong>{{ block.settings.title }}</strong></div>{%- endif -%}
-              {%- if block.settings.text != blank -%}<div><span>{{ block.settings.text }}</span></div>{%- endif -%}
+              {%- if block.settings.title != blank -%}<div class="faq-title"><h3>{{ block.settings.title }}</h3></div>{%- endif -%}
+              {%- if block.settings.text != blank -%}<div class="faq-desc">{{ block.settings.text }}</div>{%- endif -%}
             </div>
         </div>
     {%- endfor -%}
     </div>
   </div>
 </div>
-
 {% schema %}
 {
   "name": "KZ FAQ",
