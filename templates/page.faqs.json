@@ -14,6 +14,7 @@
             "image": "shopify:\/\/shop_images\/product-pieces_31ce7c41-779e-4c5e-8438-8824d03c2526.jpg",
             "title": "",
             "text": "",
+            "custom_liquid": "",
             "aside": "",
             "col_button_label": "",
             "col_button_link": ""
@@ -24,6 +25,7 @@
           "settings": {
             "title": "Kegelbell® The Vagina Gym® Original Kit",
             "text": "<p>$99.95<\/p><p><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>- Improve bladder and bowel control<\/p><p>- Reduce the risk of pelvic organ prolapse<\/p><p>- Treat Female Sexual Dysfunction (FSD)<\/p>",
+            "custom_liquid": "",
             "aside": "",
             "col_button_label": "Shop Now",
             "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
@@ -45,10 +47,57 @@
         "condense_mobile": true,
         "customization-class": "page-product"
       }
+    },
+    "1644274003bc99f245": {
+      "type": "kz-faq",
+      "blocks": {
+        "164427400373f6b75a-0": {
+          "type": "column",
+          "settings": {
+            "title": "How long do you leave kegel weights in?",
+            "text": "<p>Kegelbell was designed to be used for short workouts. We like to say you can get in and get out fast, but get the powerful benefits as though you spent all day in the vagina gym.<br\/><br\/>Some women wonder “can you leave kegel weights in all day”? We do NOT recommend this as it causes muscles to overly contract and can cause problems. Another common question is “can you sleep with kegel weights”? Similarly, we do NOT recommend that people sleep with kegel weights to prevent overexertion.<\/p>"
+          }
+        },
+        "164427400373f6b75a-1": {
+          "type": "column",
+          "settings": {
+            "title": "Where can I use Kegelbell?",
+            "text": "<p>Users add Kegelbell to their weekly routine most typically in private moments in the bathroom or shower.<\/p>",
+            "image": "shopify:\/\/shop_images\/1_cc580dbd-0540-4173-aef3-5227a5efdf7b.png"
+          }
+        },
+        "164427400373f6b75a-2": {
+          "type": "column",
+          "settings": {
+            "title": "Does the whole thing go inside my vagina?",
+            "text": "<p>Inserting kegel weights is easy. The bulb is inserted like a tampon, with the weight hanging from the chord externally between your thighs. When evaluating how far to insert the kegel weights, it should rest comfortably similar to inserting a tampon.<\/p>",
+            "image": "shopify:\/\/shop_images\/2_dfc13f0a-e900-4a7c-b4fb-174538e6ff71.png"
+          }
+        },
+        "35a91a60-cb80-4d10-bf8c-77baadc41151": {
+          "type": "column",
+          "settings": {
+            "title": "Is Kegelbell comfortable to use?",
+            "text": "<p>Because the weight is held outside of the body at the end of a cord, you only have to insert a very small, slender portion into the vagina, making use of the Kegelbell completely comfortable. If you feel like you prefer it to glide inside easier, add a little lubricant to the bulb before inserting it. <strong>We recommend not using a silicone-based lube, but rather an oil or water-based lube with the insert.<\/strong> If you use lubricant, you will noticeably hold less weight as it will be slippery. But no worries. You will still get a truly excellent workout.<\/p><p><br\/>We give you two insert bulbs to choose from so you can find the most comfortable fit. And if you start with the larger bulb, you can progress over time to using the more slender bulb. That will give you 16 training levels to work through.<\/p>",
+            "image": "shopify:\/\/shop_images\/3_6ef201eb-8d69-4a6f-85ea-09f3b9431d26.png"
+          }
+        }
+      },
+      "block_order": [
+        "164427400373f6b75a-0",
+        "164427400373f6b75a-1",
+        "164427400373f6b75a-2",
+        "35a91a60-cb80-4d10-bf8c-77baadc41151"
+      ],
+      "settings": {
+        "title": "",
+        "background_style": "none"
+      }
     }
   },
   "order": [
     "main",
-    "16395901794a340fad"
+    "16395901794a340fad",
+    "1644274003bc99f245"
   ]
 }
