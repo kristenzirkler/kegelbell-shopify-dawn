@@ -42,25 +42,6 @@
     </div>
   </div>
 </div>
-<script>
-for (const parent of document.querySelectorAll('.one-faq')) {
-  parent.addEventListener('click', function(clickEvent) {
-    //console.log('click');
-    console.log(parent);
-    const child = parent.querySelector('.faq-desc');
-    // If the element is visible, hide it
-    console.log(child);
-    if (window.getComputedStyle(child).display === 'block') {
-      child.style.display = 'none';
-      console.log('hide it');
-      return;
-    }
-    // Otherwise, show it
-    child.style.display = 'block';
-    console.log('show it');
-  })
-}
-</script>
 {% schema %}
 {
   "name": "KZ FAQ",
