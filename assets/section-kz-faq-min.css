@@ -9,9 +9,14 @@
 }
 }
 
-.faq-items .one-item {
-  border-bottom:  1px solid #D3D3D3;
-  padding:  16px 0;
+.faq-items {
+  border-top: 1px solid #D3D3D3;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+.faq-items .one-faq {
+  border-bottom: 1px solid #D3D3D3;
+  padding: 16px 0;
 }
 .faq-items .faq-desc {
   display: none;

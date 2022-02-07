@@ -8,7 +8,7 @@
     </div>
     <div class="faq-items">
     {%- for block in section.blocks -%}
-        <div class="one-item">
+        <div class="one-faq">
             <div>
               {%- if block.settings.title != blank -%}<div class="faq-title"><h3>{{ block.settings.title }}</h3></div>{%- endif -%}
               {%- if block.settings.text != blank -%}
@@ -44,6 +44,20 @@
     </div>
   </div>
 </div>
+<script>
+for (const parent of document.querySelectorAll('.one-faq')) {
+  parent.addEventListener('click', function(clickEvent) {
+    const child = parent.querySelector('.faq-desc');
+    // If the element is visible, hide it
+    if (window.getComputedStyle(child).display === 'block') {
+      child.style.display = 'none';
+      return;
+    }
+    // Otherwise, show it
+    child.style.display = 'block';
+  })
+}
+</script>
 {% schema %}
 {
   "name": "KZ FAQ",
