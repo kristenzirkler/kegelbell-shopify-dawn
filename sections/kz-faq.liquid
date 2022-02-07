@@ -11,7 +11,7 @@
         <div class="one-item">
             {%- if block.settings.image != blank -%}
               <div class="image-wrapper">
-                <div class="media">
+                <div class="media" style="height:100px;float:right;margin:0 0 20px 20px;">
                   <img
                     srcset="{%- if block.settings.image.width >= 100 -%}{{ block.settings.image | img_url: '100x' }} 100w,{%- endif -%}
                     {%- if block.settings.image.width >= 275 -%}{{ block.settings.image | img_url: '275x' }} 275w,{%- endif -%}
@@ -27,6 +27,7 @@
                     height="{{ block.settings.image.height }}"
                     width="{{ block.settings.image.width }}"
                     loading="lazy"
+                    class="motion-reduce"
                   >
                 </div>
               </div>
