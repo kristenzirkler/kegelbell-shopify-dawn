@@ -16,7 +16,9 @@
 <script>
 for (const parent of document.querySelectorAll('.shogun-accordion')) {
   parent.addEventListener('click', function(clickEvent) {
+    console.log(parent);
     const child = parent.querySelector('.shogun-accordion-body');
+    console.log(child);
     // If the element is visible, hide it
     if (window.getComputedStyle(child).display === 'block') {
       child.style.display = 'none';
@@ -28,7 +30,7 @@ for (const parent of document.querySelectorAll('.shogun-accordion')) {
 }
 </script>
 <script>
-  
+
 /*
 document.addEventListener('DOMContentLoaded', function(event) {
   var el = document.querySelector('.one-faq');
