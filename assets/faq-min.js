@@ -1,1 +1,1 @@
-for(const o of document.querySelectorAll(".one-faq"))console.log(o),o.addEventListener("click",(function(e){console.log(o);const l=o.querySelector(".faq-desc");console.log(l),"block"!==window.getComputedStyle(l).display?l.style.display="block":l.style.display="none"}));
+for(const o of document.querySelectorAll(".one-faq"))o.addEventListener("click",(function(e){console.log(o);const l=o.querySelector(".faq-desc");console.log(l),console.log(window.getComputedStyle(l).display),"block"!==window.getComputedStyle(l).display?l.style.display="block":l.style.display="none"}));
