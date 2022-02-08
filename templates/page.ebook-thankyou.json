@@ -32,7 +32,7 @@
         "button_label": "",
         "button_link": "",
         "condense_mobile": true,
-        "customization-class": "ebook-thankyou-content"
+        "customization-class": "ebook-thankyou-content-top"
       }
     },
     "1644344329053ce36b": {
@@ -74,7 +74,7 @@
         "button_label": "Learn More",
         "button_link": "https:\/\/www.kegelbell.com\/",
         "condense_mobile": true,
-        "customization-class": ""
+        "customization-class": "ebook-thankyou-content-bottom"
       }
     }
   },
