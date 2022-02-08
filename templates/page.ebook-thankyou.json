@@ -11,21 +11,9 @@
         "164279162640bd8798-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ebook.jpg",
             "title": "",
-            "text": "",
+            "text": "<p><a href=\"https:\/\/www.kegelbell.com\/products\/kegelbell-pelvic-floor-training-system\" target=\"_self\">We just sent the download link for the Ultimate Guide To Kegels Ebook!<br\/><br\/>Here’s a little “Thank You” from us, use code<br\/><strong>KEGEL5<\/strong> to get <strong>$5 off<\/strong> your first Kegelbell Original Kit!<\/a><\/p>",
             "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
-          }
-        },
-        "164279162640bd8798-1": {
-          "type": "column",
-          "settings": {
-            "title": "FREE EBOOK 🎉",
-            "text": "<p>Kegeling the right way can help:<\/p><p>1. Prevent or stop bladder leaks.<\/p><p>2. Strengthen your pelvic floor after having a baby.<\/p><p>3. Save money on bladder leakage products. (ex: pads)<\/p><p>4. Enhance your time in the bedroom.<\/p>",
-            "custom_liquid": "<div class=\"klaviyo-form-R9MCrG\"><\/div>",
             "aside": "",
             "col_button_label": "",
             "col_button_link": ""
@@ -33,11 +21,10 @@
         }
       },
       "block_order": [
-        "164279162640bd8798-0",
-        "164279162640bd8798-1"
+        "164279162640bd8798-0"
       ],
       "settings": {
-        "title": "The Ultimate Guide to Kegels",
+        "title": "Check your email. 📧",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -45,39 +32,38 @@
         "button_label": "",
         "button_link": "",
         "condense_mobile": true,
-        "customization-class": "ebook-landing-content"
+        "customization-class": "ebook-thankyou-content"
       }
     },
-    "16395901794a340fad": {
+    "1644344329053ce36b": {
       "type": "kz-multicolumn",
       "blocks": {
-        "163959017862eed757-0": {
+        "1644344329b9a5d8d6-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/product-pieces_31ce7c41-779e-4c5e-8438-8824d03c2526.jpg",
             "title": "",
-            "text": "",
+            "text": "<p>In the meantime, watch the short video below to learn more about Kegelbell and how it's helped change <strong>20,000+ women's lives<\/strong>. 🎉<\/p>",
             "custom_liquid": "",
             "aside": "",
             "col_button_label": "",
             "col_button_link": ""
           }
         },
-        "163959017862eed757-1": {
+        "1644344329b9a5d8d6-1": {
           "type": "column",
           "settings": {
-            "title": "Kegelbell® The Vagina Gym® Original Kit",
-            "text": "<p>$99.95<\/p><p><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>- Improve bladder and bowel control<\/p><p>- Reduce the risk of pelvic organ prolapse<\/p><p>- Treat Female Sexual Dysfunction (FSD)<\/p>",
-            "custom_liquid": "",
+            "title": "",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6202b54a86348d002ba0aeda\"><\/div>",
             "aside": "",
-            "col_button_label": "Shop Now",
-            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
+            "col_button_label": "",
+            "col_button_link": ""
           }
         }
       },
       "block_order": [
-        "163959017862eed757-0",
-        "163959017862eed757-1"
+        "1644344329b9a5d8d6-0",
+        "1644344329b9a5d8d6-1"
       ],
       "settings": {
         "title": "",
@@ -85,16 +71,16 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Learn More",
+        "button_link": "https:\/\/www.kegelbell.com\/",
         "condense_mobile": true,
-        "customization-class": "page-product"
+        "customization-class": ""
       }
     }
   },
   "order": [
     "main",
     "1642791627db0d7371",
-    "16395901794a340fad"
+    "1644344329053ce36b"
   ]
 }
