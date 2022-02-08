@@ -366,6 +366,28 @@ p.dcodeErrorMessage {
     }
   }
 }
+.ebook-thankyou-content-top {
+  h2.title {
+    text-align: left;
+  }
+  .kz-multicolumn-card__info {
+    .rte p,
+    .rte ul {
+      font-size: 24px;
+    }
+  }
+}
+.ebook-thankyou-content-bottom {
+  .kz-multicolumn-card__info {
+    .rte p,
+    .rte ul {
+      font-size: 20px;
+    }
+  }
+  .kz-multicolumn-list__item:only-child {
+    max-width: 1000rem;
+  }
+}
 
 
 
