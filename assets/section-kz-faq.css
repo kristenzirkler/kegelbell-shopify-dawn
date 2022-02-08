@@ -1,6 +1,6 @@
-.kz-faq .media {
+/*.kz-faq .media {
   width: 150px;
-  height:150px;
+  height: 150px;
 }
 @media screen and (min-width: 750px) {
 .kz-faq .image-wrapper {
@@ -39,4 +39,4 @@
   line-height: 23.4px;
   color: #F7D439;
   margin-right: 16px;
-}
+}*/
