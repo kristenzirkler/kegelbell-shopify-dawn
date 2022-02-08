@@ -42,11 +42,11 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>In the meantime, watch the short video below to learn more about Kegelbell and how it's helped change <strong>20,000+ women's lives<\/strong>. 🎉<\/p>",
+            "text": "<p>In the meantime, watch the short video to learn more about Kegelbell and how it's helped change <strong>20,000+ women's lives<\/strong>. 🎉<\/p>",
             "custom_liquid": "",
             "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
+            "col_button_label": "Learn More",
+            "col_button_link": "https:\/\/www.kegelbell.com\/"
           }
         },
         "1644344329b9a5d8d6-1": {
@@ -71,8 +71,8 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Learn More",
-        "button_link": "https:\/\/www.kegelbell.com\/",
+        "button_label": "",
+        "button_link": "",
         "condense_mobile": true,
         "customization-class": "ebook-thankyou-content-bottom"
       }
