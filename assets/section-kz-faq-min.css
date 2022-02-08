@@ -18,8 +18,11 @@
   border-bottom: 1px solid #D3D3D3;
   padding: 16px 0;
 }
+.faq-items .one-faq.open .faq-desc {
+  display: block;
+}
 .faq-items .faq-desc {
-  /*display: none;*/
+  display: none;
   padding: 16px 0 0;
   overflow: hidden;
 }

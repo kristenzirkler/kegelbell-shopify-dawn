@@ -28,15 +28,10 @@ for (const parent of document.querySelectorAll('.shogun-accordion')) {
 }
 </script>
 <script>
-var elements = document.getElementsByClassName('one-faq');
+var el = document.querySelector('.one-faq');
 
-var myFunction = function() {
-    var childNode = this.querySelector('.faq-desc');
-    childNode.style.display = "block";
-};
-
-for (var i = 0; i < elements.length; i++) {
-    elements[i].addEventListener('click', myFunction, false);
+el.onclick = function() {
+  el.classList.toggle('open');
 }
 /*
 for (const parent of document.querySelectorAll('.one-faq')) {
