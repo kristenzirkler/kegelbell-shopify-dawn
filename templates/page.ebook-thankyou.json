@@ -1,0 +1,86 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1642791627db0d7371": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "164279162640bd8798-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"https:\/\/www.kegelbell.com\/products\/kegelbell-pelvic-floor-training-system\" target=\"_self\">We just sent the download link for the Ultimate Guide To Kegels Ebook!<br\/><br\/>Here’s a little “Thank You” from us, use code<br\/><strong>KEGEL5<\/strong> to get <strong>$5 off<\/strong> your first Kegelbell Original Kit!<\/a><\/p>",
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164279162640bd8798-0"
+      ],
+      "settings": {
+        "title": "Check your email. 📧",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": true,
+        "customization-class": "ebook-thankyou-content-top"
+      }
+    },
+    "1644344329053ce36b": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "1644344329b9a5d8d6-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>In the meantime, watch the short video below to learn more about Kegelbell and how it's helped change <strong>20,000+ women's lives<\/strong>. 🎉<\/p>",
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "1644344329b9a5d8d6-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6202b54a86348d002ba0aeda\"><\/div>",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1644344329b9a5d8d6-0",
+        "1644344329b9a5d8d6-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Learn More",
+        "button_link": "https:\/\/www.kegelbell.com\/",
+        "condense_mobile": true,
+        "customization-class": "ebook-thankyou-content-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642791627db0d7371",
+    "1644344329053ce36b"
+  ]
+}
