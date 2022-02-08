@@ -28,11 +28,13 @@ for (const parent of document.querySelectorAll('.shogun-accordion')) {
 }
 </script>
 <script>
-var el = document.querySelector('.one-faq');
+document.addEventListener('DOMContentLoaded', function(event) {
+  var el = document.querySelector('.one-faq');
 
-el.onclick = function() {
-  el.classList.toggle('open');
-}
+  el.onclick = function() {
+    el.classList.toggle('open');
+  }
+};
 /*
 for (const parent of document.querySelectorAll('.one-faq')) {
   parent.addEventListener('click', function(clickEvent) {
