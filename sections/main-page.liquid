@@ -15,6 +15,7 @@
 
 <script>
 for (const parent of document.querySelectorAll('.shogun-accordion')) {
+  console.log(parent);
   parent.addEventListener('click', function(clickEvent) {
     console.log(parent);
     const child = parent.querySelector('.shogun-accordion-body');
