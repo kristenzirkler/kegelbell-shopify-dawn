@@ -375,13 +375,17 @@ p.dcodeErrorMessage {
     .rte ul {
       font-size: 24px;
     }
+    a {text-decoration: none;}
+  }
+  .kz-multicolumn-list__item:only-child {
+    max-width: 1000rem;
   }
 }
 .ebook-thankyou-content-bottom {
   .kz-multicolumn-card__info {
     .rte p,
     .rte ul {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
   .kz-multicolumn-list__item:only-child {
