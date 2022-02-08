@@ -163,47 +163,98 @@
         "background_style": "secondary"
       }
     },
-    "16395901794a340fad": {
-      "type": "kz-multicolumn",
+    "1644343294a2bcf400": {
+      "type": "kz-faq",
       "blocks": {
-        "163959017862eed757-0": {
+        "16443432949bbf0ed0-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/product-pieces_31ce7c41-779e-4c5e-8438-8824d03c2526.jpg",
-            "title": "",
-            "text": "",
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
+            "title": "What are kegel exercises?",
+            "text": "<p>Kegel exercises are named after the doctor that first explained in western medicine the need for women to exercise pelvic floor muscles (think the muscles of the vagina) in order to stay healthy. Medical schools and associations consider pelvic floor exercises (kegel exercise) as the first line of treatment and prevention for incontinence, pelvic organ prolapse and certain forms of sexual dysfunction.<a href=\"https:\/\/www.kegelbell.com\/blogs\/blog\/kegel-exercises-kegelbell\">Mastering the kegel technique<\/a> is the best way to achieve optimal results.<\/p>"
           }
         },
-        "163959017862eed757-1": {
+        "16443432949bbf0ed0-1": {
           "type": "column",
           "settings": {
-            "title": "Kegelbell® The Vagina Gym® Original Kit",
-            "text": "<p>$99.95<\/p><p><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>- Improve bladder and bowel control<\/p><p>- Reduce the risk of pelvic organ prolapse<\/p><p>- Treat Female Sexual Dysfunction (FSD)<\/p>",
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "Shop Now",
-            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
+            "title": "What can a healthy, strong pelvic floor do for me?",
+            "text": "<p>Studies and research show that a healthy pelvic floor does these things:<\/p><p>1. Creates stronger, more intense orgasm, lubrication, and squeeze<\/p><p>2. Stops bladder leakage when coughing, laughing, sneezing, jumping or during intimacy<\/p><p>3. Supports your internal organs and prevents your pelvic organs from falling.<\/p><p><a href=\"https:\/\/www.kegelbell.com\/pages\/do-you-have-pelvic-floor-dysfunction-pdf\">Take our easy pelvic floor quiz<\/a> to see if you could benefit from stronger pelvic muscles.<\/p>"
+          }
+        },
+        "16443432949bbf0ed0-2": {
+          "type": "column",
+          "settings": {
+            "title": "Why can't I just do kegels on my own?",
+            "text": "<p>Research has shown that 75% of women who attempt kegel exercises do them incorrectly by over-using their abdomen, buttock or leg muscles. <a href=\"https:\/\/www.kegelbell.com\/blogs\/blog\/kegel-exercises-kegelbell\" title=\"how to kegel\">Read more here<\/a>. Not only that, but many women struggle with how long to see results from kegels.<br\/><br\/>Kegelbell’s patent-pending weight system enables women to perform a perfect super-kegel, strengthen the pelvic floor muscles in less time and with better results, taking the confusion out of pelvic floor strengthening.<br\/><\/p>"
+          }
+        },
+        "d532fb27-45dc-404a-8c2d-3ead2c440c47": {
+          "type": "column",
+          "settings": {
+            "title": "Where should I look to find Pelvic Floor Therapy resources?",
+            "text": "<p>Visit <a href=\"https:\/\/www.womenshealthapta.org\/patients\/\">Women's Health<\/a> to find a therapist or other therapy resources in your area.<\/p>"
           }
         }
       },
       "block_order": [
-        "163959017862eed757-0",
-        "163959017862eed757-1"
+        "16443432949bbf0ed0-0",
+        "16443432949bbf0ed0-1",
+        "16443432949bbf0ed0-2",
+        "d532fb27-45dc-404a-8c2d-3ead2c440c47"
       ],
       "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "condense_mobile": true,
-        "customization-class": "page-product"
+        "title": "General Pelvic Floor Health",
+        "background_style": "none"
+      }
+    },
+    "1644343410b0806dd9": {
+      "type": "kz-faq",
+      "blocks": {
+        "16443434101630d293-0": {
+          "type": "column",
+          "settings": {
+            "title": "Is Kegelbell shipped in a discreet package?",
+            "text": "<p>Yes! Your privacy is important to us. That's why Kegelbell is shipped in a discreet package.<\/p>"
+          }
+        },
+        "16443434101630d293-1": {
+          "type": "column",
+          "settings": {
+            "title": "Does Kegelbell have a warranty?",
+            "text": "<p>Kegelbell comes with a 1-year replacement warranty against defects in workmanship. Please <a href=\"https:\/\/kegelbell.com\/pages\/contact-us\">contact us<\/a> documenting any issues with workmanship and we will follow up with instructions.<\/p>"
+          }
+        },
+        "16443434101630d293-2": {
+          "type": "column",
+          "settings": {
+            "title": "Are Kegelbell's two-week challenge results guaranteed?",
+            "text": "<p>Individual results may vary. The majority of our customers tell us they are seeing results after two weeks of use, which is why we challenge everyone to use it for two weeks and find out for themselves. <a href=\"https:\/\/kegelbell.com\/pages\/contact-us\">Contact us<\/a>and tell us what benefits you are seeing. <a href=\"https:\/\/www.kegelbell.com\/pages\/the-two-week-challenge\">Read more about our two-week challenge.<\/a><\/p>"
+          }
+        },
+        "7976acd4-766c-4e0e-87b6-a199936802c5": {
+          "type": "column",
+          "settings": {
+            "title": "Can I return Kegelbell?",
+            "text": "<p>Please contact us at <a href=\"mailto:order@kegelbell.com\">orders@kegelbell.com<\/a> to initiate the refund process. Clearly identify your purchase order number so we can process your request.<\/p>"
+          }
+        },
+        "a573510b-c993-4be8-a2c5-6b7b282e2bfd": {
+          "type": "column",
+          "settings": {
+            "title": "I'm not in the USA. What will my shipping costs be?",
+            "text": "<p>We have suspended all international shipping due to global shipping problems. We will evaluate resuming in the future.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16443434101630d293-0",
+        "16443434101630d293-1",
+        "16443434101630d293-2",
+        "7976acd4-766c-4e0e-87b6-a199936802c5",
+        "a573510b-c993-4be8-a2c5-6b7b282e2bfd"
+      ],
+      "settings": {
+        "title": "Shipping, Returns & Warranties",
+        "background_style": "none"
       }
     }
   },
@@ -211,6 +262,7 @@
     "main",
     "1644274003bc99f245",
     "16442756610d7e2547",
-    "16395901794a340fad"
+    "1644343294a2bcf400",
+    "1644343410b0806dd9"
   ]
 }
