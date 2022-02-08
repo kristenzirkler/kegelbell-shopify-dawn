@@ -19,24 +19,42 @@
           "type": "column",
           "settings": {
             "title": "Where can I use Kegelbell?",
-            "text": "<p>Users add Kegelbell to their weekly routine most typically in private moments in the bathroom or shower.<\/p>",
-            "image": "shopify:\/\/shop_images\/1_cc580dbd-0540-4173-aef3-5227a5efdf7b.png"
+            "text": "<p>Users add Kegelbell to their weekly routine most typically in private moments in the bathroom or shower.<\/p>"
           }
         },
         "164427400373f6b75a-2": {
           "type": "column",
           "settings": {
             "title": "Does the whole thing go inside my vagina?",
-            "text": "<p>Inserting kegel weights is easy. The bulb is inserted like a tampon, with the weight hanging from the chord externally between your thighs. When evaluating how far to insert the kegel weights, it should rest comfortably similar to inserting a tampon.<\/p>",
-            "image": "shopify:\/\/shop_images\/2_dfc13f0a-e900-4a7c-b4fb-174538e6ff71.png"
+            "text": "<p>Inserting kegel weights is easy. The bulb is inserted like a tampon, with the weight hanging from the chord externally between your thighs. When evaluating how far to insert the kegel weights, it should rest comfortably similar to inserting a tampon.<\/p>"
           }
         },
         "35a91a60-cb80-4d10-bf8c-77baadc41151": {
           "type": "column",
           "settings": {
             "title": "Is Kegelbell comfortable to use?",
-            "text": "<p>Because the weight is held outside of the body at the end of a cord, you only have to insert a very small, slender portion into the vagina, making use of the Kegelbell completely comfortable. If you feel like you prefer it to glide inside easier, add a little lubricant to the bulb before inserting it. <strong>We recommend not using a silicone-based lube, but rather an oil or water-based lube with the insert.<\/strong> If you use lubricant, you will noticeably hold less weight as it will be slippery. But no worries. You will still get a truly excellent workout.<\/p><p><br\/>We give you two insert bulbs to choose from so you can find the most comfortable fit. And if you start with the larger bulb, you can progress over time to using the more slender bulb. That will give you 16 training levels to work through.<\/p>",
-            "image": "shopify:\/\/shop_images\/3_6ef201eb-8d69-4a6f-85ea-09f3b9431d26.png"
+            "text": "<p>Because the weight is held outside of the body at the end of a cord, you only have to insert a very small, slender portion into the vagina, making use of the Kegelbell completely comfortable. If you feel like you prefer it to glide inside easier, add a little lubricant to the bulb before inserting it. <strong>We recommend not using a silicone-based lube, but rather an oil or water-based lube with the insert.<\/strong> If you use lubricant, you will noticeably hold less weight as it will be slippery. But no worries. You will still get a truly excellent workout.<\/p><p><br\/>We give you two insert bulbs to choose from so you can find the most comfortable fit. And if you start with the larger bulb, you can progress over time to using the more slender bulb. That will give you 16 training levels to work through.<\/p>"
+          }
+        },
+        "bb7d3faa-fa8c-4cea-821d-0101bcfb058d": {
+          "type": "column",
+          "settings": {
+            "title": "Can you walk around with kegel weights?",
+            "text": "<p>We recommend standing relatively still while using Kegelbell. While you're in the shower is a great place to use it, if not, standing over a towel in your bathroom is another option.<\/p>"
+          }
+        },
+        "833dd861-97d7-4210-8972-8f58e4875476": {
+          "type": "column",
+          "settings": {
+            "title": "How often should I use kegel weights?",
+            "text": "<p>We recommend that you use Kegelbell three times a week, in five-minute workout sessions each time. Some customers like to leave Kegelbell in for up to 10 minutes per workout. You can even use a <a href=\"https:\/\/www.kegelbell.com\/pages\/instructions\">Kegelbell RnB workout song<\/a> to liven up your routine. Then after three months, you can go to one or two times per week to maintain muscle strength.<br\/><\/p><p>Most users find they achieve their goal in 12 weeks and are easily able to maintain better bladder control and improved sexual function that they didn’t even know they could experience. Many users report that with each weight level increase there is an improvement in the quality of orgasm.*<\/p>"
+          }
+        },
+        "059f1f79-d317-4353-b61b-dcfe8cbbe5e9": {
+          "type": "column",
+          "settings": {
+            "title": "How do I use the Extension Kit (Weight D) with my Original Kit?",
+            "text": "<p><strong>Weight D is the fourth in the Kegelbell weight system.<\/strong> It weighs 240 grams and will double the weight of the Original Kit. This additional weight stacks on top of the other weights the same way as the first three weights.<\/p><p>After a customer can use the smallest insert with all three weights in the Original Kit, combined (A+B+C) it is time to add this fourth weight. With the weight of the insert, you get the following combinations of weight:<\/p><p>Weight D + Insert: 270 grams<\/p><p>Weight D + A + Insert: 300 grams<\/p><p>Weight D + B + Insert: 330 grams<\/p><p>Weight D + A + B + Insert: 360 grams<\/p><p>Weight D + C + Insert: 390 grams<\/p><p>Weight D + A + C + Insert: 420 grams<\/p><p>Weight D + B + C + Insert: 450 grams<\/p><p>Weight D + A + B + C + Insert: 480 grams<\/p>"
           }
         }
       },
@@ -44,7 +62,10 @@
         "164427400373f6b75a-0",
         "164427400373f6b75a-1",
         "164427400373f6b75a-2",
-        "35a91a60-cb80-4d10-bf8c-77baadc41151"
+        "35a91a60-cb80-4d10-bf8c-77baadc41151",
+        "bb7d3faa-fa8c-4cea-821d-0101bcfb058d",
+        "833dd861-97d7-4210-8972-8f58e4875476",
+        "059f1f79-d317-4353-b61b-dcfe8cbbe5e9"
       ],
       "settings": {
         "title": "How to Use Kegelbell",
@@ -58,16 +79,14 @@
           "type": "column",
           "settings": {
             "title": "Why Kegelbell?",
-            "text": "<p>Most of us don't understand the function of our pelvic floor and kegels are hard to do by themselves. Kegelbell not only helps you make sure you're doing it correctly but it also significantly reduces the length of time to perform kegel exercises.<\/p>",
-            "image": "shopify:\/\/shop_images\/why.png"
+            "text": "<p>Most of us don't understand the function of our pelvic floor and kegels are hard to do by themselves. Kegelbell not only helps you make sure you're doing it correctly but it also significantly reduces the length of time to perform kegel exercises.<\/p>"
           }
         },
         "1644275661aa678bfd-1": {
           "type": "column",
           "settings": {
             "title": "How is Kegelbell different from kegel balls or yoni eggs or ben wa balls?",
-            "text": "<p>Kegel balls have all the weight inside the body, <span style=\"text-decoration:underline\">which makes them too bulky and too light to be effective<\/span>. All of them are made of unhealthy materials and have dangerous instructions to wear them for hours! Please don't do that!!!<br\/><br\/>What makes Kegelbell unique and the first of its kind is that the weight system is outside of the body. Our patent-pending weight system enables us to create a very small and slender insert that makes it comfortable to use and allows you to add much more weight to your workout than is possible with kegel balls or ben wa balls or yoni eggs or jade eggs.<\/p>",
-            "image": "shopify:\/\/shop_images\/4_0656b9f7-9ec9-43d0-ac72-8b847ecf2a03.png"
+            "text": "<p>Kegel balls have all the weight inside the body, <span style=\"text-decoration:underline\">which makes them too bulky and too light to be effective<\/span>. All of them are made of unhealthy materials and have dangerous instructions to wear them for hours! Please don't do that!!!<br\/><br\/>What makes Kegelbell unique and the first of its kind is that the weight system is outside of the body. Our patent-pending weight system enables us to create a very small and slender insert that makes it comfortable to use and allows you to add much more weight to your workout than is possible with kegel balls or ben wa balls or yoni eggs or jade eggs.<\/p>"
           }
         }
       },
