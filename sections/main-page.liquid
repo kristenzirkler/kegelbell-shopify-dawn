@@ -1,22 +1,3 @@
-<script>
-for (const parent of document.querySelectorAll('.one-faq')) {
-  parent.addEventListener('click', function(clickEvent) {
-    //console.log('click');
-    console.log(parent);
-    const child = parent.querySelector('.faq-desc');
-    // If the element is visible, hide it
-    console.log(child);
-    if (window.getComputedStyle(child).display === 'block') {
-      child.style.display = 'none';
-      console.log('hide it');
-      return;
-    }
-    // Otherwise, show it
-    child.style.display = 'block';
-    console.log('show it');
-  })
-}
-</script>
 <link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 
@@ -43,6 +24,25 @@ for (const parent of document.querySelectorAll('.shogun-accordion')) {
     }
     // Otherwise, show it
     child.style.display = 'block';
+  })
+}
+</script>
+<script>
+for (const parent of document.querySelectorAll('.one-faq')) {
+  parent.addEventListener('click', function(clickEvent) {
+    //console.log('click');
+    console.log(parent);
+    const child = parent.querySelector('.faq-desc');
+    // If the element is visible, hide it
+    console.log(child);
+    if (window.getComputedStyle(child).display === 'block') {
+      child.style.display = 'none';
+      console.log('hide it');
+      return;
+    }
+    // Otherwise, show it
+    child.style.display = 'block';
+    console.log('show it');
   })
 }
 </script>
