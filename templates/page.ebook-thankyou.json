@@ -1,0 +1,100 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1642791627db0d7371": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "164279162640bd8798-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ebook.jpg",
+            "title": "",
+            "text": "",
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "164279162640bd8798-1": {
+          "type": "column",
+          "settings": {
+            "title": "FREE EBOOK 🎉",
+            "text": "<p>Kegeling the right way can help:<\/p><p>1. Prevent or stop bladder leaks.<\/p><p>2. Strengthen your pelvic floor after having a baby.<\/p><p>3. Save money on bladder leakage products. (ex: pads)<\/p><p>4. Enhance your time in the bedroom.<\/p>",
+            "custom_liquid": "<div class=\"klaviyo-form-R9MCrG\"><\/div>",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164279162640bd8798-0",
+        "164279162640bd8798-1"
+      ],
+      "settings": {
+        "title": "The Ultimate Guide to Kegels",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": true,
+        "customization-class": "ebook-landing-content"
+      }
+    },
+    "16395901794a340fad": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "163959017862eed757-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-pieces_31ce7c41-779e-4c5e-8438-8824d03c2526.jpg",
+            "title": "",
+            "text": "",
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "163959017862eed757-1": {
+          "type": "column",
+          "settings": {
+            "title": "Kegelbell® The Vagina Gym® Original Kit",
+            "text": "<p>$99.95<\/p><p><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>- Improve bladder and bowel control<\/p><p>- Reduce the risk of pelvic organ prolapse<\/p><p>- Treat Female Sexual Dysfunction (FSD)<\/p>",
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "Shop Now",
+            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
+          }
+        }
+      },
+      "block_order": [
+        "163959017862eed757-0",
+        "163959017862eed757-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": true,
+        "customization-class": "page-product"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642791627db0d7371",
+    "16395901794a340fad"
+  ]
+}
