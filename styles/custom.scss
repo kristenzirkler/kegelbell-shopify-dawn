@@ -279,6 +279,20 @@ p.dcodeErrorMessage {
 .shopify-payment-button {
   margin-top: 20px;
 }
+.shopify-installments {
+  font-size: 12px;
+  margin-top: 10px;
+  .shop-pay-logo {
+    width: 50px;
+  }
+  .shopify-installments__learn-more {
+    text-indent: -5000px;
+    width: 20px;
+    &:after {
+      content: '\2139';  
+    }
+  }
+}
 // Pages ------------------------------------------------------
 @media screen and (min-width: 750px) {
 .template-page .content-for-layout .page-width,
