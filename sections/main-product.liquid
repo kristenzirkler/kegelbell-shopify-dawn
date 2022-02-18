@@ -253,8 +253,6 @@
               {%- endif -%}
             {%- endunless -%}
 
-            
-
             <noscript class="product-form__noscript-wrapper-{{ section.id }}">
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
@@ -290,7 +288,6 @@
                 </div>
 
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                {{ form | payment_terms }}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   <div class="product-form__buttons">
                     <button
@@ -316,6 +313,7 @@
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
+                {{ form | payment_terms }}
                 {%- endform -%}
               </product-form>
 
