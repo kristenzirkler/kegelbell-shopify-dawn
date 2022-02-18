@@ -267,7 +267,8 @@ p.dcodeErrorMessage {
     font-size: 100% !important;
 }
 // Product Detail ---------------------------------------------
-.shopify-payment-button__button--unbranded {
+.shopify-payment-button .shopify-payment-button__button--unbranded,
+.shopify-payment-button .shopify-payment-button__button.shopify-payment-button__button--unbranded {
   background-color: #333;
   box-shadow: 0 0 0 0.1rem rgba(#333,var(--alpha-button-border));
   line-height: 40px;
