@@ -313,8 +313,8 @@
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
-                {%- endform -%}
                 {{ form | payment_terms }}
+                {%- endform -%}
               </product-form>
 
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
