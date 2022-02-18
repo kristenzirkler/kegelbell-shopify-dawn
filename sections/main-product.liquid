@@ -313,13 +313,7 @@
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
-<style>
-.shopify-installments {
-  font-size: 12px;
-  margin-top: 10px;
-}
-</style>
-                {{ form | payment_terms }}
+                <div class="product-installments">{{ form | payment_terms }}</div>
                 {%- endform -%}
               </product-form>
 
