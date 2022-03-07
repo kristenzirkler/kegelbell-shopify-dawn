@@ -18,6 +18,12 @@
             "stars_text_empty": ""
           }
         },
+        "500a6cd2-85e8-40dc-9b3b-c988fbf69c84": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -56,6 +62,7 @@
       "block_order": [
         "title",
         "b648afc0-044e-4d69-b9fb-ef596c9ee6dd",
+        "500a6cd2-85e8-40dc-9b3b-c988fbf69c84",
         "price",
         "buy_buttons",
         "016e2b30-2981-41cb-9d7f-dfc3e35bba69",
