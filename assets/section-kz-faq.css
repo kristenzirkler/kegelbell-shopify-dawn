@@ -17,6 +17,7 @@
 .faq-items .one-faq {
   border-bottom: 1px solid #D3D3D3;
   padding: 16px 0;
+  cursor: pointer;
 }
 .faq-items .one-faq.open .faq-desc {
   display: block;
@@ -39,4 +40,7 @@
   line-height: 23.4px;
   color: #F7D439;
   margin-right: 16px;
+}
+.faq-items .one-faq.open .faq-title:after {
+  content: '-';
 }
