@@ -1,6 +1,6 @@
 console.log('4');
 const faqtog = document.querySelector('.one-faq');
-const handleToggle = () => faqtog.classList.toggle('active');
+const handleToggle = () => faqtog.classList.toggle('open');
 
 faqtog.onclick = () => handleToggle();
 faqtog.addEventListener('keyup', (event) => {
