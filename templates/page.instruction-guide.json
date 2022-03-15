@@ -7,6 +7,7 @@
     },
     "1644343410b0806dd9": {
       "type": "kz-faq",
+      "disabled": true,
       "blocks": {
         "16443434101630d293-0": {
           "type": "column",
@@ -60,41 +61,10 @@
         "title": "",
         "background_style": "secondary"
       }
-    },
-    "1644343613bda4fd08": {
-      "type": "kz-multicolumn",
-      "blocks": {
-        "1644343613fb81ee3d-2": {
-          "type": "column",
-          "settings": {
-            "title": "Prefer to connect with our team?",
-            "text": "",
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "Contact Us",
-            "col_button_link": "shopify:\/\/pages\/contact-us"
-          }
-        }
-      },
-      "block_order": [
-        "1644343613fb81ee3d-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "condense_mobile": true,
-        "customization-class": ""
-      }
     }
   },
   "order": [
     "main",
-    "1644343410b0806dd9",
-    "1644343613bda4fd08"
+    "1644343410b0806dd9"
   ]
 }
