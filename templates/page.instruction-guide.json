@@ -1,0 +1,95 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1644343410b0806dd9": {
+      "type": "kz-faq",
+      "blocks": {
+        "16443434101630d293-0": {
+          "type": "column",
+          "settings": {
+            "title": "Getting Started with Kegelbell",
+            "text": "<p>Yes! Your privacy is important to us. That's why Kegelbell is shipped in a discreet package.<\/p>"
+          }
+        },
+        "16443434101630d293-1": {
+          "type": "column",
+          "settings": {
+            "title": "Does Kegelbell have a warranty?",
+            "text": "<p>Kegelbell comes with a 1-year replacement warranty against defects in workmanship. Please <a href=\"https:\/\/kegelbell.com\/pages\/contact-us\">contact us<\/a> documenting any issues with workmanship and we will follow up with instructions.<\/p>"
+          }
+        },
+        "16443434101630d293-2": {
+          "type": "column",
+          "settings": {
+            "title": "Are Kegelbell's two-week challenge results guaranteed?",
+            "text": "<p>Individual results may vary. The majority of our customers tell us they are seeing results after two weeks of use, which is why we challenge everyone to use it for two weeks and find out for themselves. <a href=\"https:\/\/kegelbell.com\/pages\/contact-us\">Contact us<\/a>and tell us what benefits you are seeing. <a href=\"https:\/\/www.kegelbell.com\/pages\/the-two-week-challenge\">Read more about our two-week challenge.<\/a><\/p>"
+          }
+        },
+        "7976acd4-766c-4e0e-87b6-a199936802c5": {
+          "type": "column",
+          "settings": {
+            "title": "Can I return Kegelbell?",
+            "text": "<p>Please contact us at <a href=\"mailto:order@kegelbell.com\">orders@kegelbell.com<\/a> to initiate the refund process. Clearly identify your purchase order number so we can process your request.<\/p>"
+          }
+        },
+        "a573510b-c993-4be8-a2c5-6b7b282e2bfd": {
+          "type": "column",
+          "settings": {
+            "title": "I'm not in the USA. What will my shipping costs be?",
+            "text": "<p>We have suspended all international shipping due to global shipping problems. We will evaluate resuming in the future.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16443434101630d293-0",
+        "16443434101630d293-1",
+        "16443434101630d293-2",
+        "7976acd4-766c-4e0e-87b6-a199936802c5",
+        "a573510b-c993-4be8-a2c5-6b7b282e2bfd"
+      ],
+      "settings": {
+        "title": "Shipping, Returns & Warranties",
+        "background_style": "secondary"
+      }
+    },
+    "1644343613bda4fd08": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "1644343613fb81ee3d-2": {
+          "type": "column",
+          "settings": {
+            "title": "Prefer to connect with our team?",
+            "text": "",
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "Contact Us",
+            "col_button_link": "shopify:\/\/pages\/contact-us"
+          }
+        }
+      },
+      "block_order": [
+        "1644343613fb81ee3d-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": true,
+        "customization-class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1644343410b0806dd9",
+    "1644343613bda4fd08"
+  ]
+}
