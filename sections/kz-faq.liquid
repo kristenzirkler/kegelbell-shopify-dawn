@@ -44,17 +44,22 @@
   </div>
 </div>
 {% javascript %}
-console.log('6');
+console.log('7');
 
-const faqtog = document.querySelectorAll('.one-faq');
-const handleToggle = () => faqtog.classList.toggle('open');
+const links = document.querySelectorAll('.one-faq');
 
-faqtog.onclick = () => handleToggle();
-faqtog.addEventListener('keyup', (event) => {
-  if(event.keyCode === 13 || event.keyCode === 32) {
-    handleToggle();
-    console.log('toggle');
-  }
+links.forEach((link) => {
+  link.addEventListener('click', () => {
+    const notClickedLinks = Array.from(links).filter((notClickedLink) => {
+      return notClickedLink !== link;
+    });
+
+    notClickedLinks.forEach((notClickedLink) => {
+      notClickedLink.classList.remove('open');
+    });
+
+    link.classList.add('open');
+  });
 });
 {% endjavascript %}
 {% schema %}
