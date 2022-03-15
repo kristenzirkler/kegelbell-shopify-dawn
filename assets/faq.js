@@ -1,9 +1,9 @@
-console.log('3');
-const el = document.querySelector('.one-faq');
-const handleToggle = () => el.classList.toggle('active');
+console.log('4');
+const faqtog = document.querySelector('.one-faq');
+const handleToggle = () => faqtog.classList.toggle('active');
 
-el.onclick = () => handleToggle();
-el.addEventListener('keyup', (event) => {
+faqtog.onclick = () => handleToggle();
+faqtog.addEventListener('keyup', (event) => {
   if(event.keyCode === 13 || event.keyCode === 32) {
     handleToggle();
     console.log('toggle');
