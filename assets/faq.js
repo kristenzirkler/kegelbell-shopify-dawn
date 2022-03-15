@@ -1,3 +1,4 @@
+console.log('2');
 for (const parent of document.querySelectorAll('.one-faq')) {
   //console.log(parent);
   parent.addEventListener('click', function(clickEvent) {
