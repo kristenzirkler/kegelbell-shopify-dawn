@@ -12,35 +12,40 @@
           "type": "column",
           "settings": {
             "title": "Getting Started with Kegelbell",
-            "text": "<p>Yes! Your privacy is important to us. That's why Kegelbell is shipped in a discreet package.<\/p>"
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6194e6697321be002c930d6f\"><\/div>"
           }
         },
         "16443434101630d293-1": {
           "type": "column",
           "settings": {
-            "title": "Does Kegelbell have a warranty?",
-            "text": "<p>Kegelbell comes with a 1-year replacement warranty against defects in workmanship. Please <a href=\"https:\/\/kegelbell.com\/pages\/contact-us\">contact us<\/a> documenting any issues with workmanship and we will follow up with instructions.<\/p>"
+            "title": "Your First Workout",
+            "text": "",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6194e7a27321be002c942b17\"><\/div>"
           }
         },
         "16443434101630d293-2": {
           "type": "column",
           "settings": {
-            "title": "Are Kegelbell's two-week challenge results guaranteed?",
-            "text": "<p>Individual results may vary. The majority of our customers tell us they are seeing results after two weeks of use, which is why we challenge everyone to use it for two weeks and find out for themselves. <a href=\"https:\/\/kegelbell.com\/pages\/contact-us\">Contact us<\/a>and tell us what benefits you are seeing. <a href=\"https:\/\/www.kegelbell.com\/pages\/the-two-week-challenge\">Read more about our two-week challenge.<\/a><\/p>"
+            "title": "Kegelbell User Guide",
+            "text": "<p>Download our Kegelbell User Guide for all the information from getting started, the Kegelbell levels, different types of workouts and much more.<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2198\/4059\/files\/Kegelbell_User_Guide-8.21.pdf?v=1627930443\" target=\"_blank\">Download<\/a><\/p>",
+            "custom_liquid": ""
           }
         },
         "7976acd4-766c-4e0e-87b6-a199936802c5": {
           "type": "column",
           "settings": {
-            "title": "Can I return Kegelbell?",
-            "text": "<p>Please contact us at <a href=\"mailto:order@kegelbell.com\">orders@kegelbell.com<\/a> to initiate the refund process. Clearly identify your purchase order number so we can process your request.<\/p>"
+            "title": "Maximize Your Workout Guide",
+            "text": "<p>Download our Kegelbell User Guide for all the information from getting started, the Kegelbell levels, different types of workouts and much more.<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2198\/4059\/files\/Kegelbell_Maximizing_Your_Workout.pdf?v=1593727331\" target=\"_blank\">Download<\/a><\/p>",
+            "custom_liquid": ""
           }
         },
         "a573510b-c993-4be8-a2c5-6b7b282e2bfd": {
           "type": "column",
           "settings": {
-            "title": "I'm not in the USA. What will my shipping costs be?",
-            "text": "<p>We have suspended all international shipping due to global shipping problems. We will evaluate resuming in the future.<\/p>"
+            "title": "Kegelbell's RnB Workout Song 🎶🎉",
+            "text": "<p>What better way to motivate yourself than with eight glorious minutes of Michael, our talented musician, talking you through your workout? This song is meant to guide users at all levels, so follow along at your own pace.<\/p>",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6194e8cf7321be002c9545ec\"><\/div>"
           }
         }
       },
@@ -52,7 +57,7 @@
         "a573510b-c993-4be8-a2c5-6b7b282e2bfd"
       ],
       "settings": {
-        "title": "Shipping, Returns & Warranties",
+        "title": "",
         "background_style": "secondary"
       }
     },
