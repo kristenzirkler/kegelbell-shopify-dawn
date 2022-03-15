@@ -43,23 +43,15 @@
     </div>
   </div>
 </div>
-
+hi
 {% javascript %}
-console.log('7.1');
+console.log('7.2');
 
 const links = document.querySelectorAll('.one-faq');
 
 links.forEach((link) => {
   link.addEventListener('click', () => {
-    const notClickedLinks = Array.from(links).filter((notClickedLink) => {
-      return notClickedLink !== link;
-    });
-
-    notClickedLinks.forEach((notClickedLink) => {
-      notClickedLink.classList.remove('open');
-    });
-
-    link.classList.add('open');
+    link.classList.toggle('open');
   });
 });
 {% endjavascript %}
