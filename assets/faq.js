@@ -1,18 +1,10 @@
-console.log('2');
-for (const parent of document.querySelectorAll('.one-faq')) {
-  //console.log(parent);
-  parent.addEventListener('click', function(clickEvent) {
-    //console.log(parent);
-    const child = parent.querySelector('.faq-desc');
-    //console.log(child);
-    console.log(window.getComputedStyle(child).display);
 
-    // If the element is visible, hide it
-    if (window.getComputedStyle(child).display === 'block') {
-      child.style.display = 'none';
-      return;
-    }
-    // Otherwise, show it
-    child.style.display = 'block';
-  })
-}
+const el = document.querySelector('.one-faq');
+const handleToggle = () => el.classList.toggle('active');
+
+el.onclick = () => handleToggle();
+el.addEventListener('keyup', (event) => {
+  if(event.keyCode === 13 || event.keyCode === 32) {
+    handleToggle();
+  }
+});
