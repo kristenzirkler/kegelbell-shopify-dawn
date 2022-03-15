@@ -1,5 +1,4 @@
 {{ 'section-kz-faq.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'faq.js' | asset_url }}" defer="defer"></script>
 
 <div class="kz-faq background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width">
@@ -45,8 +44,8 @@
   </div>
 </div>
 {% javascript %}
-console.log('4');
-const faqtog = document.querySelector('.one-faq');
+console.log('6');
+const faqtog = document.querySelectorAll('.one-faq');
 const handleToggle = () => faqtog.classList.toggle('open');
 
 faqtog.onclick = () => handleToggle();
