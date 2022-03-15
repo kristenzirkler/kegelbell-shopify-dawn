@@ -38,6 +38,9 @@
             {{ block.settings.text }}
           </div>
           {%- endif -%}
+          {%- if block.settings.custom_liquid != blank -%}
+            <div class="rte">{{ block.settings.custom_liquid }}</div>
+          {%- endif -%}
         </div>
     {%- endfor -%}
     </div>
@@ -98,6 +101,12 @@ toggleFAQ.forEach((link) => {
           "type": "richtext",
           "id": "text",
           "label": "Answer"
+        },
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "Custom HTML or Liquid",
+          "info": "HTML or Liquid code accepted."
         },
         {
           "type": "image_picker",
