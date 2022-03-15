@@ -43,13 +43,10 @@
     </div>
   </div>
 </div>
-hi
 {% javascript %}
-console.log('7.2');
+const toggleFAQ = document.querySelectorAll('.one-faq');
 
-const links = document.querySelectorAll('.one-faq');
-
-links.forEach((link) => {
+toggleFAQ.forEach((link) => {
   link.addEventListener('click', () => {
     link.classList.toggle('open');
   });
