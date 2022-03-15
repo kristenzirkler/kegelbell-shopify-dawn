@@ -733,6 +733,3 @@ var simulateClick = function (elem) {
 	// If cancelled, don't dispatch our event
 	var canceled = !elem.dispatchEvent(evt);
 };
-
-var someLink = document.querySelector('.order-summary-toggle');
-simulateClick(someLink);
