@@ -45,11 +45,29 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "1648228085e5dea432": {
+      "type": "apps",
+      "blocks": {
+        "641da128-2b7e-4dfe-9b33-ab6cc410b047": {
+          "type": "shopify:\/\/apps\/bundler-product-bundles\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": "3ppv"
+          }
+        }
+      },
+      "block_order": [
+        "641da128-2b7e-4dfe-9b33-ab6cc410b047"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "1639586326b2a060e3"
+    "1639586326b2a060e3",
+    "1648228085e5dea432"
   ]
 }
