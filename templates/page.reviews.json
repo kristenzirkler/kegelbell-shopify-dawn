@@ -66,7 +66,7 @@
           "settings": {
             "title": "Fitness Expert MumWarrior shares her opinion of Kegelbell",
             "text": "",
-            "custom_liquid": "<br><\/br>\n<div class=\"reeview-app-widget\" id=\"reeview-app-widget_61f82ded612174002a1e0c6d\"><\/div>",
+            "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_61f82ded612174002a1e0c6d\"><\/div>",
             "aside": "",
             "col_button_label": "",
             "col_button_link": ""
