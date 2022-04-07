@@ -63,7 +63,7 @@
                   <h3>{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte main-text{%- if block.settings.trunc_text == true -%} truncate-text{%- endif -%}">{{ block.settings.text }}</div>
+                  <div class="rte main-text{% if block.settings.trunc_text == true %} truncate-text{% endif %}">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.custom_liquid != blank -%}
                   <div class="rte custom-liquid">{{ block.settings.custom_liquid }}</div>
