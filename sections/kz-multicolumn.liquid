@@ -63,7 +63,7 @@
                   <h3>{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte main-text">{{ block.settings.text }}</div>
+                  <div class="rte main-text {%- if block.settings.trunc_text == true -%}truncate-text{%- endif -%}">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.custom_liquid != blank -%}
                   <div class="rte custom-liquid">{{ block.settings.custom_liquid }}</div>
@@ -262,16 +262,16 @@
           "label": "Title"
         },
         {
+          "type": "checkbox",
+          "id": "trunc_text",
+          "label": "Truncate Text",
+          "default": false
+        },
+        {
           "type": "richtext",
           "id": "text",
           "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
           "label": "Text"
-        },
-        {
-          "type": "checkbox",
-          "id": "trunc_text",
-          "label": "Truncate Text",
-          "default": true
         },
         {
           "type": "liquid",
