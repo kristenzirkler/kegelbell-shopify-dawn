@@ -6,7 +6,7 @@
 }
 .kz-multicolumn-card .kz-multicolumn-card__info .main-text.truncate-text:after {
   content: '';
-  height: 20px;
+  height: 26px;
   position: absolute;
   left: 0; right: 0;
   bottom: 0;
@@ -187,9 +187,11 @@
 }
 
 .kz-multicolumn-card-spacing {
+  /*
   padding-top: 2.5rem;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+  */
 }
 
 .kz-multicolumn-card__info > :nth-child(2) {
