@@ -1,3 +1,27 @@
+.kz-multicolumn-card .kz-multicolumn-card__info .main-text.truncate-text {
+  max-height: 90px;
+  overflow: hidden;
+  position: relative;
+  transition: all .3s;
+}
+.kz-multicolumn-card .kz-multicolumn-card__info .main-text.truncate-text:after {
+  content: '';
+  height: 20px;
+  position: absolute;
+  left: 0; right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+}
+.background-accent .kz-multicolumn-card .kz-multicolumn-card__info .main-text.truncate-text:after {
+  background: linear-gradient(0deg, rgba(254,227,110,1) 0%, rgba(254,227,110,0) 100%);
+}
+.kz-multicolumn-card .kz-multicolumn-card__info .main-text.truncate-text:hover {
+  max-height: 900px;
+}
+.kz-multicolumn-card .kz-multicolumn-card__info .main-text.truncate-text:hover:after {
+  display: none;
+}
+
 @media screen and (max-width: 749px) {
 .kz-multicolumn.condense-mobile .kz-multicolumn-card {
   display: flex;
@@ -12,13 +36,15 @@
 }
 
 .kz-multicolumn .title {
-  font-size: 24px;
+  font-size: 16px;
+    opacity: .7;
+    text-transform: uppercase;
   margin-bottom: 20px !important;
   padding: 0 20px;
 }
 @media screen and (min-width: 749px) {
 .kz-multicolumn .title {
-  font-size: 36px;
+  /*font-size: 36px;*/
 }
 }
 .kz-multicolumn.no-heading .title {

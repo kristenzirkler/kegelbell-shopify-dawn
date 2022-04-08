@@ -2537,6 +2537,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/templates\/page.instruction-guide.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/templates\/page.instruction-guide-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/templates\/page.json" : {
       "ft" : 524288,
       "oA" : 1,
