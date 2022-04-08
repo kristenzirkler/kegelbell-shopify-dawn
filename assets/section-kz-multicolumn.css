@@ -37,8 +37,8 @@
 
 .kz-multicolumn .title {
   font-size: 16px;
-    opacity: .7;
-    text-transform: uppercase;
+  opacity: .7;
+  text-transform: uppercase;
   margin-bottom: 20px !important;
   padding: 0 20px;
 }
@@ -61,7 +61,7 @@
   color: #333;
 }
 .kz-multicolumn .rating-stars {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .kz-multicolumn .rating-stars svg {
   width: 36px;
