@@ -4,6 +4,9 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+  #Banner-{{ section.id }} .banner__media.media img {
+    object-position: {{ section.settings.image_position }};
+  }
 {%- endstyle -%}
 
 <div id="Banner-{{ section.id }}" class="banner banner--{{ section.settings.image_height }}{% if section.settings.customization-class %} {{ section.settings.customization-class }}{% endif %}">
@@ -86,6 +89,50 @@
       "default": "small",
       "label": "t:sections.image-banner.settings.image_height.label",
       "info": "t:sections.image-banner.settings.image_height.info"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "options": [
+        {
+          "value": "center left",
+          "label": "Center Left"
+        },
+        {
+          "value": "center right",
+          "label": "Center Right"
+        },
+        {
+          "value": "center center",
+          "label": "Center"
+        },
+        {
+          "value": "top left",
+          "label": "Top Left"
+        },
+        {
+          "value": "top right",
+          "label": "Top Right"
+        },
+        {
+          "value": "top center",
+          "label": "Top Center"
+        },
+        {
+          "value": "bottom left",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "bottom right",
+          "label": "Bottom Right"
+        },
+        {
+          "value": "bottom center",
+          "label": "Bottom Center"
+        }
+      ],
+      "default": "center center",
+      "label": "Image Position"
     },
     {
       "type": "select",
