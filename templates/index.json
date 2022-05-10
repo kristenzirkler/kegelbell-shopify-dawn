@@ -34,9 +34,9 @@
         "163960904666f23939-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/A7304596.jpg",
+        "image": "shopify:\/\/shop_images\/A7304500.jpg",
         "image_height": "large",
-        "image_position": "bottom center",
+        "image_position": "top center",
         "desktop_text_box_position": "center",
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
