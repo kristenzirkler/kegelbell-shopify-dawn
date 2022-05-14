@@ -104,17 +104,20 @@
     </a>
   </div>
   {% if blog.next_article or blog.previous_article %}
-    <hr>
-    <p>
+    <div class="post-pagination">
       {% if blog.previous_article %}
-        {{ blog.previous_article.url }}<br>
+      <a href="{{ blog.previous_article.url }}">
+        <span>Previous</span>
         {{ blog.previous_article.title }}
+      </a>
       {% endif %}
       {% if blog.next_article %}
-        {{ blog.next_article.url }}<br>
+      <a href="{{ blog.next_article.url }}">
+        <span>Next</span>
         {{ blog.next_article.title }}
+      </a>
       {% endif %}
-    </p>
+    </div>
   {% endif %}
   {%- if blog.comments_enabled? -%}
     <div class="article-template__comment-wrapper background-secondary">
