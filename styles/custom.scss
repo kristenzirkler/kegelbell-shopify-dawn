@@ -340,20 +340,27 @@ p.dcodeErrorMessage {
 .template-article #MainContent .quiz-cta {
   width: 200px;
   float: right;
+  margin-right: -20px;
   a {
     text-decoration: none;
     border: none !important;
-    padding: 10px;
+    display: block;
+    text-align: center;
+    padding: 16px;
     background: $color-kb-yellow-light;
     color: $color-text;
+    font-size: 14px;
+    line-height: 16px;
     border-radius: 10px;
     &:hover {
       background: $color-kb-yellow;
       text-decoration: none;
     }
   }
-  strong {
+  strong,
+  span.text {
     display: block;
+    margin-bottom: 6px;
   }
 }
 #kegelbell-links {
