@@ -103,6 +103,21 @@
       {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
     </a>
   </div>
+  {% if blog.next_article or blog.previous_article %}
+    <hr>
+    <p>
+      {% if blog.previous_article %}
+        <span class="left">
+          &larr; {{ 'blogs.article.older_post' | t | link_to: blog.previous_article }}
+        </span>
+      {% endif %}
+      {% if blog.next_article %}
+        <span class="right">
+          {{ 'blogs.article.newer_post' | t | link_to: blog.next_article }} &rarr;
+        </span>
+      {% endif %}
+    </p>
+  {% endif %}
   {%- if blog.comments_enabled? -%}
     <div class="article-template__comment-wrapper background-secondary">
       <div id="comments" class="page-width page-width--narrow">
