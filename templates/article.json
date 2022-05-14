@@ -3,6 +3,12 @@
     "main": {
       "type": "main-article",
       "blocks": {
+        "4a4f038f-f9b2-4fee-a747-9c70916bae98": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "small"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -17,6 +23,7 @@
         }
       },
       "block_order": [
+        "4a4f038f-f9b2-4fee-a747-9c70916bae98",
         "title",
         "content"
       ],
@@ -32,6 +39,7 @@
             "image": "shopify:\/\/shop_images\/product-pieces_31ce7c41-779e-4c5e-8438-8824d03c2526.jpg",
             "title": "",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "",
             "aside": "",
             "col_button_label": "",
@@ -43,6 +51,7 @@
           "settings": {
             "title": "Kegelbell® The Vagina Gym® Original Kit",
             "text": "<p>$99.95<\/p><p><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>- Improve bladder and bowel control<\/p><p>- Reduce the risk of pelvic organ prolapse<\/p><p>- Treat Female Sexual Dysfunction (FSD)<\/p>",
+            "trunc_text": false,
             "custom_liquid": "",
             "aside": "",
             "col_button_label": "Shop Now",
