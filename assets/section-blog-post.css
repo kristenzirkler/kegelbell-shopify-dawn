@@ -91,7 +91,11 @@
 
 .article-template__title {
   margin: 0;
+}
+@media screen and (max-width: 750px) {
+.article-template__title {
   font-size: 24px;
+}
 }
 
 .article-template__title:not(:only-child) {
