@@ -341,16 +341,15 @@ p.dcodeErrorMessage {
   width: 200px;
   float: right;
   margin-right: -20px;
+  margin-left: 20px;
   a {
     text-decoration: none;
     border: none !important;
     display: block;
     text-align: center;
-    padding: 16px;
+    padding: 20px;
     background: $color-kb-yellow-light;
     color: $color-text;
-    font-size: 14px;
-    line-height: 16px;
     border-radius: 10px;
     &:hover {
       background: $color-kb-yellow;
@@ -361,6 +360,18 @@ p.dcodeErrorMessage {
   span.text {
     display: block;
     margin-bottom: 6px;
+  }
+  strong {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  span.text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .button {
+    font-size: 14px;
+    line-height: 38px;
   }
 }
 #kegelbell-links {

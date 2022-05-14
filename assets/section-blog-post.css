@@ -222,3 +222,8 @@
 .kz-multicolumn.blog-product .button {
   margin-top: 10px;
 }
+.article-template .text-callout {
+  padding: 20px;
+  font-size: 18px;
+  border-left: 2px solid #FEE36E;
+}
