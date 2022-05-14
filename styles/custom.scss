@@ -477,6 +477,37 @@ p.dcodeErrorMessage {
   }
 }
 
+// Mobile Footer
+@media screen and (max-width: 750px) {
+.footer-block.footer-block--menu {
+  margin: 0;
+  border-top: 1px solid #fff;
+}
+.footer-block.footer-block--menu:before {
+  content: '+';
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  width: 40px;
+  text-align: center;
+  display: block;
+  float: right;
+}
+.footer-block.footer-block--newsletter {
+  border-top: 1px solid #fff;
+  padding: 4rem 0;
+  margin: 0;
+}
+.footer-block.footer-block--menu h2 {
+  margin: 0;
+  line-height: 40px;
+}
+.footer-block__details-content {
+  display: none;
+}
+}
+
+
 
 
 
