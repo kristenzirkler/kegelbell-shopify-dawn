@@ -51,6 +51,8 @@
           <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
             {% capture productcta %}{% include 'product-cta' %}{% endcapture %}
             {{ article.content | replace: "[product-cta]", productcta }}
+            {% capture quizcta %}{% include 'quiz-cta' %}{% endcapture %}
+            {{ article.content | replace: "[quiz-cta]", quizcta }}
             {%comment%}{{ article.content }}{%endcomment%}
           </div>
 
