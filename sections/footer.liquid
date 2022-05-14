@@ -329,6 +329,15 @@ for (const parent of document.querySelectorAll('.footer-block--menu')) {
 }
 </script>
 {% javascript %}
+
+  const toggleFooter = document.querySelectorAll('.footer-block--menu');
+
+  toggleFooter.forEach((link) => {
+    link.addEventListener('click', () => {
+      link.classList.toggle('open');
+    });
+  });
+
   class LocalizationForm extends HTMLElement {
     constructor() {
       super();

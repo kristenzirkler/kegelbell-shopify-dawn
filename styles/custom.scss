@@ -493,6 +493,13 @@ p.dcodeErrorMessage {
   display: block;
   float: right;
 }
+.footer-block.footer-block--menu.open .footer-block__details-content {
+  display: block;
+
+}
+.footer-block.footer-block--menu.open:before {
+  content: '-';
+}
 .footer-block.footer-block--newsletter {
   border-top: 1px solid #fff;
   padding: 3rem 0 !important;
