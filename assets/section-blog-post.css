@@ -6,7 +6,7 @@
   margin: 0 20px 20px;
   overflow: hidden;
 }
-.article-template__hero-container:first-child {
+.article-template__hero-container .media {
   height: 100%;
 }
 /*
