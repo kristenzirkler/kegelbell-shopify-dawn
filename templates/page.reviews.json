@@ -13,6 +13,7 @@
           "settings": {
             "title": "Dr. Janet explains why pelvic floor training is so important, and why Kegelbell is uniquely built to target the right muscles.",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6193c6317321be002cb81683\"><\/div>",
             "aside": "",
             "col_button_label": "",
@@ -24,6 +25,7 @@
           "settings": {
             "title": "Kegelbell customer shares how she tried other treatments through her urologist that didn't work, and then she found Kegelbell.",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_61f82cd4612174002a1bb3c1\"><\/div>",
             "aside": "",
             "col_button_label": "",
@@ -55,6 +57,7 @@
           "settings": {
             "title": "Lady V, a female empowerment coach and business owner, shares how Kegelbell helped her take control of her body.",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_61f82d87612174002a1d39c2\"><\/div>",
             "aside": "",
             "col_button_label": "",
@@ -66,6 +69,7 @@
           "settings": {
             "title": "Fitness Expert MumWarrior shares her opinion of Kegelbell",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_61f82ded612174002a1e0c6d\"><\/div>",
             "aside": "",
             "col_button_label": "",
@@ -173,6 +177,7 @@
           "settings": {
             "title": "Triathlete, mom and Kegelbell customer shares how her Kegelbell routine let her work harder and go farther in her training.",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_61f82e38612174002a1e9117\"><\/div>",
             "aside": "",
             "col_button_label": "",
@@ -184,6 +189,7 @@
           "settings": {
             "title": "Yanee shares with her audience how quickly Kegelbell works, what's in the kit, and why preventative pelvic floor training is so important.",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_61f82e59612174002a1edab1\"><\/div>",
             "aside": "",
             "col_button_label": "",
@@ -215,6 +221,7 @@
           "settings": {
             "title": "Grandmother, gym owner and Kegelbell customer shares how using Kegelbell had some really great benefits for her sex life!",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_61f82e66612174002a1f088b\"><\/div>",
             "aside": "",
             "col_button_label": "",
@@ -226,6 +233,7 @@
           "settings": {
             "title": "Kegelbell customer does unboxing video and shares how she learned so much about the importance of maintaining a strong pelvic floor.",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_61f82e79612174002a1f2e6c\"><\/div>",
             "aside": "",
             "col_button_label": "",
@@ -320,6 +328,7 @@
             "image": "shopify:\/\/shop_images\/product-pieces_31ce7c41-779e-4c5e-8438-8824d03c2526.jpg",
             "title": "",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "",
             "aside": "",
             "col_button_label": "",
@@ -331,6 +340,7 @@
           "settings": {
             "title": "Kegelbell® The Vagina Gym® Original Kit",
             "text": "<p>$99.95<\/p><p><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>- Improve bladder and bowel control<\/p><p>- Reduce the risk of pelvic organ prolapse<\/p><p>- Treat Female Sexual Dysfunction (FSD)<\/p>",
+            "trunc_text": false,
             "custom_liquid": "",
             "aside": "",
             "col_button_label": "Shop Now",
@@ -350,7 +360,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "condense_mobile": true,
+        "condense_mobile": false,
         "customization-class": "page-product"
       }
     }
