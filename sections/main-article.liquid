@@ -108,13 +108,12 @@
     <p>
       {% if blog.previous_article %}
         <span class="left">
-          &larr; {{ 'blogs.article.older_post' | link_to: blog.previous_article }}
+          &larr; {{ blog.previous_article.title | link_to: blog.previous_article }}
         </span>
       {% endif %}
       {% if blog.next_article %}
-      {{ blog.next_article.title }}
         <span class="right">
-          {{ 'blogs.article.newer_post' | link_to: blog.next_article }} &rarr;
+          {{ blog.next_article.title | link_to: blog.next_article }} &rarr;
         </span>
       {% endif %}
     </p>
