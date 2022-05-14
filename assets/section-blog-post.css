@@ -3,9 +3,11 @@
   height: 130px;
   border-radius: 50%;
   float: right;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin: 0 20px 20px;
   overflow: hidden;
+}
+.article-template__hero-container:first-child {
+  height: 100%;
 }
 /*
 .article-template > *:first-child:not(.article-template__hero-container) {
