@@ -11,6 +11,17 @@
 
         {%- when 'title'-%}
           <header class="page-width page-width--narrow article-template__header" {{ block.shopify_attributes }}>
+            <div>
+              <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
+              {%- if block.settings.blog_show_date -%}
+                <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: format: 'date' }}</span>
+              {%- endif -%}
+              {%- if block.settings.blog_show_author -%}
+                <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <span itemprop="name">{{ article.author }}</span>
+                </span>
+              {%- endif -%}
+            </div>
           {%- if article.image -%}
             <div class="article-template__hero-container" {{ block.shopify_attributes }}>
               <div class="article-template__hero-{{ block.settings.image_height }} media"
@@ -34,15 +45,6 @@
               </div>
             </div>
           {%- endif -%}
-            <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
-            {%- if block.settings.blog_show_date -%}
-              <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: format: 'date' }}</span>
-            {%- endif -%}
-            {%- if block.settings.blog_show_author -%}
-              <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">{{ article.author }}</span>
-              </span>
-            {%- endif -%}
           </header>
 
         {%- when 'content'-%}
