@@ -69,7 +69,7 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Get Started",
+        "button_label": "",
         "button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system",
         "condense_mobile": false,
         "customization-class": "page-product"
