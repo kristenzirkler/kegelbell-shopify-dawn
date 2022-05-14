@@ -1,3 +1,13 @@
+.article-template__hero-container {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+/*
 .article-template > *:first-child:not(.article-template__hero-container) {
   margin-top: 5rem;
 }
@@ -7,7 +17,6 @@
     margin-top: calc(5rem + var(--page-width-margin));
   }
 }
-
 .article-template__hero-container {
   max-width: 130rem;
   margin: 0 auto;
@@ -58,6 +67,7 @@
     height: 82.5rem;
   }
 }
+*/
 
 .article-template header {
   margin-top: 4.4rem;
