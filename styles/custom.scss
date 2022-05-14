@@ -382,9 +382,14 @@ p.dcodeErrorMessage {
   margin: 30px 0;
 }
 .article-template .post-pagination {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
   a {
     display: block;
+    color: $color-text;
+    padding: 6px;
+    border: 2px solid $color-kb-yellow;
   }
 }
 #kegelbell-links {
