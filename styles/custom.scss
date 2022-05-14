@@ -335,6 +335,27 @@ p.dcodeErrorMessage {
     height: 14px;
   }
 }
+// Quiz CTA
+.template-page #MainContent .quiz-cta,
+.template-article #MainContent .quiz-cta {
+  width: 200px;
+  float: right;
+  a {
+    text-decoration: none;
+    border: none !important;
+    padding: 10px;
+    background: $color-kb-yellow-light;
+    color: $color-text;
+    border-radius: 10px;
+    &:hover {
+      background: $color-kb-yellow;
+      text-decoration: none;
+    }
+  }
+  strong {
+    display: block;
+  }
+}
 #kegelbell-links {
   .page-width .rte {
     div {
