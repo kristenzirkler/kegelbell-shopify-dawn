@@ -25,31 +25,6 @@
 .template-page #MainContent .rte img {
   padding: 20px;
 }
-/* Bottom CTA */
-.page-product {
-  max-width: 900px;
-  margin: 0 auto !important;
-  padding: 40px 0;
-  border-top: 2px solid #FEE36E;
-}
-@media screen and (max-width: 750px) {
-.page-product {
-    padding: 14px;
-    border: 2px solid #ccc;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-}
-.page-product .main-text {
-  margin: 0;
-}
-.page-product .main-text p {
-  margin: 0;
-}
-.page-product .kz-multicolumn-card__image-wrapper {
-  max-width: 200px;
-  margin: 0 auto;
-}
-}
 
 .mb-30 {
   margin-bottom: 30px;
