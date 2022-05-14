@@ -390,6 +390,16 @@ p.dcodeErrorMessage {
     color: $color-text;
     padding: 6px;
     border: 2px solid $color-kb-yellow;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      border-color: $color-kb-yellow-dark;
+    }
+    span {
+      display: block;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
   }
 }
 #kegelbell-links {
