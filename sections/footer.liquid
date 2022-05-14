@@ -313,21 +313,6 @@
     </div>
   </div>
 </footer>
-
-<script>
-for (const parent of document.querySelectorAll('.footer-block--menu')) {
-  parent.addEventListener('click', function(clickEvent) {
-    const child = parent.querySelector('.footer-block__details-content');
-    // If the element is visible, hide it
-    if (window.getComputedStyle(child).display === 'block') {
-      child.style.display = 'none';
-      return;
-    }
-    // Otherwise, show it
-    child.style.display = 'block';
-  })
-}
-</script>
 {% javascript %}
 
   const toggleFooter = document.querySelectorAll('.footer-block--menu');
