@@ -33,6 +33,18 @@
     "1641224426031bf040": {
       "type": "kz-multicolumn",
       "blocks": {
+        "16412244263a52d7ed-1": {
+          "type": "column",
+          "settings": {
+            "title": "Kegelbell® The Vagina Gym® Original Kit",
+            "text": "<p>$99.95<\/p><p><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>- Improve bladder and bowel control<\/p><p>- Reduce the risk of pelvic organ prolapse<\/p><p>- Treat Female Sexual Dysfunction (FSD)<\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "Get Started",
+            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
+          }
+        },
         "16412244263a52d7ed-0": {
           "type": "column",
           "settings": {
@@ -45,23 +57,11 @@
             "col_button_label": "",
             "col_button_link": ""
           }
-        },
-        "16412244263a52d7ed-1": {
-          "type": "column",
-          "settings": {
-            "title": "Kegelbell® The Vagina Gym® Original Kit",
-            "text": "<p>$99.95<\/p><p><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>- Improve bladder and bowel control<\/p><p>- Reduce the risk of pelvic organ prolapse<\/p><p>- Treat Female Sexual Dysfunction (FSD)<\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "Get Started",
-            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
-          }
         }
       },
       "block_order": [
-        "16412244263a52d7ed-0",
-        "16412244263a52d7ed-1"
+        "16412244263a52d7ed-1",
+        "16412244263a52d7ed-0"
       ],
       "settings": {
         "title": "",
