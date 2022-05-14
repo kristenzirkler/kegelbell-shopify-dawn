@@ -480,7 +480,7 @@ p.dcodeErrorMessage {
 // Mobile Footer
 @media screen and (max-width: 750px) {
 .footer-block.footer-block--menu {
-  margin: 0;
+  margin: 0 !important;
   border-top: 1px solid #fff;
 }
 .footer-block.footer-block--menu:before {
@@ -495,8 +495,8 @@ p.dcodeErrorMessage {
 }
 .footer-block.footer-block--newsletter {
   border-top: 1px solid #fff;
-  padding: 4rem 0;
-  margin: 0;
+  padding: 3rem 0 !important;
+  margin: 0 !important;
 }
 .footer-block.footer-block--menu h2 {
   margin: 0;
