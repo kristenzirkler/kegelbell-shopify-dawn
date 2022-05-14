@@ -545,20 +545,11 @@ p.dcodeErrorMessage {
 }
 }
 // Bottom CTA ----------------------------------------
-/*
-.page-product {
-  max-width: 900px;
-  margin: 0 auto !important;
-  padding: 40px 0;
-  border-top: 2px solid #FEE36E;
-}
-*/
 @media screen and (max-width: 750px) {
 .page-product {
   padding: 14px;
-  margin: 0 1.5rem !important;
+  margin: 0 1.5rem 30px !important;
   border: 2px solid #ccc;
-  margin-bottom: 30px;
 }
 .page-product .main-text {
   margin-top: 0 !important;
