@@ -558,16 +558,24 @@ p.dcodeErrorMessage {
   padding: 14px;
   margin: 0 1.5rem !important;
   border: 2px solid #ccc;
+  margin-bottom: 30px;
 }
 .page-product .main-text {
-  margin: 0;
+  margin-top: 0 !important;
 }
 .page-product .main-text p {
   margin: 0;
 }
+.page-product .main-text strong {
+  margin-top: 6px;
+  display: block;
+}
 .page-product .kz-multicolumn-card__image-wrapper {
-  max-width: 200px;
-  margin: 0 auto;
+  max-width: 230px;
+  margin: 0 auto !important;
+}
+.page-product .kz-multicolumn-list {
+  padding: 0 !important;
 }
 }
 
