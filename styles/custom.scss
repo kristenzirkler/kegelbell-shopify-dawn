@@ -382,9 +382,6 @@ p.dcodeErrorMessage {
   margin: 30px 0;
 }
 .article-template .post-pagination {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
   a {
     display: block;
     color: $color-text;
@@ -408,6 +405,9 @@ p.dcodeErrorMessage {
 }
 @media screen and (min-width: 750px) {
 .article-template .post-pagination {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
   .post-pagination--prev {
     display: block;
   }
