@@ -107,14 +107,12 @@
     <hr>
     <p>
       {% if blog.previous_article %}
-        <span class="left">
-          &larr; {{ blog.previous_article.title | link_to: blog.previous_article }}
-        </span>
+        {{ blog.previous_article.url }}<br>
+        {{ blog.previous_article.title }}
       {% endif %}
       {% if blog.next_article %}
-        <span class="right">
-          {{ blog.next_article.title | link_to: blog.next_article }} &rarr;
-        </span>
+        {{ blog.next_article.url }}<br>
+        {{ blog.next_article.title }}
       {% endif %}
     </p>
   {% endif %}
