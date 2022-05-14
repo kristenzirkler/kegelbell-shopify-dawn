@@ -112,6 +112,7 @@
         </span>
       {% endif %}
       {% if blog.next_article %}
+      {{ blog.next_article.title }}
         <span class="right">
           {{ 'blogs.article.newer_post' | link_to: blog.next_article }} &rarr;
         </span>
