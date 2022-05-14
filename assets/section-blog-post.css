@@ -15,6 +15,12 @@
     height: 130px;
   }
 }
+@media screen and (min-width: 990px) {
+  .article-template__hero-container {
+    width: 160px;
+    height: 160px;
+  }
+}
 /*
 .article-template > *:first-child:not(.article-template__hero-container) {
   margin-top: 5rem;
