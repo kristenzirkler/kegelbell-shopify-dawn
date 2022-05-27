@@ -545,11 +545,20 @@ p.dcodeErrorMessage {
 }
 }
 // Bottom CTA ----------------------------------------
+.page-product {
+  border-top: 2px solid #ccc;
+}
+.page-product .kz-multicolumn-card__image-wrapper {
+  max-width: 330px;
+  margin: 0 auto !important;
+}
 @media screen and (max-width: 750px) {
 .page-product {
   padding: 14px;
-  margin: 0 1.5rem 30px !important;
-  border: 2px solid #ccc;
+  margin: 0 0 30px !important;
+}
+.page-product .kz-multicolumn-card__info {
+  text-align: center;
 }
 .page-product .main-text {
   margin-top: 0 !important;
