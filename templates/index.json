@@ -451,7 +451,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "condense_mobile": true,
+        "condense_mobile": false,
         "customization-class": "home-chart"
       }
     },
