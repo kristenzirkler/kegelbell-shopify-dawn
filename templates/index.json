@@ -413,18 +413,6 @@
     "16361314599d7a75df": {
       "type": "kz-multicolumn",
       "blocks": {
-        "16361314599d7a75df-0": {
-          "type": "column",
-          "settings": {
-            "title": "We bet you'll love your Kegelbell",
-            "text": "<p>We can't guarantee you'll love it, but we can bet with 99% certainty you will. 99 out of 100 people keep their Kegelbell.<br\/><br\/>Five years ago our founder was stuck with pelvic floor training devices that didn't work. Since then, we've set out to take care of every customer whether they love Kegelbell or not. We hope you'll love your Kegelbell, but if not, simply let us know and we'll trigger our refund process.<\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "Buy Now",
-            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
-          }
-        },
         "16361314599d7a75df-1": {
           "type": "column",
           "settings": {
@@ -437,17 +425,29 @@
             "col_button_label": "",
             "col_button_link": ""
           }
+        },
+        "16361314599d7a75df-0": {
+          "type": "column",
+          "settings": {
+            "title": "We bet you'll love your Kegelbell",
+            "text": "<p>We can't guarantee you'll love it, but we can bet with 99% certainty you will. 99 out of 100 people keep their Kegelbell.<br\/><br\/>Five years ago our founder was stuck with pelvic floor training devices that didn't work. Since then, we've set out to take care of every customer whether they love Kegelbell or not. We hope you'll love your Kegelbell, but if not, simply let us know and we'll trigger our refund process.<\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "Buy Now",
+            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
+          }
         }
       },
       "block_order": [
-        "16361314599d7a75df-0",
-        "16361314599d7a75df-1"
+        "16361314599d7a75df-1",
+        "16361314599d7a75df-0"
       ],
       "settings": {
         "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
