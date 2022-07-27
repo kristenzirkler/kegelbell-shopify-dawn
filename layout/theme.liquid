@@ -213,5 +213,16 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     <script src="https://docs.magi.ai/clients/kegelbell/scripts/chtds.js" defer="defer"></script>
+    {% if product %}
+    <script type="text/javascript">
+var _learnq = _learnq || [];
+  var classname = document.getElementsByClassName("product-form__submit button button--full-width button--primary");
+var addToCart = function() {
+_learnq.push(['track', 'Added to Cart', item]);
+}; for (var i = 0; i < classname.length; i++) {
+classname[i].addEventListener('click', addToCart, false);
+}
+</script>
+    {% endif %}
   </body>
 </html>
