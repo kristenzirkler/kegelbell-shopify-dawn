@@ -163,7 +163,7 @@
         "1660501405a289e88e-1": {
           "type": "text",
           "settings": {
-            "text": "Free: FDA-Registered Moisturizing Serum and our Anti-Bacterial Device Cleaner"
+            "text": ""
           }
         },
         "1660501405a289e88e-2": {
@@ -185,9 +185,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2I5A9334.jpg",
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
+        "desktop_text_box_position": "flex-end",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
