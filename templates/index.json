@@ -721,6 +721,47 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "16605601733daa5fcd": {
+      "type": "collage",
+      "blocks": {
+        "1660560173b273de33-1": {
+          "type": "product",
+          "settings": {
+            "product": "kegelbell-insert-serum",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "344a81d9-6eb2-4c36-9478-f25a3711f1bd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2I5A9334.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "199d76fb-8873-429c-85c9-f2b414e52c20": {
+          "type": "product",
+          "settings": {
+            "product": "kegelbell-device-cleaner",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "1660560173b273de33-1",
+        "344a81d9-6eb2-4c36-9478-f25a3711f1bd",
+        "199d76fb-8873-429c-85c9-f2b414e52c20"
+      ],
+      "settings": {
+        "heading": "End of Summer Sale:  FREE Gifts with purchase--our FDA Registered lube and cleaner",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
@@ -740,6 +781,7 @@
     "16361316286a53dbc8",
     "16361317583b8ea73b",
     "1636665055919b9cce",
-    "1660501357aa604014"
+    "1660501357aa604014",
+    "16605601733daa5fcd"
   ]
 }
