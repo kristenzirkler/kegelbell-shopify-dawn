@@ -43,6 +43,66 @@
         "customization-class": "home-hero"
       }
     },
+    "16361296677ec13f98": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "16361296677ec13f98-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-4.jpg",
+            "title": "Say buh-bye to leakage!",
+            "text": "<p>66% of women have some bladder leakage, a common problem due to muscle weakness. You're not alone, and kegel weights can help.<\/p><p><a href=\"https:\/\/www.kegelbell.com\/pages\/bladder-leakage-you-dont-have-to-live-with-it\">Learn About Bladder Leakage<\/a><\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "16361296677ec13f98-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-5.jpg",
+            "title": "Have the best sex of your life.",
+            "text": "<p>It's a myth that sex is less enjoyable as you get older. Kegelbell jumpstarts your sex drive, lubrication, and orgasms!<\/p><p><a href=\"https:\/\/www.kegelbell.com\/pages\/pelvic-floor-sexual-health\">Kegelbell & Sexual Health<\/a><\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "8ce26465-c882-474a-9bce-297171fae5b4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-6.jpg",
+            "title": "Bounce back after childbirth.",
+            "text": "<p>Are things not quite right down there after baby was born? Vaginal weights can help you get your squeeze back.<\/p><p><a href=\"https:\/\/www.kegelbell.com\/pages\/vaginal-rejuvenation-kegelbell\">Kegelbell & Vaginal Rejuvenation<\/a><\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16361296677ec13f98-0",
+        "16361296677ec13f98-1",
+        "8ce26465-c882-474a-9bce-297171fae5b4"
+      ],
+      "settings": {
+        "title": "What does Kegelbell® do?",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": true,
+        "customization-class": ""
+      }
+    },
     "16605601733daa5fcd": {
       "type": "collage",
       "blocks": {
@@ -130,66 +190,6 @@
         "customization-class": "home-hero",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "16361296677ec13f98": {
-      "type": "kz-multicolumn",
-      "blocks": {
-        "16361296677ec13f98-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/home-4.jpg",
-            "title": "Say buh-bye to leakage!",
-            "text": "<p>66% of women have some bladder leakage, a common problem due to muscle weakness. You're not alone, and kegel weights can help.<\/p><p><a href=\"https:\/\/www.kegelbell.com\/pages\/bladder-leakage-you-dont-have-to-live-with-it\">Learn About Bladder Leakage<\/a><\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
-          }
-        },
-        "16361296677ec13f98-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/home-5.jpg",
-            "title": "Have the best sex of your life.",
-            "text": "<p>It's a myth that sex is less enjoyable as you get older. Kegelbell jumpstarts your sex drive, lubrication, and orgasms!<\/p><p><a href=\"https:\/\/www.kegelbell.com\/pages\/pelvic-floor-sexual-health\">Kegelbell & Sexual Health<\/a><\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
-          }
-        },
-        "8ce26465-c882-474a-9bce-297171fae5b4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/home-6.jpg",
-            "title": "Bounce back after childbirth.",
-            "text": "<p>Are things not quite right down there after baby was born? Vaginal weights can help you get your squeeze back.<\/p><p><a href=\"https:\/\/www.kegelbell.com\/pages\/vaginal-rejuvenation-kegelbell\">Kegelbell & Vaginal Rejuvenation<\/a><\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16361296677ec13f98-0",
-        "16361296677ec13f98-1",
-        "8ce26465-c882-474a-9bce-297171fae5b4"
-      ],
-      "settings": {
-        "title": "What does Kegelbell® do?",
-        "image_width": "full",
-        "image_ratio": "circle",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "condense_mobile": true,
-        "customization-class": ""
       }
     },
     "1660501405e75bfdaa": {
@@ -809,9 +809,9 @@
   },
   "order": [
     "16396090466b930b47",
+    "16361296677ec13f98",
     "16605601733daa5fcd",
     "image_banner",
-    "16361296677ec13f98",
     "1660501405e75bfdaa",
     "163612995302cf903e",
     "1643653686c6bda8f8",
