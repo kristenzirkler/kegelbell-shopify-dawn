@@ -105,6 +105,7 @@
     },
     "16605601733daa5fcd": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "1660560173b273de33-1": {
           "type": "product",
@@ -237,6 +238,44 @@
         "customization-class": "",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "1660842032ed8d9768": {
+      "type": "collection-list",
+      "blocks": {
+        "166084203273e4479e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "free-gift-insert-serum-device-cleaner"
+          }
+        },
+        "166084203273e4479e-1": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "166084203273e4479e-2": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "166084203273e4479e-0",
+        "166084203273e4479e-1",
+        "166084203273e4479e-2"
+      ],
+      "settings": {
+        "title": "Claim your FREE gifts today by adding an insert serum and device cleaner to your cart.",
+        "image_ratio": "adapt",
+        "color_scheme": "accent-2",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
       }
     },
     "163612995302cf903e": {
@@ -805,44 +844,6 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
-    },
-    "1660842032ed8d9768": {
-      "type": "collection-list",
-      "blocks": {
-        "166084203273e4479e-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "free-gift-insert-serum-device-cleaner"
-          }
-        },
-        "166084203273e4479e-1": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        },
-        "166084203273e4479e-2": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "166084203273e4479e-0",
-        "166084203273e4479e-1",
-        "166084203273e4479e-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
     }
   },
   "order": [
@@ -851,6 +852,7 @@
     "16605601733daa5fcd",
     "image_banner",
     "1660501405e75bfdaa",
+    "1660842032ed8d9768",
     "163612995302cf903e",
     "1643653686c6bda8f8",
     "1636129955257ae717",
@@ -864,7 +866,6 @@
     "16361317583b8ea73b",
     "1636665055919b9cce",
     "1660501357aa604014",
-    "16605606868c9534cc",
-    "1660842032ed8d9768"
+    "16605606868c9534cc"
   ]
 }
