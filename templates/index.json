@@ -307,12 +307,6 @@
         "background_style": "secondary"
       }
     },
-    "1643653686c6bda8f8": {
-      "type": "videowise-page-widgets",
-      "settings": {
-        "widget_selector": "6193a9c57321be002c9cadcc"
-      }
-    },
     "1660842032ed8d9768": {
       "type": "collection-list",
       "blocks": {
@@ -349,6 +343,12 @@
         "swipe_on_mobile": false,
         "image_padding": false,
         "show_view_all": false
+      }
+    },
+    "1643653686c6bda8f8": {
+      "type": "videowise-page-widgets",
+      "settings": {
+        "widget_selector": "6193a9c57321be002c9cadcc"
       }
     },
     "1636129955257ae717": {
@@ -853,8 +853,8 @@
     "image_banner",
     "1660501405e75bfdaa",
     "163612995302cf903e",
-    "1643653686c6bda8f8",
     "1660842032ed8d9768",
+    "1643653686c6bda8f8",
     "1636129955257ae717",
     "163613019076180e72",
     "163666329938b8fe6d",
