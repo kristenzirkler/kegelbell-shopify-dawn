@@ -313,6 +313,44 @@
         "widget_selector": "6193a9c57321be002c9cadcc"
       }
     },
+    "1660842032ed8d9768": {
+      "type": "collection-list",
+      "blocks": {
+        "166084203273e4479e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "free-gift-insert-serum-device-cleaner"
+          }
+        },
+        "166084203273e4479e-1": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "166084203273e4479e-2": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "166084203273e4479e-0",
+        "166084203273e4479e-1",
+        "166084203273e4479e-2"
+      ],
+      "settings": {
+        "title": "🎉 Claim your FREE gifts today by adding an insert serum and device cleaner to your cart 🎉",
+        "image_ratio": "adapt",
+        "color_scheme": "accent-2",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
     "1636129955257ae717": {
       "type": "kz-multicolumn",
       "blocks": {
@@ -608,44 +646,6 @@
         "customization-class": ""
       }
     },
-    "1660842032ed8d9768": {
-      "type": "collection-list",
-      "blocks": {
-        "166084203273e4479e-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "free-gift-insert-serum-device-cleaner"
-          }
-        },
-        "166084203273e4479e-1": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        },
-        "166084203273e4479e-2": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "166084203273e4479e-0",
-        "166084203273e4479e-1",
-        "166084203273e4479e-2"
-      ],
-      "settings": {
-        "title": "🎉 Claim your FREE gifts today by adding an insert serum and device cleaner to your cart 🎉",
-        "image_ratio": "adapt",
-        "color_scheme": "accent-2",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
-    },
     "16361316286a53dbc8": {
       "type": "kz-multicolumn",
       "blocks": {
@@ -854,6 +854,7 @@
     "1660501405e75bfdaa",
     "163612995302cf903e",
     "1643653686c6bda8f8",
+    "1660842032ed8d9768",
     "1636129955257ae717",
     "163613019076180e72",
     "163666329938b8fe6d",
@@ -861,7 +862,6 @@
     "1636131246c220134d",
     "16361314599d7a75df",
     "16361315431b93e3dc",
-    "1660842032ed8d9768",
     "16361316286a53dbc8",
     "16361317583b8ea73b",
     "1636665055919b9cce",
