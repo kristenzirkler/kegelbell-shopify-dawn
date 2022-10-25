@@ -205,52 +205,6 @@
         "layout": "image_first"
       }
     },
-    "16361316286a53dbc8": {
-      "type": "kz-multicolumn",
-      "blocks": {
-        "16361316286a53dbc8-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/product-pieces_31ce7c41-779e-4c5e-8438-8824d03c2526.jpg",
-            "title": "",
-            "text": "",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
-          }
-        },
-        "16361316286a53dbc8-2": {
-          "type": "column",
-          "settings": {
-            "title": "Kegelbell® The Vagina Gym® Original Kit",
-            "text": "<p>$109.95<br\/><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>Improve bladder and bowel control<\/p><p>Reduce the risk of pelvic organ prolapse<\/p><p>Treat Female Sexual Dysfunction (FSD)<\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "rating": 5,
-            "col_button_label": "Buy Now",
-            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
-          }
-        }
-      },
-      "block_order": [
-        "16361316286a53dbc8-0",
-        "16361316286a53dbc8-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "condense_mobile": false,
-        "customization-class": "home-product"
-      }
-    },
     "16605601733daa5fcd": {
       "type": "collage",
       "disabled": true,
@@ -573,6 +527,52 @@
         "customization-class": ""
       }
     },
+    "16361316286a53dbc8": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "16361316286a53dbc8-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-pieces_31ce7c41-779e-4c5e-8438-8824d03c2526.jpg",
+            "title": "",
+            "text": "",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "16361316286a53dbc8-2": {
+          "type": "column",
+          "settings": {
+            "title": "Kegelbell® The Vagina Gym® Original Kit",
+            "text": "<p>$109.95<br\/><\/p><p><strong>Why Use Kegelbell®:<\/strong><\/p><p>Improve bladder and bowel control<\/p><p>Reduce the risk of pelvic organ prolapse<\/p><p>Treat Female Sexual Dysfunction (FSD)<\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "rating": 5,
+            "col_button_label": "Buy Now",
+            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
+          }
+        }
+      },
+      "block_order": [
+        "16361316286a53dbc8-0",
+        "16361316286a53dbc8-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": false,
+        "customization-class": "home-product"
+      }
+    },
     "16361317583b8ea73b": {
       "type": "kz-infoicons",
       "blocks": {
@@ -638,13 +638,6 @@
         "background_style": "none"
       }
     },
-    "16395974618991b5eb": {
-      "type": "kz-custom-liquid",
-      "settings": {
-        "title": "Doctor-recommended Kegelbell® works in the first two weeks of use. Guaranteed.",
-        "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_618baea6e661b900294e045f\"><\/div>"
-      }
-    },
     "16361315431b93e3dc": {
       "type": "kz-multicolumn",
       "blocks": {
@@ -706,6 +699,13 @@
         "button_link": "shopify:\/\/pages\/reviews",
         "condense_mobile": false,
         "customization-class": ""
+      }
+    },
+    "16395974618991b5eb": {
+      "type": "kz-custom-liquid",
+      "settings": {
+        "title": "Doctor-recommended Kegelbell® works in the first two weeks of use. Guaranteed.",
+        "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_618baea6e661b900294e045f\"><\/div>"
       }
     },
     "16605606868c9534cc": {
@@ -798,7 +798,6 @@
     },
     "163613019076180e72": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "163613019076180e72-0": {
           "type": "heading",
@@ -899,7 +898,6 @@
     "163612995302cf903e",
     "16361296677ec13f98",
     "1660501357aa604014",
-    "16361316286a53dbc8",
     "16605601733daa5fcd",
     "163666329938b8fe6d",
     "1636131246c220134d",
@@ -908,9 +906,10 @@
     "1643653686c6bda8f8",
     "16361314599d7a75df",
     "1636129955257ae717",
+    "16361316286a53dbc8",
     "16361317583b8ea73b",
-    "16395974618991b5eb",
     "16361315431b93e3dc",
+    "16395974618991b5eb",
     "16605606868c9534cc",
     "9be25f3d-99ea-4afd-91a5-7407e2f37a66",
     "163613019076180e72",
