@@ -465,6 +465,7 @@
     },
     "1636129955257ae717": {
       "type": "kz-multicolumn",
+      "disabled": true,
       "blocks": {
         "1636129955257ae717-0": {
           "type": "column",
@@ -797,6 +798,7 @@
     },
     "163613019076180e72": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "163613019076180e72-0": {
           "type": "heading",
