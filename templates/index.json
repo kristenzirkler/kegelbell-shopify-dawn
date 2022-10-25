@@ -797,7 +797,8 @@
         "1660501357b6f224cf-2"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/2_dfc13f0a-e900-4a7c-b4fb-174538e6ff71.png",
+        "height": "small",
         "color_scheme": "background-1",
         "layout": "image_first"
       }
