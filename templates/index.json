@@ -777,24 +777,24 @@
             "heading": "Weights Hang Outside The Body"
           }
         },
-        "1660501357b6f224cf-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kegelbell is NOT a yoni egg or a kegel ball, it is the only externally weighted vaginal weight set and that makes it radically different. The elastic cord moves the insert and amplifies the weight so that the fast twich muscles get a workout that is not achievable any other way.<\/p>"
-          }
-        },
         "1660501357b6f224cf-2": {
           "type": "button",
           "settings": {
             "button_label": "Buy Now",
             "button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
           }
+        },
+        "1660501357b6f224cf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kegelbell is NOT a yoni egg or a kegel ball, it is the only externally weighted vaginal weight set and that makes it radically different. The elastic cord moves the insert and amplifies the weight so that the fast twich muscles get a workout that is not achievable any other way.<\/p>"
+          }
         }
       },
       "block_order": [
         "1660501357b6f224cf-0",
-        "1660501357b6f224cf-1",
-        "1660501357b6f224cf-2"
+        "1660501357b6f224cf-2",
+        "1660501357b6f224cf-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2_dfc13f0a-e900-4a7c-b4fb-174538e6ff71.png",
