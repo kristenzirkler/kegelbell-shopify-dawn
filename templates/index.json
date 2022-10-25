@@ -638,6 +638,13 @@
         "background_style": "none"
       }
     },
+    "16395974618991b5eb": {
+      "type": "kz-custom-liquid",
+      "settings": {
+        "title": "Doctor-recommended Kegelbell® works in the first two weeks of use. Guaranteed.",
+        "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_618baea6e661b900294e045f\"><\/div>"
+      }
+    },
     "16361315431b93e3dc": {
       "type": "kz-multicolumn",
       "blocks": {
@@ -699,13 +706,6 @@
         "button_link": "shopify:\/\/pages\/reviews",
         "condense_mobile": false,
         "customization-class": ""
-      }
-    },
-    "16395974618991b5eb": {
-      "type": "kz-custom-liquid",
-      "settings": {
-        "title": "Doctor-recommended Kegelbell® works in the first two weeks of use. Guaranteed.",
-        "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_618baea6e661b900294e045f\"><\/div>"
       }
     },
     "16605606868c9534cc": {
@@ -909,8 +909,8 @@
     "16361314599d7a75df",
     "1636129955257ae717",
     "16361317583b8ea73b",
-    "16361315431b93e3dc",
     "16395974618991b5eb",
+    "16361315431b93e3dc",
     "16605606868c9534cc",
     "9be25f3d-99ea-4afd-91a5-7407e2f37a66",
     "163613019076180e72",
