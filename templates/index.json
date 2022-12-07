@@ -13,7 +13,7 @@
         "163960904666f23939-1": {
           "type": "text",
           "settings": {
-            "text": "Don't miss our best discount of the year, free shipping & two free gifts on us for our holiday sales!  🎁"
+            "text": "Don't miss free shipping & two free gifts on us for our holiday sales!  🎁"
           }
         },
         "163960904666f23939-2": {
@@ -426,7 +426,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/chart.jpg",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "trunc_text": false,
             "custom_liquid": "",
             "aside": "",
@@ -535,7 +535,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/product-pieces_31ce7c41-779e-4c5e-8438-8824d03c2526.jpg",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "trunc_text": false,
             "custom_liquid": "",
             "aside": "",
