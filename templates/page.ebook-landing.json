@@ -11,9 +11,10 @@
         "164279162640bd8798-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ebook.jpg",
+            "image": "shopify:\/\/shop_images\/11_f41fbb05-bb54-4585-a4af-e067ce14587a.png",
             "title": "",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "",
             "aside": "",
             "col_button_label": "",
@@ -25,6 +26,7 @@
           "settings": {
             "title": "FREE EBOOK 🎉",
             "text": "<p>Kegeling the right way can help:<\/p><p>1. Prevent or stop bladder leaks.<\/p><p>2. Strengthen your pelvic floor after having a baby.<\/p><p>3. Save money on bladder leakage products. (ex: pads)<\/p><p>4. Enhance your time in the bedroom.<\/p>",
+            "trunc_text": false,
             "custom_liquid": "<div class=\"klaviyo-form-R9MCrG\"><\/div>",
             "aside": "",
             "col_button_label": "",
