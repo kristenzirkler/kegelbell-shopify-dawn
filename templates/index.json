@@ -251,59 +251,6 @@
         "layout": "image_first"
       }
     },
-    "16605601733daa5fcd": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "1660560173b273de33-1": {
-          "type": "product",
-          "settings": {
-            "product": "kegelbell-insert-serum",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "344a81d9-6eb2-4c36-9478-f25a3711f1bd": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2I5A9334.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "199d76fb-8873-429c-85c9-f2b414e52c20": {
-          "type": "product",
-          "settings": {
-            "product": "kegelbell-device-cleaner",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        }
-      },
-      "block_order": [
-        "1660560173b273de33-1",
-        "344a81d9-6eb2-4c36-9478-f25a3711f1bd",
-        "199d76fb-8873-429c-85c9-f2b414e52c20"
-      ],
-      "settings": {
-        "heading": "FDA-Registered Lube and Anti-Bacterial Device Cleanser: Add to Cart Now While Supplies Last",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "163666329938b8fe6d": {
-      "type": "kz-video",
-      "settings": {
-        "heading": "Hear from Kegelbell's Inventor and Founder",
-        "cover_image": "shopify:\/\/shop_images\/hero-founder_ec4b648e-15f4-4bf2-ae84-25870e6bc978.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=JqvL4WQfS-I",
-        "description": "Hear from Kegelbell's Inventor and Founder",
-        "full_width": true
-      }
-    },
     "1636131246c220134d": {
       "type": "kz-multicolumn",
       "blocks": {
@@ -362,6 +309,59 @@
         "button_link": "",
         "condense_mobile": true,
         "customization-class": ""
+      }
+    },
+    "16605601733daa5fcd": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "1660560173b273de33-1": {
+          "type": "product",
+          "settings": {
+            "product": "kegelbell-insert-serum",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "344a81d9-6eb2-4c36-9478-f25a3711f1bd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2I5A9334.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "199d76fb-8873-429c-85c9-f2b414e52c20": {
+          "type": "product",
+          "settings": {
+            "product": "kegelbell-device-cleaner",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "1660560173b273de33-1",
+        "344a81d9-6eb2-4c36-9478-f25a3711f1bd",
+        "199d76fb-8873-429c-85c9-f2b414e52c20"
+      ],
+      "settings": {
+        "heading": "FDA-Registered Lube and Anti-Bacterial Device Cleanser: Add to Cart Now While Supplies Last",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "163666329938b8fe6d": {
+      "type": "kz-video",
+      "settings": {
+        "heading": "Hear from Kegelbell's Inventor and Founder",
+        "cover_image": "shopify:\/\/shop_images\/hero-founder_ec4b648e-15f4-4bf2-ae84-25870e6bc978.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=JqvL4WQfS-I",
+        "description": "Hear from Kegelbell's Inventor and Founder",
+        "full_width": true
       }
     },
     "image_banner": {
@@ -462,115 +462,6 @@
       "type": "videowise-page-widgets",
       "settings": {
         "widget_selector": "6193a9c57321be002c9cadcc"
-      }
-    },
-    "16361314599d7a75df": {
-      "type": "kz-multicolumn",
-      "blocks": {
-        "16361314599d7a75df-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/chart.jpg",
-            "title": "",
-            "text": "<p><\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
-          }
-        },
-        "16361314599d7a75df-0": {
-          "type": "column",
-          "settings": {
-            "title": "We bet you'll love your Kegelbell",
-            "text": "<p>We can't guarantee you'll love it, but we can bet with 99% certainty you will. 99 out of 100 people keep their Kegelbell.<br\/><br\/>Five years ago our founder was stuck with pelvic floor training devices that didn't work. Since then, we've set out to take care of every customer whether they love Kegelbell or not. We hope you'll love your Kegelbell, but if not, simply let us know and we'll trigger our refund process.<\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "Buy Now",
-            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
-          }
-        }
-      },
-      "block_order": [
-        "16361314599d7a75df-1",
-        "16361314599d7a75df-0"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "condense_mobile": false,
-        "customization-class": "home-chart"
-      }
-    },
-    "1636129955257ae717": {
-      "type": "kz-multicolumn",
-      "disabled": true,
-      "blocks": {
-        "1636129955257ae717-0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>\"My sex life with my husband's more amazing and he's noticed a difference as well, so that's been fun, too. We decided that I was not gonna tell him when I was actually starting to use it, just for our own sake, to see if he did notice a difference, and after the third week, he actually did ask me, he was like, \"So if feels like you are using that...\" Absolutely!\"<\/p>",
-            "trunc_text": true,
-            "custom_liquid": "",
-            "aside": "Nichol, Mom, Body Builder",
-            "rating": 5,
-            "col_button_label": "",
-            "col_button_link": "",
-            "image_bot": "shopify:\/\/shop_images\/people-nicol.jpg"
-          }
-        },
-        "1636129955257ae717-1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>\"I had issues working out without peeing myself (a very real issue post child birth) and I could barely run 3 miles without feeling like my organs were going to come out. After I started using Kegelbell, BOOM! Problems fixed! With the amount of intense training I have put my body through these past two years, my issues should have intensified. But with a little up keep from Kegelbell I am good to go.\"<\/p>",
-            "trunc_text": true,
-            "custom_liquid": "",
-            "aside": "Jennifer, Mom, Triathlete",
-            "rating": 5,
-            "col_button_label": "",
-            "col_button_link": "",
-            "image_bot": "shopify:\/\/shop_images\/people-jennifer.jpg"
-          }
-        },
-        "3197efe6-cd05-4eea-bf32-1d392cbebbd0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>\"I am absolutely thrilled with my results from Kegelbell. I have found a new level of sexual self-empowerment I never knew was possible, and would never have known I could achieve, all thanks to the product. Stephanie and Kegelbell are changing lives and creating joy, one vagina at a time.\"<\/p>",
-            "trunc_text": true,
-            "custom_liquid": "",
-            "aside": "Jackie Johnson, Natch Beaut podcast host",
-            "rating": 5,
-            "col_button_label": "",
-            "col_button_link": "",
-            "image_bot": "shopify:\/\/shop_images\/people-jackie.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "1636129955257ae717-0",
-        "1636129955257ae717-1",
-        "3197efe6-cd05-4eea-bf32-1d392cbebbd0"
-      ],
-      "settings": {
-        "title": "Read Our Customer Reviews",
-        "image_width": "full",
-        "image_ratio": "circle",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "Read Reviews",
-        "button_link": "shopify:\/\/pages\/reviews",
-        "condense_mobile": false,
-        "customization-class": ""
       }
     },
     "16361317583b8ea73b": {
@@ -696,6 +587,115 @@
         "column_alignment": "center",
         "background_style": "accent",
         "button_label": "Read More Reviews",
+        "button_link": "shopify:\/\/pages\/reviews",
+        "condense_mobile": false,
+        "customization-class": ""
+      }
+    },
+    "16361314599d7a75df": {
+      "type": "kz-multicolumn",
+      "blocks": {
+        "16361314599d7a75df-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chart.jpg",
+            "title": "",
+            "text": "<p><\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "16361314599d7a75df-0": {
+          "type": "column",
+          "settings": {
+            "title": "We bet you'll love your Kegelbell",
+            "text": "<p>We can't guarantee you'll love it, but we can bet with 99% certainty you will. 99 out of 100 people keep their Kegelbell.<br\/><br\/>Five years ago our founder was stuck with pelvic floor training devices that didn't work. Since then, we've set out to take care of every customer whether they love Kegelbell or not. We hope you'll love your Kegelbell, but if not, simply let us know and we'll trigger our refund process.<\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "Buy Now",
+            "col_button_link": "shopify:\/\/products\/kegelbell-pelvic-floor-training-system"
+          }
+        }
+      },
+      "block_order": [
+        "16361314599d7a75df-1",
+        "16361314599d7a75df-0"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": false,
+        "customization-class": "home-chart"
+      }
+    },
+    "1636129955257ae717": {
+      "type": "kz-multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1636129955257ae717-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>\"My sex life with my husband's more amazing and he's noticed a difference as well, so that's been fun, too. We decided that I was not gonna tell him when I was actually starting to use it, just for our own sake, to see if he did notice a difference, and after the third week, he actually did ask me, he was like, \"So if feels like you are using that...\" Absolutely!\"<\/p>",
+            "trunc_text": true,
+            "custom_liquid": "",
+            "aside": "Nichol, Mom, Body Builder",
+            "rating": 5,
+            "col_button_label": "",
+            "col_button_link": "",
+            "image_bot": "shopify:\/\/shop_images\/people-nicol.jpg"
+          }
+        },
+        "1636129955257ae717-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>\"I had issues working out without peeing myself (a very real issue post child birth) and I could barely run 3 miles without feeling like my organs were going to come out. After I started using Kegelbell, BOOM! Problems fixed! With the amount of intense training I have put my body through these past two years, my issues should have intensified. But with a little up keep from Kegelbell I am good to go.\"<\/p>",
+            "trunc_text": true,
+            "custom_liquid": "",
+            "aside": "Jennifer, Mom, Triathlete",
+            "rating": 5,
+            "col_button_label": "",
+            "col_button_link": "",
+            "image_bot": "shopify:\/\/shop_images\/people-jennifer.jpg"
+          }
+        },
+        "3197efe6-cd05-4eea-bf32-1d392cbebbd0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>\"I am absolutely thrilled with my results from Kegelbell. I have found a new level of sexual self-empowerment I never knew was possible, and would never have known I could achieve, all thanks to the product. Stephanie and Kegelbell are changing lives and creating joy, one vagina at a time.\"<\/p>",
+            "trunc_text": true,
+            "custom_liquid": "",
+            "aside": "Jackie Johnson, Natch Beaut podcast host",
+            "rating": 5,
+            "col_button_label": "",
+            "col_button_link": "",
+            "image_bot": "shopify:\/\/shop_images\/people-jackie.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1636129955257ae717-0",
+        "1636129955257ae717-1",
+        "3197efe6-cd05-4eea-bf32-1d392cbebbd0"
+      ],
+      "settings": {
+        "title": "Read Our Customer Reviews",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Read Reviews",
         "button_link": "shopify:\/\/pages\/reviews",
         "condense_mobile": false,
         "customization-class": ""
@@ -899,16 +899,16 @@
     "16361316286a53dbc8",
     "16361296677ec13f98",
     "1660501357aa604014",
+    "1636131246c220134d",
     "16605601733daa5fcd",
     "163666329938b8fe6d",
-    "1636131246c220134d",
     "image_banner",
     "1660501405e75bfdaa",
     "1643653686c6bda8f8",
-    "16361314599d7a75df",
-    "1636129955257ae717",
     "16361317583b8ea73b",
     "16361315431b93e3dc",
+    "16361314599d7a75df",
+    "1636129955257ae717",
     "16395974618991b5eb",
     "16605606868c9534cc",
     "9be25f3d-99ea-4afd-91a5-7407e2f37a66",
