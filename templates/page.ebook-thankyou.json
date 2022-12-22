@@ -12,7 +12,21 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p><a href=\"https:\/\/www.kegelbell.com\/products\/kegelbell-pelvic-floor-training-system\" target=\"_self\">We just sent the download link for the Ultimate Guide To Kegels Ebook!<br\/><br\/>Here’s a little “Thank You” from us, use code<br\/><strong>KEGEL5<\/strong> to get <strong>$5 off<\/strong> your first Kegelbell Original Kit!<\/a><\/p>",
+            "text": "<p><a href=\"https:\/\/www.kegelbell.com\/products\/kegelbell-pelvic-floor-training-system\" target=\"_self\">We just sent the download link for the Ultimate Guide To Kegels Ebook!<br\/><br\/>Here’s a little “Thank You” from us, use code<br\/><strong>KEGEL5<\/strong> to get <strong>$5 off<\/strong> your first Kegelbell Original Kit!<\/a><\/p><p><\/p><p>In the meantime, watch the short video to learn more about Kegelbell and how it's helped change <strong>20,000+ women's lives<\/strong>. 🎉<\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
+        "2a9e3a64-3cf3-46b9-b433-953da0f19347": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0CC7E703-A5CB-430F-8E4E-C711AE54E8EF_bd3a42fd-70f8-47bd-8dd4-c141f94c0966.jpg",
+            "title": "",
+            "text": "",
+            "trunc_text": false,
             "custom_liquid": "",
             "aside": "",
             "col_button_label": "",
@@ -21,7 +35,8 @@
         }
       },
       "block_order": [
-        "164279162640bd8798-0"
+        "164279162640bd8798-0",
+        "2a9e3a64-3cf3-46b9-b433-953da0f19347"
       ],
       "settings": {
         "title": "Check your email. 📧",
@@ -43,6 +58,7 @@
           "settings": {
             "title": "",
             "text": "<p>In the meantime, watch the short video to learn more about Kegelbell and how it's helped change <strong>20,000+ women's lives<\/strong>. 🎉<\/p>",
+            "trunc_text": false,
             "custom_liquid": "",
             "aside": "",
             "col_button_label": "Learn More",
@@ -54,6 +70,7 @@
           "settings": {
             "title": "",
             "text": "",
+            "trunc_text": false,
             "custom_liquid": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_6202b54a86348d002ba0aeda\"><\/div>",
             "aside": "",
             "col_button_label": "",
