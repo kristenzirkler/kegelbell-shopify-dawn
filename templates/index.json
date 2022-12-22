@@ -90,6 +90,7 @@
         },
         "4aa351ec-fc7d-4cfa-962e-27c7c655ea38": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand-mlux.png"
           }
