@@ -8,6 +8,19 @@
     "16395901794a340fad": {
       "type": "kz-multicolumn",
       "blocks": {
+        "d50a4872-491a-4712-abf6-381f5e707e9c": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
+          }
+        },
         "163959017862eed757-0": {
           "type": "column",
           "settings": {
@@ -35,6 +48,7 @@
         }
       },
       "block_order": [
+        "d50a4872-491a-4712-abf6-381f5e707e9c",
         "163959017862eed757-0",
         "163959017862eed757-1"
       ],
