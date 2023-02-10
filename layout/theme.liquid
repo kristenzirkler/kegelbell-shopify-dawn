@@ -159,6 +159,8 @@
 	<script src="https://doui4jqs03un3.cloudfront.net/vendors.js.gz"></script>
 	<script src="https://doui4jqs03un3.cloudfront.net/client.js.gz" defer="defer"></script>
 {% comment %} End Videowise section.{% endcomment %}
+
+{% render 'gsf-conversion-pixels' %}
 </head>
 {% capture body_attributes %}
     id="{{ page_title | handle }}" class="gradient template-{{ template.name | handle }}"
