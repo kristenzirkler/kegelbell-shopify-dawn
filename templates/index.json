@@ -245,7 +245,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_-_1_of_1_9.png",
-        "height": "adapt",
+        "height": "large",
         "color_scheme": "background-1",
         "layout": "image_first"
       }
@@ -431,71 +431,6 @@
         "customization-class": "",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "16361317583b8ea73b": {
-      "type": "kz-infoicons",
-      "blocks": {
-        "16361317583b8ea73b-0": {
-          "type": "column",
-          "settings": {
-            "title": "Discreetly Packaged",
-            "text": "Delivered to you discreetly packaged. No doctor visits, just use our vaginal weights in the privacy of home!",
-            "icon": "icon-box"
-          }
-        },
-        "16361317583b8ea73b-1": {
-          "type": "column",
-          "settings": {
-            "title": "Fast Working",
-            "text": "See results in as little as two weeks by following our workout guides for 5 minutes, 3x a week",
-            "icon": "icon-clock"
-          }
-        },
-        "50f0fb7e-ef8d-4a86-b205-b4b150bc0b20": {
-          "type": "column",
-          "settings": {
-            "title": "Safe & Easy To Clean",
-            "text": "Made of smooth medical grade silicone, known as USP Class VI. The insert is easy to clean.",
-            "icon": "icon-check-circle"
-          }
-        },
-        "14ac3527-e9e0-4f62-bbe6-6afecd2d45ff": {
-          "type": "column",
-          "settings": {
-            "title": "Cruelty-Free",
-            "text": "We go to great lengths in quality assurance with a commitment to do so without animal testing.",
-            "icon": "icon-rabbit"
-          }
-        },
-        "8b5e2264-b15a-44a6-beb4-5c70a880f480": {
-          "type": "column",
-          "settings": {
-            "title": "Sustainable",
-            "text": "We help eliminate 5 tons of single-use plastic for each woman who moves over to Kegelbell from bladder leakage pads.",
-            "icon": "icon-globe"
-          }
-        },
-        "09aaa327-ff06-4f0b-8978-ee7d864f198e": {
-          "type": "column",
-          "settings": {
-            "title": "FDA Registered",
-            "text": "Kegelbell is an FDA Registered device and made out of medical-grade silicone and coloring.",
-            "icon": "icon-shield"
-          }
-        }
-      },
-      "block_order": [
-        "16361317583b8ea73b-0",
-        "16361317583b8ea73b-1",
-        "50f0fb7e-ef8d-4a86-b205-b4b150bc0b20",
-        "14ac3527-e9e0-4f62-bbe6-6afecd2d45ff",
-        "8b5e2264-b15a-44a6-beb4-5c70a880f480",
-        "09aaa327-ff06-4f0b-8978-ee7d864f198e"
-      ],
-      "settings": {
-        "title": "",
-        "background_style": "none"
       }
     },
     "16361315431b93e3dc": {
@@ -804,16 +739,69 @@
         "show_text_below": false
       }
     },
-    "1636665055919b9cce": {
-      "type": "kz-blog-posts",
+    "16361317583b8ea73b": {
+      "type": "kz-infoicons",
+      "blocks": {
+        "16361317583b8ea73b-0": {
+          "type": "column",
+          "settings": {
+            "title": "Discreetly Packaged",
+            "text": "Delivered to you discreetly packaged. No doctor visits, just use our vaginal weights in the privacy of home!",
+            "icon": "icon-box"
+          }
+        },
+        "16361317583b8ea73b-1": {
+          "type": "column",
+          "settings": {
+            "title": "Fast Working",
+            "text": "See results in as little as two weeks by following our workout guides for 5 minutes, 3x a week",
+            "icon": "icon-clock"
+          }
+        },
+        "50f0fb7e-ef8d-4a86-b205-b4b150bc0b20": {
+          "type": "column",
+          "settings": {
+            "title": "Safe & Easy To Clean",
+            "text": "Made of smooth medical grade silicone, known as USP Class VI. The insert is easy to clean.",
+            "icon": "icon-check-circle"
+          }
+        },
+        "14ac3527-e9e0-4f62-bbe6-6afecd2d45ff": {
+          "type": "column",
+          "settings": {
+            "title": "Cruelty-Free",
+            "text": "We go to great lengths in quality assurance with a commitment to do so without animal testing.",
+            "icon": "icon-rabbit"
+          }
+        },
+        "8b5e2264-b15a-44a6-beb4-5c70a880f480": {
+          "type": "column",
+          "settings": {
+            "title": "Sustainable",
+            "text": "We help eliminate 5 tons of single-use plastic for each woman who moves over to Kegelbell from bladder leakage pads.",
+            "icon": "icon-globe"
+          }
+        },
+        "09aaa327-ff06-4f0b-8978-ee7d864f198e": {
+          "type": "column",
+          "settings": {
+            "title": "FDA Registered",
+            "text": "Kegelbell is an FDA Registered device and made out of medical-grade silicone and coloring.",
+            "icon": "icon-shield"
+          }
+        }
+      },
+      "block_order": [
+        "16361317583b8ea73b-0",
+        "16361317583b8ea73b-1",
+        "50f0fb7e-ef8d-4a86-b205-b4b150bc0b20",
+        "14ac3527-e9e0-4f62-bbe6-6afecd2d45ff",
+        "8b5e2264-b15a-44a6-beb4-5c70a880f480",
+        "09aaa327-ff06-4f0b-8978-ee7d864f198e"
+      ],
       "settings": {
-        "heading": "Curious About Vaginal Workouts? Explore Here.",
-        "blog": "blog",
-        "post_limit": 3,
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "soft_background": true
+        "title": "",
+        "background_style": "none"
       }
     },
     "163666329938b8fe6d": {
@@ -893,6 +881,18 @@
         "title": "As Seen In",
         "background_style": "secondary"
       }
+    },
+    "1636665055919b9cce": {
+      "type": "kz-blog-posts",
+      "settings": {
+        "heading": "Curious About Vaginal Workouts? Explore Here.",
+        "blog": "blog",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "soft_background": true
+      }
     }
   },
   "order": [
@@ -907,15 +907,15 @@
     "image_banner",
     "16395974618991b5eb",
     "1660501405e75bfdaa",
-    "16361317583b8ea73b",
     "16361315431b93e3dc",
     "16361314599d7a75df",
     "1636129955257ae717",
     "16605606868c9534cc",
     "9be25f3d-99ea-4afd-91a5-7407e2f37a66",
     "163613019076180e72",
-    "1636665055919b9cce",
+    "16361317583b8ea73b",
     "163666329938b8fe6d",
-    "163612995302cf903e"
+    "163612995302cf903e",
+    "1636665055919b9cce"
   ]
 }
