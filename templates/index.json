@@ -400,16 +400,6 @@
         "show_view_all": false
       }
     },
-    "163666329938b8fe6d": {
-      "type": "kz-video",
-      "settings": {
-        "heading": "Hear from Kegelbell's Inventor and Founder",
-        "cover_image": "shopify:\/\/shop_images\/hero-founder_ec4b648e-15f4-4bf2-ae84-25870e6bc978.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=JqvL4WQfS-I",
-        "description": "Hear from Kegelbell's Inventor and Founder",
-        "full_width": true
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -893,6 +883,16 @@
         "show_author": false,
         "soft_background": true
       }
+    },
+    "163666329938b8fe6d": {
+      "type": "kz-video",
+      "settings": {
+        "heading": "Hear from Kegelbell's Inventor and Founder",
+        "cover_image": "shopify:\/\/shop_images\/hero-founder_ec4b648e-15f4-4bf2-ae84-25870e6bc978.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=JqvL4WQfS-I",
+        "description": "Hear from Kegelbell's Inventor and Founder",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -905,7 +905,6 @@
     "1636131246c220134d",
     "16605601733daa5fcd",
     "1660842032ed8d9768",
-    "163666329938b8fe6d",
     "image_banner",
     "1660501405e75bfdaa",
     "16361317583b8ea73b",
@@ -916,6 +915,7 @@
     "16605606868c9534cc",
     "9be25f3d-99ea-4afd-91a5-7407e2f37a66",
     "163613019076180e72",
-    "1636665055919b9cce"
+    "1636665055919b9cce",
+    "163666329938b8fe6d"
   ]
 }
