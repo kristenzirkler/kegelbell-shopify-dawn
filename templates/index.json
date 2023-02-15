@@ -49,72 +49,64 @@
         "widget_selector": "6193a9c57321be002c9cadcc"
       }
     },
-    "163612995302cf903e": {
-      "type": "kz-logolist",
+    "1636131246c220134d": {
+      "type": "kz-multicolumn",
       "blocks": {
-        "163612995302cf903e-0": {
+        "1636131246c220134d-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-7.png"
+            "image": "shopify:\/\/shop_images\/stacking-sml_02b6506d-92c2-4716-8e7c-5b2ff0e70dde.gif",
+            "title": "Discover Your Weight",
+            "text": "<p>The Kegelbell® The Vagina Gym® Original Kit includes 16 individual levels so you can mix and match to incrementally build muscle.<\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
           }
         },
-        "163612995302cf903e-1": {
+        "1636131246c220134d-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-5.png"
+            "image": "shopify:\/\/shop_images\/clock-sml_432f48fe-4f40-47d4-8a70-fa8a2cc28d48.gif",
+            "title": "5 Minutes \/ 3x Week",
+            "text": "<p>Try our different workout routines for just 5 minutes, 3 times a week to build muscle in the privacy of your bathroom.<\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
           }
         },
-        "b84c3491-d756-4a42-9bda-1a5430c9b50f": {
+        "1636131246c220134d-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand-forbes.png"
-          }
-        },
-        "cc792d48-0259-473d-9c72-ecd6a15ff0eb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-6.png"
-          }
-        },
-        "1d77e9f5-446d-4c8e-9c01-55e427f05e80": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-2.png"
-          }
-        },
-        "02cac0a8-3c17-4da9-929c-f10adb5a0eb0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-pw.png"
-          }
-        },
-        "1c4ff79d-06eb-44bc-be88-e9d604878d25": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-1.png"
-          }
-        },
-        "4aa351ec-fc7d-4cfa-962e-27c7c655ea38": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-mlux.png"
+            "image": "shopify:\/\/shop_images\/wash-sml.gif",
+            "title": "Safe & Easy To Clean",
+            "text": "<p>Made of smooth medical grade silicone, known as USP Class VI and cleans easily with soap and warm water.<\/p>",
+            "trunc_text": false,
+            "custom_liquid": "",
+            "aside": "",
+            "col_button_label": "",
+            "col_button_link": ""
           }
         }
       },
       "block_order": [
-        "163612995302cf903e-0",
-        "163612995302cf903e-1",
-        "b84c3491-d756-4a42-9bda-1a5430c9b50f",
-        "cc792d48-0259-473d-9c72-ecd6a15ff0eb",
-        "1d77e9f5-446d-4c8e-9c01-55e427f05e80",
-        "02cac0a8-3c17-4da9-929c-f10adb5a0eb0",
-        "1c4ff79d-06eb-44bc-be88-e9d604878d25",
-        "4aa351ec-fc7d-4cfa-962e-27c7c655ea38"
+        "1636131246c220134d-0",
+        "1636131246c220134d-1",
+        "1636131246c220134d-2"
       ],
       "settings": {
-        "title": "As Seen In",
-        "background_style": "secondary"
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "condense_mobile": true,
+        "customization-class": ""
       }
     },
     "16361296677ec13f98": {
@@ -256,66 +248,6 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
-      }
-    },
-    "1636131246c220134d": {
-      "type": "kz-multicolumn",
-      "blocks": {
-        "1636131246c220134d-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/stacking-sml_02b6506d-92c2-4716-8e7c-5b2ff0e70dde.gif",
-            "title": "Discover Your Weight",
-            "text": "<p>The Kegelbell® The Vagina Gym® Original Kit includes 16 individual levels so you can mix and match to incrementally build muscle.<\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
-          }
-        },
-        "1636131246c220134d-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/clock-sml_432f48fe-4f40-47d4-8a70-fa8a2cc28d48.gif",
-            "title": "5 Minutes \/ 3x Week",
-            "text": "<p>Try our different workout routines for just 5 minutes, 3 times a week to build muscle in the privacy of your bathroom.<\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
-          }
-        },
-        "1636131246c220134d-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wash-sml.gif",
-            "title": "Safe & Easy To Clean",
-            "text": "<p>Made of smooth medical grade silicone, known as USP Class VI and cleans easily with soap and warm water.<\/p>",
-            "trunc_text": false,
-            "custom_liquid": "",
-            "aside": "",
-            "col_button_label": "",
-            "col_button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1636131246c220134d-0",
-        "1636131246c220134d-1",
-        "1636131246c220134d-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "circle",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "condense_mobile": true,
-        "customization-class": ""
       }
     },
     "16605601733daa5fcd": {
@@ -893,16 +825,83 @@
         "description": "Hear from Kegelbell's Inventor and Founder",
         "full_width": true
       }
+    },
+    "163612995302cf903e": {
+      "type": "kz-logolist",
+      "blocks": {
+        "163612995302cf903e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-7.png"
+          }
+        },
+        "163612995302cf903e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-5.png"
+          }
+        },
+        "b84c3491-d756-4a42-9bda-1a5430c9b50f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-forbes.png"
+          }
+        },
+        "cc792d48-0259-473d-9c72-ecd6a15ff0eb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-6.png"
+          }
+        },
+        "1d77e9f5-446d-4c8e-9c01-55e427f05e80": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-2.png"
+          }
+        },
+        "02cac0a8-3c17-4da9-929c-f10adb5a0eb0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-pw.png"
+          }
+        },
+        "1c4ff79d-06eb-44bc-be88-e9d604878d25": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-1.png"
+          }
+        },
+        "4aa351ec-fc7d-4cfa-962e-27c7c655ea38": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-mlux.png"
+          }
+        }
+      },
+      "block_order": [
+        "163612995302cf903e-0",
+        "163612995302cf903e-1",
+        "b84c3491-d756-4a42-9bda-1a5430c9b50f",
+        "cc792d48-0259-473d-9c72-ecd6a15ff0eb",
+        "1d77e9f5-446d-4c8e-9c01-55e427f05e80",
+        "02cac0a8-3c17-4da9-929c-f10adb5a0eb0",
+        "1c4ff79d-06eb-44bc-be88-e9d604878d25",
+        "4aa351ec-fc7d-4cfa-962e-27c7c655ea38"
+      ],
+      "settings": {
+        "title": "As Seen In",
+        "background_style": "secondary"
+      }
     }
   },
   "order": [
     "16396090466b930b47",
     "1643653686c6bda8f8",
-    "163612995302cf903e",
+    "1636131246c220134d",
     "16361296677ec13f98",
     "16361316286a53dbc8",
     "1660501357aa604014",
-    "1636131246c220134d",
     "16605601733daa5fcd",
     "1660842032ed8d9768",
     "image_banner",
@@ -916,6 +915,7 @@
     "9be25f3d-99ea-4afd-91a5-7407e2f37a66",
     "163613019076180e72",
     "1636665055919b9cce",
-    "163666329938b8fe6d"
+    "163666329938b8fe6d",
+    "163612995302cf903e"
   ]
 }
