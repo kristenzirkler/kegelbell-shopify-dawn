@@ -43,6 +43,12 @@
         "customization-class": "home-hero"
       }
     },
+    "1643653686c6bda8f8": {
+      "type": "videowise-page-widgets",
+      "settings": {
+        "widget_selector": "6193a9c57321be002c9cadcc"
+      }
+    },
     "163612995302cf903e": {
       "type": "kz-logolist",
       "blocks": {
@@ -498,12 +504,6 @@
         "show_text_below": true
       }
     },
-    "1643653686c6bda8f8": {
-      "type": "videowise-page-widgets",
-      "settings": {
-        "widget_selector": "6193a9c57321be002c9cadcc"
-      }
-    },
     "16361317583b8ea73b": {
       "type": "kz-infoicons",
       "blocks": {
@@ -897,6 +897,7 @@
   },
   "order": [
     "16396090466b930b47",
+    "1643653686c6bda8f8",
     "163612995302cf903e",
     "16361316286a53dbc8",
     "16361296677ec13f98",
@@ -907,7 +908,6 @@
     "163666329938b8fe6d",
     "image_banner",
     "1660501405e75bfdaa",
-    "1643653686c6bda8f8",
     "16361317583b8ea73b",
     "16361315431b93e3dc",
     "16361314599d7a75df",
