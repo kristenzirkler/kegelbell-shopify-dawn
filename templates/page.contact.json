@@ -25,7 +25,7 @@
         "template--15203977527489__f98f87ee-9c3d-4d85-bda2-198e64d2316c-1677002009b7384f0e-0": {
           "type": "heading",
           "settings": {
-            "heading": "Australia",
+            "heading": "Contact Information for Non-Customer Service Issues",
             "heading_size": "h2"
           }
         },
@@ -37,6 +37,7 @@
         },
         "template--15203977527489__f98f87ee-9c3d-4d85-bda2-198e64d2316c-1677002009b7384f0e-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
